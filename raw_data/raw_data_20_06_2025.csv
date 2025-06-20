@@ -1,0 +1,110 @@
+Customer Name,Date/Time,Branch,Payment Type,Drinks Ordered,Card Number
+ Anna Smith ,03 Sep 2024 12:18,Richmond,Card,Cappuccino - £3.0,3514095614000977
+ Chinedu Okafor ,15 Jan 2025 01:31,Epsom,Card,Latte - 3.5,501866633263
+ Chinedu Okafor ,23 Oct 2024 06:00,Richmond,Card,Mocha - 3.75,4837016951306528
+ Chinedu Okafor ,26 Dec 2024 07:47,Chessington,Cash,Latte - 3.5,4150540346954725
+ Dave Johnson ,2025/02/05 23:39,Epsom,Card,Mocha - 3.75,3571067577518386
+ Fatima Yusuf ,26/02/25 07:59, Richmond ,Cash,Cappuccino - 3.0,
+ Jill Thompson ,19 Sep 2024 11:57,Richmond,Card,Americano - £2.5,4720893931306681
+ John Brown ,12-11-2024 12:06,Wimbledon,Cash,Mocha - 3.75,2224057968156527
+ Kofi Mensah ,17 Apr 2025 03:17,Chessington,Card,Americano - 2.5,676166531506
+ Linh Tran ,19/10/24 20:11,Epsom,Cash,Espresso - 2.0,6583004755465840
+ Linh Tran ,2025/01/26 14:52,Epsom,Cash,Cappuccino - £3.0,352161904852
+ Mark Patel ,05-06-2025 11:57,Kingston,Cash,Latte - 3.5,676354979269
+ Mia Wong ,08 Mar 2025 15:22,Wimbledon,Card,Americano - 2.5,
+ Mia Wong ,22 Jul 2024 20:58,Epsom,Card,Americano - 2.5,3563350299333569
+ Priya Desai ,27/11/2024 15:49,Chessington,Card,Americano - £2.5,4927398245654
+ Sophia Kim ,28/01/2025 20:20,Richmond,Card,Latte - £3.5,570179300340
+ Zara Ibrahim ,04-05-2025 13:41,Kingston,Card,Espresso - 2.0,4391647673940811724
+Aaliyah Hassan,08-03-2025 23:09,Richmond,Cash,Latte - 3.5,2275357387575168
+Aaliyah Hassan,13 Jun 2025 16:03,Epsom,Cash,Cappuccino - 3.0,3506023200192461
+Aaliyah Hassan,14-10-2024 05:54,Epsom,Cash,Espresso - £2.0,3587761505279341
+Aaliyah Hassan,19/03/25 19:42,Wimbledon,Cash,Cappuccino - 3.0,4587721244485420966
+Aaliyah Hassan,2025/03/05 03:02, Epsom ,Card,Espresso - 2.0,3508366124567336
+Anna Smith,03 Sep 2024 12:18,Richmond,Card,Mocha - 3.75,4312964061100432252
+Anna Smith,14/01/2025 14:29,Kingston,Card,"Latte - 3.5, Americano - 2.5, Mocha - 3.75, Cappuccino - 3.0",4581722370079730114
+Anna Smith,16/05/2025 08:06,Kingston,Cash,Latte - 3.5,30395840148280
+Anya Petrova,16 Mar 2025 04:27,Richmond,Cash,Mocha - 3.75,3514279813588178
+Anya Petrova,17 Aug 2024 09:10,Kingston,Card,Espresso - £2.0,347318974971333
+Anya Petrova,25/07/2024 21:52,Kingston,Cash,Latte - 3.5,4315999625283952
+Chinedu Okafor,04 Feb 2025 14:38,Epsom,Card,"Cappuccino - £3.0, Latte - £3.5, Mocha - 3.75, Espresso - 2.0",3515559603375764
+Chinedu Okafor,13/07/2024 21:32, Wimbledon ,Card,Cappuccino - 3.0,4482800017228289692
+Dave Johnson,01-07-2024 15:58,Chessington,Card,Latte - 3.5,4088729591616310354
+Dave Johnson,09/08/2024 20:54,Richmond,Cash,Americano - 2.5,4910409114067136889
+Dave Johnson,2025/01/14 14:45, Richmond ,Card,Espresso - 2.0,6011554384291506
+Dave Johnson,2025/01/14 17:19,Richmond,Cash,Americano - 2.5,
+Fatima Yusuf,11 Dec 2024 11:58, Richmond ,Card,Americano - 2.5,213100315564436
+Fatima Yusuf,11 Dec 2024 11:58,Richmond,Card,Latte - 3.5,3533152770832557
+Fatima Yusuf,11/06/25 10:41,Epsom,Card,Cappuccino - £3.0,6011871172140731
+Fatima Yusuf,16/07/24 15:47,Wimbledon,Card,Latte - 3.5,4708284333059373
+Fatima Yusuf,2024/12/06 02:37,Epsom,Card,Latte - 3.5,Not Provided
+Fatima Yusuf,2025/01/16 05:37,Kingston,Cash,Americano - 2.5,4464744608474175465
+Fatima Yusuf,26/02/25 07:59,Richmond,Cash,"Espresso - £2.0, Mocha - 3.75",3535859924261594
+Jill Thompson,02/10/24 01:58,Chessington,Cash,Cappuccino - 3.0,4254915039019
+Jill Thompson,2025/01/13 02:55,Kingston,Card,Latte - 3.5,4987261571820874
+Jill Thompson,24 Sep 2024 18:40,Richmond,Cash,Latte - 3.5,6524138439741564
+John Brown,01-07-2024 18:47,Wimbledon,Cash,Espresso - 2.0,4347773943014373408
+John Brown,01-10-2024 07:18,Chessington,Cash,Latte - 3.5,
+José Martínez,15/07/24 13:16,Epsom,Card,"Latte - 3.5, Mocha - £3.75",6011316870798372
+Kofi Mensah,10/01/2025 05:42,Wimbledon,Cash,Latte - 3.5,4542240564036
+Kofi Mensah,13/12/24 11:24,Richmond,Card,"Americano - £2.5, Espresso - 2.0, Mocha - 3.75",3572030807599989
+Kofi Mensah,16 Feb 2025 17:45, Kingston ,Cash,Americano - £2.5,0000-1111-2222
+Kofi Mensah,16 Feb 2025 17:45,Kingston,Cash,"Latte - 3.5, Mocha - 3.75, Espresso - 2.0",3580302378253795
+Kofi Mensah,17 Apr 2025 03:17,Chessington,Card,"Mocha - £3.75, Latte - 3.5",213134738382472
+Kofi Mensah,2025/03/02 11:14,Epsom,Cash,Latte - 3.5,6011802708282853
+Kofi Mensah,21-05-2025 05:30,Epsom,Cash,"Americano - 2.5, Latte - 3.5, Cappuccino - 3.0, Mocha - 3.75",4576281486881
+Kofi Mensah,23 Nov 2024 06:00,Epsom,Card,Espresso - 2.0,3595201237621510
+Kofi Mensah,25 Jan 2025 15:51,Richmond,Card,Mocha - 3.75,4331745112461
+Linh Tran,03/11/2024 14:10,Epsom,Cash,"Americano - 2.5, Latte - 3.5",36487829322368
+Linh Tran,05-12-2024 06:47,Chessington,Cash,Latte - 3.5,3504496435571539
+Linh Tran,19/10/24 20:11,Epsom,Cash,"Americano - £2.5, Mocha - 3.75, Cappuccino - £3.0",060465679516
+Linh Tran,2025/04/27 20:38,Wimbledon,Cash,Espresso - 2.0,4559845101768245
+Linh Tran,24 Oct 2024 23:35,Chessington,Cash,Mocha - 3.75,4751173218989745
+Lucy Chen,10-11-2024 07:10,Kingston,Cash,Americano - £2.5,3593774619810275
+Lucy Chen,12/10/24 22:09,Kingston,Cash,Cappuccino - £3.0,462395648759
+Lucy Chen,14/01/2025 23:19,Richmond,Cash,Americano - £2.5,375139932874772
+Lucy Chen,23 Mar 2025 09:51,Wimbledon,Card,Latte - £3.5,639097976166
+Lucy Chen,28 Jul 2024 01:17, Kingston ,Card,Americano - 2.5,4616807353379
+Mark Patel,10 Sep 2024 11:06,Kingston,Card,Cappuccino - £3.0,Not Provided
+Mateo López,03/07/2024 23:02,Kingston,Cash,Espresso - 2.0,4255558860129361
+Mateo López,04/11/2024 18:48,Wimbledon,Cash,Espresso - 2.0,6011383672956756
+Mateo López,12-02-2025 18:35,Kingston,Card,Cappuccino - 3.0,3549925110242898
+Mateo López,2024/11/01 00:02,Kingston,Card,Latte - 3.5,4977813582853302
+Mateo López,28 Dec 2024 00:23,Chessington,Cash,Latte - 3.5,213160272695250
+Mia Wong,08 Mar 2025 15:22,Wimbledon,Card,"Mocha - 3.75, Latte - 3.5, Espresso - 2.0",6011173646828631
+Mia Wong,09-12-2024 09:40,Epsom,Cash,Latte - 3.5,4853759454355612
+Mia Wong,12 Dec 2024 17:49,Richmond,Card,Mocha - £3.75,3586568699949907
+Mia Wong,2024/12/19 10:38,Chessington,Card,Latte - 3.5,3507675561754905
+Mia Wong,2025/04/25 18:10,Richmond,Cash,Espresso - 2.0,6011632000334031
+Nina Ali,2024/10/16 20:20, Epsom ,Cash,Latte - £3.5,30204997106515
+Nina Ali,2024/10/16 20:20,Epsom,Cash,"Espresso - £2.0, Mocha - 3.75, Cappuccino - £3.0",3503675665744764
+Nina Ali,2025/03/23 16:38, Chessington ,Cash,Mocha - 3.75,4376819118370148
+Nina Ali,2025/03/23 16:38,Chessington,Cash,Latte - £3.5,180046340524367
+Nina Ali,2025/03/28 14:39,Epsom,Card,Mocha - 3.75,30392759838332
+Nina Ali,28/03/25 19:42, Wimbledon ,Card,Espresso - 2.0,4465756754694
+Priya Desai,13/10/24 03:11,Chessington,Cash,Cappuccino - £3.0,346311623860313
+Priya Desai,22-06-2024 21:46,Richmond,Card,Mocha - 3.75,6517579217576590
+Priya Desai,27/11/2024 15:49,Chessington,Card,"Espresso - 2.0, Latte - 3.5",Not Provided
+Roberto Garcia,05-01-2025 17:39,Richmond,Card,"Latte - 3.5, Mocha - 3.75, Cappuccino - 3.0",344133987685546
+Roberto Garcia,07 Jul 2024 22:15,Kingston,Card,Espresso - 2.0,3540126084618838
+Roberto Garcia,18 Dec 2024 20:02,Richmond,Card,Mocha - 3.75,5284313386518131
+Roberto Garcia,2025/04/12 14:28,Wimbledon,Card,Latte - 3.5,4660337216287101
+Roberto Garcia,22/05/25 16:17,Chessington,Cash,Mocha - 3.75,4893443856114271
+Sam Rodriguez,02-09-2024 08:31,Wimbledon,Cash,Espresso - 2.0,4681556133086123
+Sam Rodriguez,11-03-2025 11:00,Kingston,Card,Latte - £3.5,409556394633
+Sam Rodriguez,17 Feb 2025 18:32,Chessington,Cash,Americano - 2.5,4171273661319077
+Sam Rodriguez,17/04/2025 06:48,Richmond,Card,Latte - 3.5,2708800630183055
+Sam Rodriguez,2024/11/16 03:37,Epsom,Cash,"Cappuccino - 3.0, Mocha - 3.75, Americano - 2.5",3539835904266163
+Sam Rodriguez,23/06/24 09:25,Richmond,Cash,Cappuccino - 3.0,6011223705774760
+Sam Rodriguez,25/06/24 20:18,Wimbledon,Cash,Americano - 2.5,5365978463919063
+Sophia Kim,05/06/2025 18:48,Kingston,Card,Latte - 3.5,4635711387695
+Sophia Kim,09-06-2025 21:35,Chessington,Cash,Latte - £3.5,4334956761721002
+Sophia Kim,22-09-2024 11:54,Wimbledon,Card,Mocha - 3.75,6011727833688593
+Sophia Kim,28/01/2025 20:20,Richmond,Card,"Mocha - 3.75, Americano - 2.5",6011166142467995
+Sophia Kim,28/07/2024 04:06,Kingston,Card,Espresso - £2.0,Not Provided
+Tom O'Neil,03-05-2025 00:40,Kingston,Cash,Mocha - 3.75,4652129869684191
+Tom O'Neil,04 Dec 2024 23:33,Richmond,Card,Americano - 2.5,2533191471584556
+Zara Ibrahim,08/05/25 21:34,Richmond,Card,Cappuccino - £3.0,213185081750335
+Zara Ibrahim,09/04/25 01:01, Wimbledon ,Card,Cappuccino - £3.0,347610667493
+Zara Ibrahim,09/04/25 01:01,Wimbledon,Card,Espresso - 2.0,4155605807278230
+Zara Ibrahim,19 Jul 2024 15:56,Chessington,Card,Cappuccino - 3.0,0000-1111-2222
