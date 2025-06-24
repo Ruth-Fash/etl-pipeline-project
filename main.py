@@ -1,5 +1,5 @@
 from extract import read_csv_file
-from extract import transformation_card_number, transformation_date_time, tranformation
+from extract import transformation_card_number, transformation_date_time, tranformation, product_tb, order_item_tb
 from pathlib import Path
 import shutil
 
@@ -60,6 +60,8 @@ if main_menu_selection == "2":
 
     #  Transform function 
     tranformation(df)
+    product_tb()
+    order_item_tb()
 
 
 
