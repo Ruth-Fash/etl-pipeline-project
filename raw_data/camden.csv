@@ -1,0 +1,117 @@
+Customer Name,Date/Time,Branch,Payment Type,Drinks Ordered,Card Number
+Chinedu Okafor,2025/05/15 21:50,Camden,Cash,Americano - £2.2,
+Nina Patel,2024/12/21 07:21,Camden,Card,Cappuccino -  3.0 ,8834813676065242.0
+Nina Patel,08 Aug 2024 11:21,Camden,Card,"Macchiato - 3.1, Mocha - £3.75",24861175745391.0
+Anna Smith,14 Jan 2025 07:24,Camden,Cash,"Flat White - 2.75, Flat White - £2.75",
+Nina Patel,2025/06/06 07:16,Camden,Card,Mocha -  3.75 ,14751961035403.0
+Nina Patel,10 Sep 2024 21:26,Camden,Cash,"Macchiato -  3.1 , Flat White - £2.75, Flat White - £2.75, Mocha - £3.75",
+Carlos Reyes,2024/11/28 18:50,Camden,Cash,"Espresso - 2.0, Flat White - £2.75",
+Sophie Dubois,2024/09/29 18:27,Camden,Cash,"Macchiato - £3.1, Espresso - 2.0",
+Grace Kim,2024/09/13 14:14,Camden,Card,"Macchiato - £3.1, Mocha - £3.75, Flat White - £2.75, Cappuccino - £3.0",747664702635454.0
+Chinedu Okafor,2024/08/30 08:00,Camden,Cash,Cappuccino - 3.0,
+Jake Thompson,10-09-2024 15:55,Camden,Card,"Espresso - £2.0, Mocha - 3.75",6.403368362985434e+16
+Jake Thompson,25 Aug 2024 02:11,Camden,Card,"Cappuccino - 3.0, Macchiato - £3.1, Cappuccino - £3.0, Americano - 2.2",44441157107837.0
+James Carter,05-09-2024 21:04,Camden,Card,"Espresso - 2.0, Flat White -  2.75 ",6476100912533965.0
+Nina Patel,2024/08/05 22:53,Camden,Card,Macchiato - £3.1,650721507228319.0
+Anna Smith,11-02-2025 05:48,Camden,Card,Americano - £2.2,72310757475159.0
+Dave Johnson,21-09-2024 08:19,Camden,Card,"Mocha -  3.75 , Espresso -  2.0 , Mocha - £3.75, Flat White - £2.75",2.183758898660982e+16
+Anna Smith,20 Mar 2025 00:43,Camden,Cash,"Cappuccino - 3.0, Americano - £2.2, Flat White - £2.75",
+Fatima Yusuf,05-04-2025 14:27,Camden,Card,"Macchiato - 3.1, Espresso - £2.0, Espresso -  2.0 , Latte - £2.5",5173961121170964.0
+Aisha Bello,08-09-2024 19:13,Camden,Cash,"Espresso - 2.0, Espresso -  2.0 ",
+Aisha Bello,03 Jun 2025 22:24,Camden,Cash,"Cappuccino - 3.0, Macchiato - 3.1, Americano -  2.2 , Flat White - £2.75",
+Aisha Bello,2025/01/13 05:54,Camden,Card,"Americano - £2.2, Latte - 2.5, Macchiato - £3.1, Latte - 2.5",833384062806274.0
+James Carter,2025/01/19 06:51,Camden,Cash,"Flat White - £2.75, Espresso - £2.0, Macchiato -  3.1 , Espresso - 2.0",
+Dave Johnson,29-05-2025 02:07,Camden,Cash,"Flat White - 2.75, Latte -  2.5 , Mocha - £3.75, Latte - £2.5",
+Jake Thompson,05-01-2025 11:52,Camden,Cash,"Americano -  2.2 , Latte - £2.5",
+Oliver Twist,28 Jun 2025 06:29,Camden,Cash,"Mocha - 3.75, Cappuccino - £3.0, Flat White - 2.75, Espresso -  2.0 ",
+Aisha Bello,29 Jan 2025 18:04,Camden,Cash,Espresso -  2.0 ,
+Dave Johnson,08-11-2024 16:35,Camden,Cash,"Latte - £2.5, Mocha - 3.75, Mocha -  3.75 , Americano - £2.2",
+Maria Lopez,20-03-2025 16:39,Camden,Card,Flat White - £2.75,6560471705949841.0
+Jake Thompson,2024/10/09 02:30,Camden,Card,"Americano - £2.2, Cappuccino -  3.0 ",7.341374837895952e+16
+Maria Lopez,2025/01/13 13:51,Camden,Card,"Cappuccino - 3.0, Americano - £2.2",1775483909919426.0
+Maria Lopez,2024/12/11 02:21,Camden,Cash,"Flat White - £2.75, Mocha - £3.75, Cappuccino -  3.0 , Macchiato -  3.1 ",
+Maria Lopez,14-09-2024 21:13,Camden,Cash,"Macchiato -  3.1 , Flat White - £2.75",
+Chinedu Okafor,21 Nov 2024 02:03,Camden,Cash,"Cappuccino -  3.0 , Espresso - £2.0, Espresso -  2.0 ",
+Jake Thompson,20-12-2024 07:07,Camden,Card,Cappuccino - 3.0,7.673103321145403e+16
+Leila Ahmed,11 Aug 2024 18:20,Camden,Cash,"Macchiato - £3.1, Flat White - 2.75, Flat White - 2.75",
+Chinedu Okafor,08-05-2025 02:14,Camden,Card,Flat White -  2.75 ,9.371027562346619e+16
+James Carter,09 Jun 2025 11:49,Camden,Card,"Americano - 2.2, Latte - £2.5",9.24164061537278e+16
+Jake Thompson,01 Sep 2024 07:23,Camden,Cash,"Espresso - £2.0, Mocha - £3.75",
+Fatima Yusuf,07-10-2024 17:06,Camden,Card,"Latte -  2.5 , Americano -  2.2 , Cappuccino - £3.0",2964508117861708.0
+Leila Ahmed,10 Jul 2024 14:54,Camden,Card,Americano - 2.2,30281985501710.0
+Sophie Dubois,2025/03/11 05:44,Camden,Card,"Macchiato - 3.1, Cappuccino - 3.0, Americano - £2.2",19094743439241.0
+Aisha Bello,18-08-2024 14:41,Camden,Cash,"Flat White - £2.75, Espresso - 2.0, Latte -  2.5 , Latte -  2.5 ",
+Sophie Dubois,22-06-2025 21:06,Camden,Cash,"Mocha - £3.75, Espresso - 2.0, Cappuccino - £3.0, Macchiato - £3.1",
+Dave Johnson,2024/09/17 03:03,Camden,Card,"Cappuccino - 3.0, Latte - £2.5, Espresso - 2.0, Flat White - 2.75",318801711530765.0
+Grace Kim,06 Jun 2025 22:11,Camden,Cash,"Flat White -  2.75 , Americano - 2.2, Mocha - £3.75, Macchiato - £3.1",
+Carlos Reyes,22-12-2024 16:15,Camden,Cash,Espresso - 2.0,
+James Carter,2024/08/08 23:01,Camden,Cash,"Latte - £2.5, Cappuccino -  3.0 ",
+Leila Ahmed,2025/01/25 20:06,Camden,Cash,"Espresso - £2.0, Macchiato - £3.1, Flat White - 2.75",
+Nina Patel,13-10-2024 00:03,Camden,Card,"Latte - £2.5, Mocha - £3.75",563134564782885.0
+Anna Smith,18-12-2024 21:30,Camden,Card,Americano - 2.2,8.976756792161154e+16
+Oliver Twist,17-02-2025 05:46,Camden,Card,"Espresso - £2.0, Latte - £2.5, Macchiato -  3.1 ",45373210545022.0
+Oliver Twist,2025/03/12 05:09,Camden,Card,"Americano -  2.2 , Macchiato - £3.1, Cappuccino - £3.0",535027729811621.0
+Leila Ahmed,11 Aug 2024 18:20,Camden,Cash,"Macchiato - £3.1, Flat White - 2.75, Flat White - 2.75",
+Chinedu Okafor,21 Nov 2024 02:03,Camden,Cash,"Cappuccino -  3.0 , Espresso - £2.0, Espresso -  2.0 ",
+Jake Thompson,10-09-2024 15:55,Camden,Card,"Espresso - £2.0, Mocha - 3.75",6.403368362985434e+16
+Jake Thompson,,Camden,Cash,,
+Jake Thompson,05-01-2025 11:52,Camden,Cash,"Americano -  2.2 , Latte - £2.5",
+Dave Johnson,08-11-2024 16:35,Camden,Cash,"Latte - £2.5, Mocha - 3.75, Mocha -  3.75 , Americano - £2.2",
+James Carter,09 Jun 2025 11:49,Camden,Card,"Americano - 2.2, Latte - £2.5",9.24164061537278e+16
+Anna Smith,18-12-2024 21:30,Camden,Card,Americano - 2.2,8.976756792161154e+16
+Carlos Reyes,2024/11/28 18:50,Camden,Cash,,
+Jake Thompson,05-01-2025 11:52,Camden,Cash,"Americano -  2.2 , Latte - £2.5",
+Chinedu Okafor,2025/05/15 21:50,Camden,Cash,Americano - £2.2,
+Jake Thompson,2024/10/09 02:30,Camden,Card,"Americano - £2.2, Cappuccino -  3.0 ",7.341374837895952e+16
+Chinedu Okafor,21 Nov 2024 02:03,Camden,Cash,"Cappuccino -  3.0 , Espresso - £2.0, Espresso -  2.0 ",
+Sophie Dubois,2025/03/11 05:44,Camden,Card,"Macchiato - 3.1, Cappuccino - 3.0, Americano - £2.2",19094743439241.0
+Dave Johnson,21-09-2024 08:19,Camden,Card,,2.183758898660982e+16
+Dave Johnson,08-11-2024 16:35,Camden,Cash,"Latte - £2.5, Mocha - 3.75, Mocha -  3.75 , Americano - £2.2",
+Sophie Dubois,,Camden,Card,"Macchiato - 3.1, Cappuccino - 3.0, Americano - £2.2",19094743439241.0
+Jake Thompson,20-12-2024 07:07,Camden,Card,,7.673103321145403e+16
+Aisha Bello,2025/01/13 05:54,Camden,Card,"Americano - £2.2, Latte - 2.5, Macchiato - £3.1, Latte - 2.5",
+Dave Johnson,29-05-2025 02:07,Camden,Cash,"Flat White - 2.75, Latte -  2.5 , Mocha - £3.75, Latte - £2.5",
+Maria Lopez,2025/01/13 13:51,Camden,Card,"Cappuccino - 3.0, Americano - £2.2",1775483909919426.0
+Sophie Dubois,2024/09/29 18:27,Camden,Cash,"Macchiato - £3.1, Espresso - 2.0",
+Maria Lopez,20-03-2025 16:39,Camden,Card,Flat White - £2.75,6560471705949841.0
+Dave Johnson,08-11-2024 16:35,Camden,Cash,"Latte - £2.5, Mocha - 3.75, Mocha -  3.75 , Americano - £2.2",
+Oliver Twist,2025/03/12 05:09,Camden,Card,,
+Chinedu Okafor,2025/05/15 21:50,Camden,Cash,Americano - £2.2,
+Nina Patel,13-10-2024 00:03,Camden,Card,"Latte - £2.5, Mocha - £3.75",563134564782885.0
+Aisha Bello,2025/01/13 05:54,Camden,Card,"Americano - £2.2, Latte - 2.5, Macchiato - £3.1, Latte - 2.5",833384062806274.0
+James Carter,2024/08/08 23:01,Camden,,"Latte - £2.5, Cappuccino -  3.0 ",
+Chinedu Okafor,08-05-2025 02:14,Camden,Card,Flat White -  2.75 ,9.371027562346619e+16
+Aisha Bello,2025/01/13 05:54,Camden,Card,"Americano - £2.2, Latte - 2.5, Macchiato - £3.1, Latte - 2.5",833384062806274X
+Maria Lopez,2025/01/13 13:51,Camden,Card,"Cappuccino - 3.0, Americano - £2.2",1775483909919426.0
+Leila Ahmed,,Camden,Cash,"Espresso - £2.0, Macchiato - £3.1, Flat White - 2.75",
+Jake Thompson,05-01-2025 11:52,Camden,Cash,"Americano -  2.2 , Latte - £2.5",
+Chinedu Okafor,08-05-2025 02:14,Camden,,Invalid Order String,
+Anna Smith,11-02-2025 05:48,Camden,Card,Americano - £2.2,72310757475159.0
+Chinedu Okafor,,Camden,Cash,"Cappuccino -  3.0 , Espresso - £2.0, Espresso -  2.0 ",
+Leila Ahmed,11 Aug 2024 18:20,Camden,Cash,,
+Dave Johnson,21-09-2024 08:19,Camden,Card,"Mocha -  3.75 , Espresso -  2.0 , Mocha - £3.75, Flat White - £2.75",2.183758898660982e+16
+Maria Lopez,20-03-2025 16:39,Camden,Card,Flat White - £2.75,6560471705949841.0
+Nina Patel,,Camden,Card,"Latte - £2.5, Mocha - £3.75",563134564782885.0
+Anna Smith,20 Mar 2025 00:43,Camden,Cash,"Cappuccino - 3.0, Americano - £2.2, Flat White - £2.75",
+Leila Ahmed,2025/01/25 20:06,Camden,,"Espresso - £2.0, Macchiato - £3.1, Flat White - 2.75",
+,2025/01/13 05:54,Camden,Card,"Americano - £2.2, Latte - 2.5, Macchiato - £3.1, Latte - 2.5",
+Jake Thompson,10-09-2024 15:55,Camden,Card,"Espresso - £2.0, Mocha - 3.75",6.403368362985434e+16
+Leila Ahmed,11 Aug 2024 18:20,Camden,Cash,"Macchiato - £3.1, Flat White - 2.75, Flat White - 2.75",
+Maria Lopez,14-09-2024 21:13,Camden,,"Macchiato -  3.1 , Flat White - £2.75",
+Leila Ahmed,11 Aug 2024 18:20,Camden,Cash,"Macchiato - £3.1, Flat White - 2.75, Flat White - 2.75",
+Nina Patel,08 Aug 2024 11:21,Camden,,"Macchiato - 3.1, Mocha - £3.75",24861175745391.0
+Sophie Dubois,22-06-2025 21:06,Camden,Cash,"Mocha - £3.75, Espresso - 2.0, Cappuccino - £3.0, Macchiato - £3.1",
+Jake Thompson,25 Aug 2024 02:11,Camden,Card,"Cappuccino - 3.0, Macchiato - £3.1, Cappuccino - £3.0, Americano - 2.2",
+,10-09-2024 15:55,Camden,Card,"Espresso - £2.0, Mocha - 3.75",6.403368362985434e+16
+Anna Smith,14 Jan 2025 07:24,Camden,Cash,"Flat White - 2.75, Flat White - £2.75",
+Leila Ahmed,,Camden,Cash,Invalid Order String,
+Sophie Dubois,2025/03/11 05:44,Camden,Card,"Macchiato - 3.1, Cappuccino - 3.0, Americano - £2.2",19094743439241.0
+Grace Kim,,Camden,,"Flat White -  2.75 , Americano - 2.2, Mocha - £3.75, Macchiato - £3.1",
+Jake Thompson,05-01-2025 11:52,Camden,Cash,"Americano -  2.2 , Latte - £2.5",
+Jake Thompson,10-09-2024 15:55,Camden,Card,"Espresso - £2.0, Mocha - 3.75",64033683629854336X
+James Carter,05-09-2024 21:04,Camden,Card,"Espresso - 2.0, Flat White -  2.75 ",6476100912533965.0
+Anna Smith,20 Mar 2025 00:43,Camden,Cash,"Cappuccino - 3.0, Americano - £2.2, Flat White - £2.75",
+Sophie Dubois,2024/09/29 18:27,Camden,Cash,"Macchiato - £3.1, Espresso - 2.0",
+Aisha Bello,03 Jun 2025 22:24,Camden,Cash,"Cappuccino - 3.0, Macchiato - 3.1, Americano -  2.2 , Flat White - £2.75",
+Leila Ahmed,,Camden,Cash,"Espresso - £2.0, Macchiato - £3.1, Flat White - 2.75",
+Chinedu Okafor,2024/08/30 08:00,Camden,Cash...

@@ -1,13 +1,20 @@
+import os
+os.environ["DISABLE_PANDERA_IMPORT_WARNING"] = "True"  # Suppress Pandera import warning by setting this environment variable, # BEFORE importing pandera. Pandera checks this variable at import time
+
 import pandas as pd
 import uuid
 from rapidfuzz import process
+import pandera as pa
+import re
+
+
 
 
 """Extract:
 Imporing raw data csv file - storing data into a dataframe using pandas """
-def read_csv_file(csv):
+def read_csv_file(csv,dtype=None):
     try:
-        df = pd.read_csv(csv)
+        df = pd.read_csv(csv,dtype=dtype)
         return df
     except FileNotFoundError:
         print("Oops! The file was not found. Please check the path.")
@@ -42,11 +49,20 @@ def order_item_uuid(df):
     df['Order Item ID'] = [str(uuid.uuid4()) for i in range(len(df))] # create a uuid  for each cell between 0 and the number of rows in the df
     return df
 
-# Check blanks - for data if anythign is blank shoudl be missing data as all fields must be populated , soif not replace with unkown
+# Checks blanks - for data if anything is blank should be missing data as all fields must be populated , so if not replace with unkown
 def fix_blanks(df):
     cols = ["Date/Time", "Branch", "Payment Type", "Product", "Price"]
     df[cols] = df[cols].replace("", pd.NA).fillna("Unknown")
     return df
+
+# def error_rows(df):
+#     cols = ["Date/Time", "Branch", "Payment Type", "Product", "Price"]
+#     rows_with_errors =  df[cols].isin(["Unknown"]).any(axis=1)
+#     df_errors = df[rows_with_errors].copy()
+#     df_errors.to_csv('data_errors.csv', index=False)
+
+#     return df[~rows_with_errors]
+
 
 # Take extracted data that is in tranform folder to transform it 
 def transformation_split_orders(df):
@@ -77,7 +93,7 @@ def transformation_card_number(df): # check if coloumn exists
     df = df.drop(columns=["Card Number"])  # drop card number but after establishing uuid 
     return df
 
-def tranformation_customer_name(df): # check if coloumn exists
+def transformation_customer_name(df): # check if coloumn exists
     df = df.drop(columns=["Customer Name"])
     return df  
 
@@ -111,9 +127,26 @@ def transformation_product_price(df): #check column exist, and there is a price 
     df = df.drop(columns=['Drinks Ordered'])
     return df
 
-    # if df["product"] == product_tb["product"]:
-    #     df["product"].replace(with corrsponding uuid for that opeodct in the product tble)
-    
+""""""""""VALIDATING THE DATA SCHEMA"""""""""
+no_whitespace = pa.Check(lambda s: s == s.str.strip())
+not_blank = pa.Check(lambda s: s.str.strip().str.len() > 0)
+
+def validate_schema(df,schema):
+    # This will raise an error if validation fails
+    return schema.validate(df)
+
+
+product_schema = pa.DataFrameSchema({
+                            "Product":pa.Column(str, 
+                                        checks=[no_whitespace, not_blank]
+                                        ,nullable=False),
+                            "Price":pa.Column(float, checks=pa.Check.gt(0), 
+                                nullable=False)},
+                            unique=["Product", "Price"]
+                            )
+
+
+
 #Transform all on one tabel first
 def tranformation(df):
     df = order_uuid(df)
@@ -122,8 +155,8 @@ def tranformation(df):
     df = transformation_payment_type(df)
     df = transformation_date_time(df)
     df = transformation_card_number(df)
-    df = tranformation_customer_name(df)
-    df = transformation_product_price(df)
+    df = transformation_customer_name(df)
+    df = transformation_product_price(df)        
     df = fix_blanks(df)
     
     valid_list = pd.read_csv("valid_drinks_list.csv")["Product"].dropna().str.strip().tolist()
@@ -131,21 +164,29 @@ def tranformation(df):
     # It compares x against the list of valid drinks in valid_list using fuzzy matching.
     # If a close enough match is found (above threshold), it replaces x with the corrected name
 
+    # df = error_rows(df)
+
     df.to_csv("transformed_data/unnormalised_data.csv", index=False)
+    return df
+""" maybe do all error handling after updating and saving data frame """
 
  # Seperate onto product table and creat product uuid
 def product_tb():
     df = read_csv_file("transformed_data/unnormalised_data.csv")
     product_df = df[["Product", "Price"]].drop_duplicates().copy()
-    product_df.to_csv("transformed_data/products_transformed.csv", index=False) # Save the unique product-price pairs
     product_df = product_uuid(product_df)  # Add UUIDs directly to the product_df
-    product_df.to_csv("transformed_data/products_transformed.csv", index=False) # Save again with UUIDs
+    try:
+        validated_product_df = validate_schema(product_df,product_schema) # check data vlaidation of product table columns
+    except pa.errors.SchemaError as e:
+        print("Products Table Validation failed:", e)
+        return # Stop the function if validation fails
+    validated_product_df.to_csv("transformed_data/products_transformed.csv", index=False) # Save the unique product-price pairs to a csv from the DF
+    print("Product Table saved successfully!")
 
 def order_item_tb():
     df = read_csv_file("transformed_data/unnormalised_data.csv")
     order_item_df = df[["Order ID", "Product" ]].copy()
-    order_item_df.to_csv("transformed_data/order_item_transformed.csv", index=False) # Save the unique product-price pairs to a csv from thr DF
-    
+    order_item_df.to_csv("transformed_data/order_item_transformed.csv", index=False) 
 
     # Merge order_item[prouduct] with product[product] and include  product id 
     product_df = pd.read_csv("transformed_data/products_transformed.csv")
@@ -163,16 +204,11 @@ def order_tb():
         
 
 
-
-
-
-
-    
-
-    # drop product from order item, drop necessary columns from order table 
-    # if order_id and product the same, group so quantity increases (need to still creat quantity column)
-    # neeed to rename file for first one to order , so we ahve order, product, order item 
-    # ideally these 3 csvs should move to the transformed folder once done 
+# check before goign aheadf with tranformation that in contains columns expected
+# need to find a way to chnage the name of the file unique to the file itself. for instance could have 2 files from different dates that neeed etl process but need to move from extract to to tranform , under their same name just added transformed at the end 
+# archive the files once transformation/ load process done 
+# need ot chnage data to be for 1 day only - naming convention with dataa ein front of it and time
+# saves as it's current file name, so for instance file name may be current extracted_2024_07_09_camden.csv, and once the transformation phase is done I want to save the data frame under an altered name like unormalised_2024_07_09_camden.csv
 
 
 

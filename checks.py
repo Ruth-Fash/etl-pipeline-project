@@ -15,3 +15,5 @@ import pandas as pd
 # df = pd.read_csv("raw_data/raw_data_20_06_2025 testing.csv")
 # df.loc[(df["Customer Name"] == "Chinedu Okafor") & (df["Branch"] == "Epsom"), "Drinks Ordered"] = df.loc[(df["Customer Name"] == "Chinedu Okafor") & (df["Branch"] == "Epsom"), "Drinks Ordered"] + ", Latte - £3.5"  # if name = chinedu okafor, update the drinks ordered coloumn and add a latte - £3.5
 # df.to_csv("raw_data/raw_data_20_06_2025 testing.csv", index=False)
+
+

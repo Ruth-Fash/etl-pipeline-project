@@ -1,0 +1,37 @@
+Date/Time,Branch,Payment Type,Order ID,Product,Price
+Unknown,Camden,Cash,b1d81db1-c476-42f1-b24f-85a6cf491076,Unknown,Unknown
+2024-11-28 18:50:00,Camden,Cash,44483402-98f3-4261-bc60-3e172dbaf2ed,Unknown,Unknown
+2024-09-21 08:19:00,Camden,Card,c2eeb1fc-7155-434d-a5f9-e97be530c231,Unknown,Unknown
+Unknown,Camden,Card,7e096aff-548b-4590-b9ee-f1d64b7fb381,Macchiato,3.1
+Unknown,Camden,Card,7e096aff-548b-4590-b9ee-f1d64b7fb381,Cappuccino,3.0
+Unknown,Camden,Card,7e096aff-548b-4590-b9ee-f1d64b7fb381,Americano,2.2
+2024-12-20 07:07:00,Camden,Card,c5521849-db0f-46dc-82b7-ee47f9da37aa,Unknown,Unknown
+2025-03-12 05:09:00,Camden,Card,4bc13fe3-6f37-4c21-b9c3-18eee9a82986,Unknown,Unknown
+2024-08-08 23:01:00,Camden,Unknown,1f827526-97fb-46d1-ac71-3151f93464c3,Latte,2.5
+2024-08-08 23:01:00,Camden,Unknown,1f827526-97fb-46d1-ac71-3151f93464c3,Cappuccino,3.0
+Unknown,Camden,Cash,63061e6b-9ecc-4a14-9d6b-c738b18278b9,Espresso,2.0
+Unknown,Camden,Cash,63061e6b-9ecc-4a14-9d6b-c738b18278b9,Macchiato,3.1
+Unknown,Camden,Cash,63061e6b-9ecc-4a14-9d6b-c738b18278b9,Flat White,2.75
+2025-05-08 02:14:00,Camden,Unknown,6d9042fe-a45c-4725-92e7-c49ac1c1a7cf,Invalid Order String,Unknown
+Unknown,Camden,Cash,7a5b1176-f22b-4787-b220-887387f9880e,Cappuccino,3.0
+Unknown,Camden,Cash,7a5b1176-f22b-4787-b220-887387f9880e,Espresso,2.0
+Unknown,Camden,Cash,7a5b1176-f22b-4787-b220-887387f9880e,Espresso,2.0
+2024-08-11 18:20:00,Camden,Cash,30b4c83b-9554-4504-ae9c-82128a02f425,Unknown,Unknown
+Unknown,Camden,Card,c10ba8fe-0c9b-4a0d-94a8-d7a6a7cc265e,Latte,2.5
+Unknown,Camden,Card,c10ba8fe-0c9b-4a0d-94a8-d7a6a7cc265e,Mocha,3.75
+2025-01-25 20:06:00,Camden,Unknown,b1f1ba56-f484-4796-be52-04f2c2d0c4ef,Espresso,2.0
+2025-01-25 20:06:00,Camden,Unknown,b1f1ba56-f484-4796-be52-04f2c2d0c4ef,Macchiato,3.1
+2025-01-25 20:06:00,Camden,Unknown,b1f1ba56-f484-4796-be52-04f2c2d0c4ef,Flat White,2.75
+2024-09-14 21:13:00,Camden,Unknown,eefc7ba8-7869-45f0-a42d-213b486e6456,Macchiato,3.1
+2024-09-14 21:13:00,Camden,Unknown,eefc7ba8-7869-45f0-a42d-213b486e6456,Flat White,2.75
+2024-08-08 11:21:00,Camden,Unknown,d37fa580-ff3e-4238-b7a2-519fb19979ec,Macchiato,3.1
+2024-08-08 11:21:00,Camden,Unknown,d37fa580-ff3e-4238-b7a2-519fb19979ec,Mocha,3.75
+Unknown,Camden,Cash,f73f6310-066f-4ef5-a1d2-d4c2621e19f3,Invalid Order String,Unknown
+Unknown,Camden,Unknown,e1143da0-2d55-45a8-a868-146b3fc963eb,Flat White,2.75
+Unknown,Camden,Unknown,e1143da0-2d55-45a8-a868-146b3fc963eb,Americano,2.2
+Unknown,Camden,Unknown,e1143da0-2d55-45a8-a868-146b3fc963eb,Mocha,3.75
+Unknown,Camden,Unknown,e1143da0-2d55-45a8-a868-146b3fc963eb,Macchiato,3.1
+Unknown,Camden,Cash,21622a22-0b32-45e9-ac80-3a7e46d04f08,Espresso,2.0
+Unknown,Camden,Cash,21622a22-0b32-45e9-ac80-3a7e46d04f08,Macchiato,3.1
+Unknown,Camden,Cash,21622a22-0b32-45e9-ac80-3a7e46d04f08,Flat White,2.75
+2024-08-30 08:00:00,Camden,Cash...,a9000013-f9fc-47bd-9247-4c4ddf82cc59,Unknown,Unknown
