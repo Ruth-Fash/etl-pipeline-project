@@ -1,252 +1,252 @@
 Date/Time,Branch,Payment Type,Order ID,Product,Price
-2025-05-27 20:30:00,Richmond,Cash,198d7b11-858f-4403-bcab-d73ebfde5448,Americano,2.2
-2025-05-27 20:30:00,Richmond,Cash,198d7b11-858f-4403-bcab-d73ebfde5448,Espresso,2.0
-2024-11-12 07:31:00,Richmond,Card,f01d4023-7500-4522-9cd7-4ced7c327802,Flat White,2.75
-2024-11-12 07:31:00,Richmond,Card,f01d4023-7500-4522-9cd7-4ced7c327802,Mocha,3.75
-2024-11-12 07:31:00,Richmond,Card,f01d4023-7500-4522-9cd7-4ced7c327802,Espresso,2.0
-2025-01-16 11:51:00,Richmond,Card,69558fbe-bc4b-4b97-9617-b2889a2cbec1,Macchiato,3.1
-2025-01-16 11:51:00,Richmond,Card,69558fbe-bc4b-4b97-9617-b2889a2cbec1,Cappuccino,3.0
-2025-05-19 08:01:00,Richmond,Card,fdbb5bdb-e4d1-4580-9b46-56150530afff,Espresso,2.0
-2025-05-19 08:01:00,Richmond,Card,fdbb5bdb-e4d1-4580-9b46-56150530afff,Latte,2.5
-2025-05-19 08:01:00,Richmond,Card,fdbb5bdb-e4d1-4580-9b46-56150530afff,Americano,2.2
-2024-08-08 23:44:00,Richmond,Card,7a881a5c-e1e3-42ab-b4ea-c419226f430e,Americano,2.2
-2024-12-18 05:22:00,Richmond,Cash,50e14c60-b4cb-4457-a34c-5741dad20a12,Latte,2.5
-2024-12-18 05:22:00,Richmond,Cash,50e14c60-b4cb-4457-a34c-5741dad20a12,Mocha,3.75
-2024-07-28 11:21:00,Richmond,Cash,a20b9f32-0f96-4155-826d-ac28312729a5,Mocha,3.75
-2024-07-28 11:21:00,Richmond,Cash,a20b9f32-0f96-4155-826d-ac28312729a5,Latte,2.5
-2024-07-28 11:21:00,Richmond,Cash,a20b9f32-0f96-4155-826d-ac28312729a5,Flat White,2.75
-2024-11-03 18:05:00,Richmond,Card,f4576343-04dd-4db7-a547-6dcc010a838f,Macchiato,3.1
-2024-11-03 18:05:00,Richmond,Card,f4576343-04dd-4db7-a547-6dcc010a838f,Flat White,2.75
-2024-10-12 23:40:00,Richmond,Card,0162554c-eaa0-4619-8b2c-67a1a0f664e1,Americano,2.2
-2024-10-12 23:40:00,Richmond,Card,0162554c-eaa0-4619-8b2c-67a1a0f664e1,Cappuccino,3.0
-2024-10-12 23:40:00,Richmond,Card,0162554c-eaa0-4619-8b2c-67a1a0f664e1,Mocha,3.75
-2025-01-01 02:08:00,Richmond,Card,6fece9b8-ef4e-4aa3-85d6-75f9d45fce19,Americano,2.2
-2025-01-01 02:08:00,Richmond,Card,6fece9b8-ef4e-4aa3-85d6-75f9d45fce19,Americano,2.2
-2025-01-01 02:08:00,Richmond,Card,6fece9b8-ef4e-4aa3-85d6-75f9d45fce19,Latte,2.5
-2025-01-03 21:28:00,Richmond,Cash,64073410-27f9-4c7a-a0ef-152a4911127d,Cappuccino,3.0
-2025-01-03 21:28:00,Richmond,Cash,64073410-27f9-4c7a-a0ef-152a4911127d,Mocha,3.75
-2024-09-24 09:10:00,Richmond,Cash,ed0a7171-dce0-42a9-8b8b-e8480536fd78,Macchiato,3.1
-2024-09-24 09:10:00,Richmond,Cash,ed0a7171-dce0-42a9-8b8b-e8480536fd78,Macchiato,3.1
-2024-09-24 09:10:00,Richmond,Cash,ed0a7171-dce0-42a9-8b8b-e8480536fd78,Latte,2.5
-2024-11-25 05:01:00,Richmond,Cash,62a8dd8b-3afc-4a8b-8caf-6a34f2879969,Mocha,3.75
-2024-11-25 05:01:00,Richmond,Cash,62a8dd8b-3afc-4a8b-8caf-6a34f2879969,Macchiato,3.1
-2024-07-09 01:07:00,Richmond,Card,aa2fbbfe-400a-4b8f-a692-36675c6763a4,Espresso,2.0
-2024-07-09 01:07:00,Richmond,Card,aa2fbbfe-400a-4b8f-a692-36675c6763a4,Americano,2.2
-2024-08-25 10:25:00,Richmond,Cash,f0222e32-f9cf-4a9d-b188-731bb8513bcb,Americano,2.2
-2024-08-25 10:25:00,Richmond,Cash,f0222e32-f9cf-4a9d-b188-731bb8513bcb,Mocha,3.75
-2025-03-22 14:44:00,Richmond,Card,8f9cd4cc-d6ba-42b2-85ea-30137075289c,Mocha,3.75
-2024-07-31 11:14:00,Richmond,Cash,1897ff45-b0e2-47ef-9602-c2dc17cf9c07,Americano,2.2
-2024-07-31 11:14:00,Richmond,Cash,1897ff45-b0e2-47ef-9602-c2dc17cf9c07,Macchiato,3.1
-2024-10-01 21:43:00,Richmond,Cash,10da720f-21ed-42cc-9415-6674048d8852,Mocha,3.75
-2024-10-01 21:43:00,Richmond,Cash,10da720f-21ed-42cc-9415-6674048d8852,Flat White,2.75
-2024-10-01 21:43:00,Richmond,Cash,10da720f-21ed-42cc-9415-6674048d8852,Macchiato,3.1
-2024-12-07 12:36:00,Richmond,Card,df813fd6-d0c0-4135-ac4e-3f55a0e9d45b,Mocha,3.75
-2024-12-07 12:36:00,Richmond,Card,df813fd6-d0c0-4135-ac4e-3f55a0e9d45b,Espresso,2.0
-2024-12-07 12:36:00,Richmond,Card,df813fd6-d0c0-4135-ac4e-3f55a0e9d45b,Flat White,2.75
-2024-12-07 12:36:00,Richmond,Card,df813fd6-d0c0-4135-ac4e-3f55a0e9d45b,Latte,2.5
-2025-05-05 06:08:00,Richmond,Cash,8fa11b6b-d8d1-41d9-8aa7-5b76ba93cef5,Mocha,3.75
-2025-05-05 06:08:00,Richmond,Cash,8fa11b6b-d8d1-41d9-8aa7-5b76ba93cef5,Flat White,2.75
-2025-05-05 06:08:00,Richmond,Cash,8fa11b6b-d8d1-41d9-8aa7-5b76ba93cef5,Espresso,2.0
-2024-09-19 14:53:00,Richmond,Cash,3ee49bec-61f3-452e-b8b7-138ed56575a7,Macchiato,3.1
-2024-09-19 14:53:00,Richmond,Cash,3ee49bec-61f3-452e-b8b7-138ed56575a7,Macchiato,3.1
-2024-09-19 14:53:00,Richmond,Cash,3ee49bec-61f3-452e-b8b7-138ed56575a7,Mocha,3.75
-2024-07-04 20:56:00,Richmond,Cash,332e0060-cf1f-4a05-92e9-76179065af19,Cappuccino,3.0
-2024-07-04 20:56:00,Richmond,Cash,332e0060-cf1f-4a05-92e9-76179065af19,Flat White,2.75
-2024-07-04 20:56:00,Richmond,Cash,332e0060-cf1f-4a05-92e9-76179065af19,Americano,2.2
-2024-07-04 20:56:00,Richmond,Card,56c2603b-9feb-4ece-8a1a-8fa69af03862,Espresso,2.0
-2024-07-04 20:56:00,Richmond,Card,56c2603b-9feb-4ece-8a1a-8fa69af03862,Latte,2.5
-2024-09-22 05:39:00,Richmond,Card,90a4e806-be13-4b4d-b1e6-8a0dd2624ce5,Americano,2.2
-2024-09-22 05:39:00,Richmond,Card,90a4e806-be13-4b4d-b1e6-8a0dd2624ce5,Espresso,2.0
-2024-08-26 07:03:00,Richmond,Cash,b9451a4d-0fec-479a-8711-11e37b4733f4,Americano,2.2
-2024-08-26 07:03:00,Richmond,Cash,b9451a4d-0fec-479a-8711-11e37b4733f4,Cappuccino,3.0
-2024-11-25 05:01:00,Richmond,Card,00217c8e-564c-41e7-9332-817bfff11747,Espresso,2.0
-2024-11-25 05:01:00,Richmond,Card,00217c8e-564c-41e7-9332-817bfff11747,Mocha,3.75
-2024-11-25 05:01:00,Richmond,Card,00217c8e-564c-41e7-9332-817bfff11747,Macchiato,3.1
-2024-08-25 10:25:00,Richmond,Cash,2043fe34-7354-44e8-9531-04e76c4b2bc8,Americano,2.2
-2024-08-25 10:25:00,Richmond,Cash,2043fe34-7354-44e8-9531-04e76c4b2bc8,Mocha,3.75
-2024-10-03 16:58:00,Richmond,Card,516b4d93-3282-45e7-a2dd-17f3cbcaef03,Macchiato,3.1
-2024-10-03 16:58:00,Richmond,Card,516b4d93-3282-45e7-a2dd-17f3cbcaef03,Macchiato,3.1
-2024-10-03 16:58:00,Richmond,Card,516b4d93-3282-45e7-a2dd-17f3cbcaef03,Cappuccino,3.0
-2024-08-24 07:27:00,Richmond,Cash,047f7d86-c223-44e3-bcba-dedc632ce7aa,Espresso,2.0
-2024-08-24 07:27:00,Richmond,Cash,047f7d86-c223-44e3-bcba-dedc632ce7aa,Americano,2.2
-2024-08-24 07:27:00,Richmond,Cash,047f7d86-c223-44e3-bcba-dedc632ce7aa,Macchiato,3.1
-2024-10-03 16:58:00,Richmond,Card,a126f2e9-58d3-4983-aec4-b171dbbdbca1,Macchiato,3.1
-2024-10-03 16:58:00,Richmond,Card,a126f2e9-58d3-4983-aec4-b171dbbdbca1,Macchiato,3.1
-2024-10-03 16:58:00,Richmond,Card,a126f2e9-58d3-4983-aec4-b171dbbdbca1,Cappuccino,3.0
-2024-08-21 12:46:00,Richmond,Card,3570e091-6eeb-4e11-986b-47c3be7418f8,Latte,2.5
-2024-08-21 12:46:00,Richmond,Card,3570e091-6eeb-4e11-986b-47c3be7418f8,Macchiato,3.1
-2024-09-03 22:07:00,Richmond,Cash,c39e4d74-d6cc-4c73-9024-64e4dfce8d25,Latte,2.5
-2024-07-04 20:56:00,Richmond,Cash,0cdc43d8-8828-4278-b2f8-7691a26ecacf,Cappuccino,3.0
-2024-07-04 20:56:00,Richmond,Cash,0cdc43d8-8828-4278-b2f8-7691a26ecacf,Flat White,2.75
-2024-07-04 20:56:00,Richmond,Cash,0cdc43d8-8828-4278-b2f8-7691a26ecacf,Americano,2.2
-2024-12-31 08:42:00,Richmond,Card,e2332975-e199-44e4-a741-0261686d19fc,Mocha,3.75
-2024-12-31 08:42:00,Richmond,Card,e2332975-e199-44e4-a741-0261686d19fc,Americano,2.2
-2024-12-31 08:42:00,Richmond,Card,e2332975-e199-44e4-a741-0261686d19fc,Macchiato,3.1
-2024-09-13 03:02:00,Richmond,Cash,2bf0102d-4eba-48c2-b6e3-f9bb37c5a22f,Americano,2.2
-2024-09-13 03:02:00,Richmond,Cash,2bf0102d-4eba-48c2-b6e3-f9bb37c5a22f,Macchiato,3.1
-2024-09-13 03:02:00,Richmond,Cash,2bf0102d-4eba-48c2-b6e3-f9bb37c5a22f,Espresso,2.0
-2024-10-01 04:33:00,Richmond,Card,74ee0c12-9a34-4bd5-aeb9-ae2762103940,Mocha,3.75
-2024-08-25 10:25:00,Richmond,Cash,900a6055-facc-45ec-8762-c64c83523ba3,Americano,2.2
-2024-08-25 10:25:00,Richmond,Cash,900a6055-facc-45ec-8762-c64c83523ba3,Mocha,3.75
-2024-09-22 05:39:00,Richmond,Card,8c1551ad-9380-4f01-9bad-863a2927bf33,Americano,2.2
-2024-09-22 05:39:00,Richmond,Card,8c1551ad-9380-4f01-9bad-863a2927bf33,Espresso,2.0
-2024-07-24 12:05:00,Richmond,Card,954832b5-ea1f-47b2-a259-e8664c508224,Flat White,2.75
-2024-07-24 12:05:00,Richmond,Card,954832b5-ea1f-47b2-a259-e8664c508224,Flat White,2.75
-2024-07-10 12:50:00,Richmond,Cash,e531a8e1-6ed3-494c-8021-73a602565d58,Macchiato,3.1
-2024-07-10 12:50:00,Richmond,Cash,e531a8e1-6ed3-494c-8021-73a602565d58,Espresso,2.0
-2024-07-10 12:50:00,Richmond,Cash,e531a8e1-6ed3-494c-8021-73a602565d58,Espresso,2.0
-2024-08-26 07:03:00,Richmond,Card,77b2b2ff-1a4d-458a-9ca8-0ef11a329239,Americano,2.2
-2024-08-26 07:03:00,Richmond,Card,77b2b2ff-1a4d-458a-9ca8-0ef11a329239,Cappuccino,3.0
-2024-08-26 07:03:00,Richmond,Card,77b2b2ff-1a4d-458a-9ca8-0ef11a329239,Americano,2.2
-2025-05-27 20:30:00,Richmond,Cash,0b95edf2-fdc0-43fc-b0d8-dd225160ac57,Americano,2.2
-2025-05-27 20:30:00,Richmond,Cash,0b95edf2-fdc0-43fc-b0d8-dd225160ac57,Espresso,2.0
-2024-11-12 07:31:00,Richmond,Card,16773992-3a5e-49d4-bf2c-482c54c719b3,Americano,2.2
-2024-10-12 23:40:00,Richmond,Card,0b7f8e90-4d7b-4478-b781-444494e2c4f0,Americano,2.2
-2024-10-12 23:40:00,Richmond,Card,0b7f8e90-4d7b-4478-b781-444494e2c4f0,Cappuccino,3.0
-2024-10-12 23:40:00,Richmond,Card,0b7f8e90-4d7b-4478-b781-444494e2c4f0,Mocha,3.75
-2024-12-18 05:22:00,Richmond,Cash,b17f42b2-e79e-4924-9327-3fd7b42fff29,Latte,2.5
-2024-12-18 05:22:00,Richmond,Cash,b17f42b2-e79e-4924-9327-3fd7b42fff29,Mocha,3.75
-2024-08-08 23:44:00,Richmond,Card,efb761aa-bdad-4514-b8d9-43ce456b1d00,Americano,2.2
-2024-09-24 09:10:00,Richmond,Cash,8379b171-315e-4040-8053-2c6fe4fc5b57,Macchiato,3.1
-2024-09-24 09:10:00,Richmond,Cash,8379b171-315e-4040-8053-2c6fe4fc5b57,Macchiato,3.1
-2024-09-24 09:10:00,Richmond,Cash,8379b171-315e-4040-8053-2c6fe4fc5b57,Latte,2.5
-2025-03-22 14:44:00,Richmond,Card,c657a9cf-f9a4-4f65-8d64-18ea7dd322f5,Mocha,3.75
-2025-05-19 08:01:00,Richmond,Card,14519973-f9b4-4a6d-a6d2-14c4c312c587,Espresso,2.0
-2025-05-19 08:01:00,Richmond,Card,14519973-f9b4-4a6d-a6d2-14c4c312c587,Latte,2.5
-2025-05-19 08:01:00,Richmond,Card,14519973-f9b4-4a6d-a6d2-14c4c312c587,Americano,2.2
-2024-11-25 05:01:00,Richmond,Cash,25409046-ab37-4fdd-b725-95c3b6d01ca4,Mocha,3.75
-2024-11-25 05:01:00,Richmond,Cash,25409046-ab37-4fdd-b725-95c3b6d01ca4,Macchiato,3.1
-2024-11-03 18:05:00,Richmond,Card,c757af72-121a-4546-aad3-b1e77acc6ddf,Macchiato,3.1
-2024-11-03 18:05:00,Richmond,Card,c757af72-121a-4546-aad3-b1e77acc6ddf,Flat White,2.75
-2024-07-28 11:21:00,Richmond,Cash,978aefb6-dd21-47b6-8214-2cccb6889a7b,Mocha,3.75
-2024-07-28 11:21:00,Richmond,Cash,978aefb6-dd21-47b6-8214-2cccb6889a7b,Latte,2.5
-2024-07-28 11:21:00,Richmond,Cash,978aefb6-dd21-47b6-8214-2cccb6889a7b,Flat White,2.75
-2024-12-07 12:36:00,Richmond,Card,568e547a-f841-4e76-92c7-3bd95f6bc0f4,Mocha,3.75
-2024-12-07 12:36:00,Richmond,Card,568e547a-f841-4e76-92c7-3bd95f6bc0f4,Espresso,2.0
-2024-12-07 12:36:00,Richmond,Card,568e547a-f841-4e76-92c7-3bd95f6bc0f4,Flat White,2.75
-2024-12-07 12:36:00,Richmond,Card,568e547a-f841-4e76-92c7-3bd95f6bc0f4,Latte,2.5
-2025-05-05 06:08:00,Richmond,Cash,0d612d3f-4362-4194-808f-a6e1a395e645,Mocha,3.75
-2025-05-05 06:08:00,Richmond,Cash,0d612d3f-4362-4194-808f-a6e1a395e645,Flat White,2.75
-2025-05-05 06:08:00,Richmond,Cash,0d612d3f-4362-4194-808f-a6e1a395e645,Espresso,2.0
-2024-07-04 20:56:00,Richmond,Cash,ec713b7e-553a-42ab-bec7-b353a7e62d23,Cappuccino,3.0
-2024-07-04 20:56:00,Richmond,Cash,ec713b7e-553a-42ab-bec7-b353a7e62d23,Flat White,2.75
-2024-07-04 20:56:00,Richmond,Cash,ec713b7e-553a-42ab-bec7-b353a7e62d23,Americano,2.2
-2024-07-04 20:56:00,Richmond,Card,e13fca5d-4311-41db-9de1-98381dbdd992,Espresso,2.0
-2024-07-04 20:56:00,Richmond,Card,e13fca5d-4311-41db-9de1-98381dbdd992,Latte,2.5
-2024-08-26 07:03:00,Richmond,Cash,03a939e6-d09b-4f7d-b9bb-34e747d37f17,Americano,2.2
-2024-08-26 07:03:00,Richmond,Cash,03a939e6-d09b-4f7d-b9bb-34e747d37f17,Cappuccino,3.0
-2024-11-25 05:01:00,Richmond,Card,54f145f4-60b8-43c5-9277-346194beb45b,Espresso,2.0
-2024-11-25 05:01:00,Richmond,Card,54f145f4-60b8-43c5-9277-346194beb45b,Mocha,3.75
-2024-11-25 05:01:00,Richmond,Card,54f145f4-60b8-43c5-9277-346194beb45b,Macchiato,3.1
-2024-08-25 10:25:00,Richmond,Cash,7535725e-7549-4694-9c24-97b3f1a88786,Americano,2.2
-2024-08-25 10:25:00,Richmond,Cash,7535725e-7549-4694-9c24-97b3f1a88786,Mocha,3.75
-2024-10-03 16:58:00,Richmond,Card,2c2ae3f1-3c74-4cf8-932f-04349e168d66,Macchiato,3.1
-2024-10-03 16:58:00,Richmond,Card,2c2ae3f1-3c74-4cf8-932f-04349e168d66,Macchiato,3.1
-2024-10-03 16:58:00,Richmond,Card,2c2ae3f1-3c74-4cf8-932f-04349e168d66,Cappuccino,3.0
-2024-08-24 07:27:00,Richmond,Cash,d1abe6b0-df77-403d-a609-df552ae28506,Espresso,2.0
-2024-08-24 07:27:00,Richmond,Cash,d1abe6b0-df77-403d-a609-df552ae28506,Americano,2.2
-2024-08-24 07:27:00,Richmond,Cash,d1abe6b0-df77-403d-a609-df552ae28506,Macchiato,3.1
-2024-08-21 12:46:00,Richmond,Card,d86add59-b1e4-47e2-8280-249af065d79d,Latte,2.5
-2024-08-21 12:46:00,Richmond,Card,d86add59-b1e4-47e2-8280-249af065d79d,Macchiato,3.1
-2024-09-03 22:07:00,Richmond,Cash,801384d4-26fe-40e8-9cda-ea21737859c4,Latte,2.5
-2024-07-04 20:56:00,Richmond,Cash,e153e5f2-e931-48e3-ba24-ab5ee5acbbe1,Cappuccino,3.0
-2024-07-04 20:56:00,Richmond,Cash,e153e5f2-e931-48e3-ba24-ab5ee5acbbe1,Flat White,2.75
-2024-07-04 20:56:00,Richmond,Cash,e153e5f2-e931-48e3-ba24-ab5ee5acbbe1,Americano,2.2
-2024-12-31 08:42:00,Richmond,Card,40f41329-d4f9-48ae-997b-7953b7a4b0aa,Mocha,3.75
-2024-12-31 08:42:00,Richmond,Card,40f41329-d4f9-48ae-997b-7953b7a4b0aa,Americano,2.2
-2024-12-31 08:42:00,Richmond,Card,40f41329-d4f9-48ae-997b-7953b7a4b0aa,Macchiato,3.1
-2024-09-13 03:02:00,Richmond,Cash,45dc6ca8-a69c-4463-9514-6195887ef9c2,Americano,2.2
-2024-09-13 03:02:00,Richmond,Cash,45dc6ca8-a69c-4463-9514-6195887ef9c2,Macchiato,3.1
-2024-09-13 03:02:00,Richmond,Cash,45dc6ca8-a69c-4463-9514-6195887ef9c2,Espresso,2.0
-2024-10-01 04:33:00,Richmond,Card,9d6fa71d-a24f-40be-94e2-3f39e4e10ffa,Mocha,3.75
-2024-08-25 10:25:00,Richmond,Cash,16657864-65bc-4933-86af-28726dfa2f48,Americano,2.2
-2024-08-25 10:25:00,Richmond,Cash,16657864-65bc-4933-86af-28726dfa2f48,Mocha,3.75
-2024-09-22 05:39:00,Richmond,Card,9ea770e2-5776-4f3f-ae26-cd3fa03a75d0,Americano,2.2
-2024-09-22 05:39:00,Richmond,Card,9ea770e2-5776-4f3f-ae26-cd3fa03a75d0,Espresso,2.0
-2024-07-24 12:05:00,Richmond,Card,1111a2c2-55c0-4021-9f00-969b5cb6b1dc,Flat White,2.75
-2024-07-24 12:05:00,Richmond,Card,1111a2c2-55c0-4021-9f00-969b5cb6b1dc,Flat White,2.75
-2024-07-10 12:50:00,Richmond,Cash,9325a8fd-6462-44d2-bb68-f60fa71e5fc4,Macchiato,3.1
-2024-07-10 12:50:00,Richmond,Cash,9325a8fd-6462-44d2-bb68-f60fa71e5fc4,Espresso,2.0
-2024-07-10 12:50:00,Richmond,Cash,9325a8fd-6462-44d2-bb68-f60fa71e5fc4,Espresso,2.0
-2024-08-26 07:03:00,Richmond,Card,6897191d-b85e-489d-b5c4-099d885b7be1,Americano,2.2
-2024-08-26 07:03:00,Richmond,Card,6897191d-b85e-489d-b5c4-099d885b7be1,Cappuccino,3.0
-2024-08-26 07:03:00,Richmond,Card,6897191d-b85e-489d-b5c4-099d885b7be1,Americano,2.2
-2025-01-16 11:51:00,Richmond,Card,3309150e-a8d5-48c7-8446-5dd540999312,Macchiato,3.1
-2025-01-16 11:51:00,Richmond,Card,3309150e-a8d5-48c7-8446-5dd540999312,Cappuccino,3.0
-2024-11-12 07:31:00,Richmond,Card,3556ece3-8009-4978-aa94-a224a06a89d3,Flat White,2.75
-2024-11-12 07:31:00,Richmond,Card,3556ece3-8009-4978-aa94-a224a06a89d3,Mocha,3.75
-2024-11-12 07:31:00,Richmond,Card,3556ece3-8009-4978-aa94-a224a06a89d3,Espresso,2.0
-Unknown,Richmond,Cash,9ff19293-5552-487b-ae6c-7fb134d753ed,Americano,2.2
-Unknown,Richmond,Cash,9ff19293-5552-487b-ae6c-7fb134d753ed,Espresso,2.0
-2024-12-18 05:22:00,Richmond,Cash,cb51a388-b0dd-4342-931f-e7907f19d6e2,Latte,2.5
-2024-12-18 05:22:00,Richmond,Cash,cb51a388-b0dd-4342-931f-e7907f19d6e2,Mocha,3.75
-2024-08-08 23:44:00,Richmond,Card,066a67b7-e839-4c4a-bfe7-d92f127b3531,Latte,2.5
-2025-05-19 08:01:00,Richmond,Card,1937a551-d1c3-4c91-91a6-2f3a0fdca302,Espresso,2.0
-2025-05-19 08:01:00,Richmond,Card,1937a551-d1c3-4c91-91a6-2f3a0fdca302,Latte,2.5
-2025-05-19 08:01:00,Richmond,Card,1937a551-d1c3-4c91-91a6-2f3a0fdca302,Americano,2.2
-Unknown,Richmond,Card,92cc0fef-e8fe-42ff-86cc-2d154c5e99e0,Macchiato,3.1
-Unknown,Richmond,Card,92cc0fef-e8fe-42ff-86cc-2d154c5e99e0,Flat White,2.75
-2024-09-24 09:10:00,Richmond,Cash,6dd64319-8cce-42c9-9cee-9aadad6a56b8,Macchiato,3.1
-2024-09-24 09:10:00,Richmond,Cash,6dd64319-8cce-42c9-9cee-9aadad6a56b8,Macchiato,3.1
-2024-09-24 09:10:00,Richmond,Cash,6dd64319-8cce-42c9-9cee-9aadad6a56b8,Latte,2.5
-2025-03-22 14:44:00,Richmond,Card,03112333-378c-4db7-8528-eafdd0969aa0,Mocha,3.75
-Unknown,Richmond,Cash,9e1ac974-93dc-47dd-9105-9d8520af3d1a,Mocha,3.75
-Unknown,Richmond,Cash,9e1ac974-93dc-47dd-9105-9d8520af3d1a,Macchiato,3.1
-2024-07-31 11:14:00,Richmond,Cash,aab9592c-2e5a-4a70-8083-f0fa148da989,Americano,2.2
-2024-07-31 11:14:00,Richmond,Cash,aab9592c-2e5a-4a70-8083-f0fa148da989,Macchiato,3.1
-2024-07-28 11:21:00,Richmond,Cash,9e934c7d-dbbd-46ce-8d26-4e2b12bee72c,Mocha,3.75
-2024-07-28 11:21:00,Richmond,Cash,9e934c7d-dbbd-46ce-8d26-4e2b12bee72c,Latte,2.5
-2024-07-28 11:21:00,Richmond,Cash,9e934c7d-dbbd-46ce-8d26-4e2b12bee72c,Flat White,2.75
-2024-12-07 12:36:00,Richmond,Card,d73db1a4-cead-47b2-ab24-03fdaf1532c0,Mocha,3.75
-2025-05-05 06:08:00,Richmond,Cash,989f8231-4ac6-4796-85d3-f972e8a2fa1a,Mocha,Unknown
-2024-09-19 14:53:00,Richmond,Cash,871f25d5-1753-4abc-95f1-932349293448,Macchiato,3.1
-2024-09-19 14:53:00,Richmond,Cash,871f25d5-1753-4abc-95f1-932349293448,Macchiato,3.1
-2024-09-19 14:53:00,Richmond,Cash,871f25d5-1753-4abc-95f1-932349293448,Mocha,3.75
-2024-07-04 20:56:00,Richmond,Cash,fc44710e-dfee-44a5-b46a-176587234b1d,Cappuccino,3.0
-2024-07-04 20:56:00,Richmond,Cash,fc44710e-dfee-44a5-b46a-176587234b1d,Flat White,2.75
-2024-07-04 20:56:00,Richmond,Cash,fc44710e-dfee-44a5-b46a-176587234b1d,Americano,2.2
-2024-07-04 20:56:00,Richmond,Card,61f5f161-e2e7-4c68-9223-ae8feccf2753,Espresso,2.0
-2024-07-04 20:56:00,Richmond,Card,61f5f161-e2e7-4c68-9223-ae8feccf2753,Latte,2.5
-2024-09-22 05:39:00,Richmond,Card,a9bedd78-bc0d-437b-99e1-c01979c5d847,Americano,2.2
-2024-09-22 05:39:00,Richmond,Card,a9bedd78-bc0d-437b-99e1-c01979c5d847,Espresso,2.0
-2024-08-26 07:03:00,Richmond,Cash,7c7a1514-a188-4d86-90f1-e78b489b171c,Americano,2.2
-2024-08-26 07:03:00,Richmond,Cash,7c7a1514-a188-4d86-90f1-e78b489b171c,Cappuccino,3.0
-2024-11-25 05:01:00,Richmond,Card,fa7c42ed-2d74-4824-b0b3-5f4c1ec1e19a,Espresso,2.0
-2024-11-25 05:01:00,Richmond,Card,fa7c42ed-2d74-4824-b0b3-5f4c1ec1e19a,Mocha,3.75
-2024-11-25 05:01:00,Richmond,Card,fa7c42ed-2d74-4824-b0b3-5f4c1ec1e19a,Macchiato,3.1
-2024-08-25 10:25:00,Richmond,Cash,725add95-4d76-43f3-ba3f-c1bf906c7497,Americano,2.2
-2024-08-25 10:25:00,Richmond,Cash,725add95-4d76-43f3-ba3f-c1bf906c7497,Mocha,3.75
-2024-10-03 16:58:00,Richmond,Card,a9fa34d6-a2e9-4e2d-a887-3c81a84f40fd,Macchiato,3.1
-2024-10-03 16:58:00,Richmond,Card,a9fa34d6-a2e9-4e2d-a887-3c81a84f40fd,Macchiato,3.1
-2024-10-03 16:58:00,Richmond,Card,a9fa34d6-a2e9-4e2d-a887-3c81a84f40fd,Cappuccino,3.0
-2024-08-24 07:27:00,Richmond,Cash,d77033f8-b8dc-46e8-aa65-37c1ebc29983,Espresso,2.0
-2024-08-24 07:27:00,Richmond,Cash,d77033f8-b8dc-46e8-aa65-37c1ebc29983,Americano,2.2
-2024-08-24 07:27:00,Richmond,Cash,d77033f8-b8dc-46e8-aa65-37c1ebc29983,Macchiato,3.1
-2024-10-03 16:58:00,Richmond,Card,418edd1b-9fe8-4a9c-8765-931fcb4f0985,Macchiato,3.1
-2024-10-03 16:58:00,Richmond,Card,418edd1b-9fe8-4a9c-8765-931fcb4f0985,Macchiato,3.1
-2024-10-03 16:58:00,Richmond,Card,418edd1b-9fe8-4a9c-8765-931fcb4f0985,Cappuccino,3.0
-2024-08-21 12:46:00,Richmond,Card,7de85815-c81a-4b36-a673-b59292620e7c,Latte,2.5
-2024-08-21 12:46:00,Richmond,Card,7de85815-c81a-4b36-a673-b59292620e7c,Macchiato,3.1
-2024-09-03 22:07:00,Richmond,Cash,0a118940-0f93-4116-8c63-c8a638aff6eb,Latte,2.5
-2024-07-04 20:56:00,Richmond,Cash,cf491410-4e9b-4e1e-9f81-940e4c6ab05a,Cappuccino,3.0
-2024-07-04 20:56:00,Richmond,Cash,cf491410-4e9b-4e1e-9f81-940e4c6ab05a,Flat White,2.75
-2024-07-04 20:56:00,Richmond,Cash,cf491410-4e9b-4e1e-9f81-940e4c6ab05a,Americano,2.2
-2024-12-31 08:42:00,Richmond,Card,4863bc24-0303-4a8a-8dbf-15083f5185b8,Mocha,3.75
-2024-12-31 08:42:00,Richmond,Card,4863bc24-0303-4a8a-8dbf-15083f5185b8,Americano,2.2
-2024-12-31 08:42:00,Richmond,Card,4863bc24-0303-4a8a-8dbf-15083f5185b8,Macchiato,3.1
-2024-09-13 03:02:00,Richmond,Cash,f6838bc6-aff8-4f48-ae55-c637bcd30e87,Americano,2.2
-2024-09-13 03:02:00,Richmond,Cash,f6838bc6-aff8-4f48-ae55-c637bcd30e87,Macchiato,3.1
-2024-09-13 03:02:00,Richmond,Cash,f6838bc6-aff8-4f48-ae55-c637bcd30e87,Espresso,2.0
-2024-10-01 04:33:00,Richmond,Card,28fbd247-1b52-469f-877f-726883861490,Mocha,3.75
-2024-08-25 10:25:00,Richmond,Cash,144e6f49-ba32-4b97-a64c-20c30f09293c,Americano,2.2
-2024-08-25 10:25:00,Richmond,Cash,144e6f49-ba32-4b97-a64c-20c30f09293c,Mocha,3.75
-2024-09-22 05:39:00,Richmond,Card,2b9067aa-a097-49ef-a988-34b52a641894,Americano,2.2
-2024-09-22 05:39:00,Richmond,Card,2b9067aa-a097-49ef-a988-34b52a641894,Espresso,2.0
-2024-07-24 12:05:00,Richmond,Card,d1b8b5f2-acea-44c2-a124-7654bd0693de,Flat White,2.75
-2024-07-24 12:05:00,Richmond,Card,d1b8b5f2-acea-44c2-a124-7654bd0693de,Flat White,2.75
-2024-07-10 12:50:00,Richmond,Cash,a96bd62d-2fc4-41e4-828a-927a935646a2,Macchiato,3.1
-2024-07-10 12:50:00,Richmond,Cash,a96bd62d-2fc4-41e4-828a-927a935646a2,Espresso,2.0
-2024-07-10 12:50:00,Richmond,Cash,a96bd62d-2fc4-41e4-828a-927a935646a2,Espresso,2.0
-2024-08-26 07:03:00,Richmond,Card,9c579708-5211-40e6-9c78-3381effee25c,Americano,2.2
-2024-08-26 07:03:00,Richmond,Card,9c579708-5211-40e6-9c78-3381effee25c,Cappuccino,3.0
-2024-08-26 07:03:00,Richmond,Card,9c579708-5211-40e6-9c78-3381effee25c,Americano,2.2
+2025-05-27 20:30:00,Richmond,Cash,217e911c-3d88-451d-95d4-3e2ab05773ff,Americano,2.2
+2025-05-27 20:30:00,Richmond,Cash,217e911c-3d88-451d-95d4-3e2ab05773ff,Espresso,2.0
+2024-11-12 07:31:00,Richmond,Card,7e71cb55-ccc2-4db2-9956-6b1439d80f5d,Flat White,2.75
+2024-11-12 07:31:00,Richmond,Card,7e71cb55-ccc2-4db2-9956-6b1439d80f5d,Mocha,3.75
+2024-11-12 07:31:00,Richmond,Card,7e71cb55-ccc2-4db2-9956-6b1439d80f5d,Espresso,2.0
+2025-01-16 11:51:00,Richmond,Card,95b3fc48-202b-48b1-a933-e847a52de6e5,Macchiato,3.1
+2025-01-16 11:51:00,Richmond,Card,95b3fc48-202b-48b1-a933-e847a52de6e5,Cappuccino,3.0
+2025-05-19 08:01:00,Richmond,Card,64c9edd6-5b0d-486d-9680-9e882ed7070c,Espresso,2.0
+2025-05-19 08:01:00,Richmond,Card,64c9edd6-5b0d-486d-9680-9e882ed7070c,Latte,2.5
+2025-05-19 08:01:00,Richmond,Card,64c9edd6-5b0d-486d-9680-9e882ed7070c,Americano,2.2
+2024-08-08 23:44:00,Richmond,Card,49acc148-143a-4c87-ad6b-923c0e0109d9,Americano,2.2
+2024-12-18 05:22:00,Richmond,Cash,8438a3db-3ba1-4916-a3ed-e2d47c01f5da,Latte,2.5
+2024-12-18 05:22:00,Richmond,Cash,8438a3db-3ba1-4916-a3ed-e2d47c01f5da,Mocha,3.75
+2024-07-28 11:21:00,Richmond,Cash,4029f3c1-0d56-4a0b-bc91-5a3d20048851,Mocha,3.75
+2024-07-28 11:21:00,Richmond,Cash,4029f3c1-0d56-4a0b-bc91-5a3d20048851,Latte,2.5
+2024-07-28 11:21:00,Richmond,Cash,4029f3c1-0d56-4a0b-bc91-5a3d20048851,Flat White,2.75
+2024-11-03 18:05:00,Richmond,Card,3cd36920-a2c1-435a-807d-57b27d9bd669,Macchiato,3.1
+2024-11-03 18:05:00,Richmond,Card,3cd36920-a2c1-435a-807d-57b27d9bd669,Flat White,2.75
+2024-10-12 23:40:00,Richmond,Card,87b78944-b24e-4974-a129-9684eb98b37c,Americano,2.2
+2024-10-12 23:40:00,Richmond,Card,87b78944-b24e-4974-a129-9684eb98b37c,Cappuccino,3.0
+2024-10-12 23:40:00,Richmond,Card,87b78944-b24e-4974-a129-9684eb98b37c,Mocha,3.75
+2025-01-01 02:08:00,Richmond,Card,a9d67081-7faf-4e65-bee7-01050b1103b0,Americano,2.2
+2025-01-01 02:08:00,Richmond,Card,a9d67081-7faf-4e65-bee7-01050b1103b0,Americano,2.2
+2025-01-01 02:08:00,Richmond,Card,a9d67081-7faf-4e65-bee7-01050b1103b0,Latte,2.5
+2025-01-03 21:28:00,Richmond,Cash,e6140877-8813-4a5c-be58-f285390062b5,Cappuccino,3.0
+2025-01-03 21:28:00,Richmond,Cash,e6140877-8813-4a5c-be58-f285390062b5,Mocha,3.75
+2024-09-24 09:10:00,Richmond,Cash,cbb2a782-1624-492f-bbf3-8ae93b1c9024,Macchiato,3.1
+2024-09-24 09:10:00,Richmond,Cash,cbb2a782-1624-492f-bbf3-8ae93b1c9024,Macchiato,3.1
+2024-09-24 09:10:00,Richmond,Cash,cbb2a782-1624-492f-bbf3-8ae93b1c9024,Latte,2.5
+2024-11-25 05:01:00,Richmond,Cash,6849d595-46a9-4362-b368-e175101a592a,Mocha,3.75
+2024-11-25 05:01:00,Richmond,Cash,6849d595-46a9-4362-b368-e175101a592a,Macchiato,3.1
+2024-07-09 01:07:00,Richmond,Card,f32b861e-0d21-4e70-bc0b-02f33d503981,Espresso,2.0
+2024-07-09 01:07:00,Richmond,Card,f32b861e-0d21-4e70-bc0b-02f33d503981,Americano,2.2
+2024-08-25 10:25:00,Richmond,Cash,4bdac533-abc2-4261-a5ec-d6d486874910,Americano,2.2
+2024-08-25 10:25:00,Richmond,Cash,4bdac533-abc2-4261-a5ec-d6d486874910,Mocha,3.75
+2025-03-22 14:44:00,Richmond,Card,acbca330-3d77-40b4-92f7-d8e4bf132937,Mocha,3.75
+2024-07-31 11:14:00,Richmond,Cash,a6fbe893-55b6-4700-884c-5644cf79511b,Americano,2.2
+2024-07-31 11:14:00,Richmond,Cash,a6fbe893-55b6-4700-884c-5644cf79511b,Macchiato,3.1
+2024-10-01 21:43:00,Richmond,Cash,44d0ad99-668f-4306-b236-8ebdf7801152,Mocha,3.75
+2024-10-01 21:43:00,Richmond,Cash,44d0ad99-668f-4306-b236-8ebdf7801152,Flat White,2.75
+2024-10-01 21:43:00,Richmond,Cash,44d0ad99-668f-4306-b236-8ebdf7801152,Macchiato,3.1
+2024-12-07 12:36:00,Richmond,Card,dc333379-28da-47db-b4d5-96b2379d8ac7,Mocha,3.75
+2024-12-07 12:36:00,Richmond,Card,dc333379-28da-47db-b4d5-96b2379d8ac7,Espresso,2.0
+2024-12-07 12:36:00,Richmond,Card,dc333379-28da-47db-b4d5-96b2379d8ac7,Flat White,2.75
+2024-12-07 12:36:00,Richmond,Card,dc333379-28da-47db-b4d5-96b2379d8ac7,Latte,2.5
+2025-05-05 06:08:00,Richmond,Cash,7dca45e0-d463-49eb-946c-0f06b690fb74,Mocha,3.75
+2025-05-05 06:08:00,Richmond,Cash,7dca45e0-d463-49eb-946c-0f06b690fb74,Flat White,2.75
+2025-05-05 06:08:00,Richmond,Cash,7dca45e0-d463-49eb-946c-0f06b690fb74,Espresso,2.0
+2024-09-19 14:53:00,Richmond,Cash,31e827e5-1d04-44a4-8993-c718fa48cd23,Macchiato,3.1
+2024-09-19 14:53:00,Richmond,Cash,31e827e5-1d04-44a4-8993-c718fa48cd23,Macchiato,3.1
+2024-09-19 14:53:00,Richmond,Cash,31e827e5-1d04-44a4-8993-c718fa48cd23,Mocha,3.75
+2024-07-04 20:56:00,Richmond,Cash,a148c1d5-eb17-4a20-9c51-520914c949c3,Cappuccino,3.0
+2024-07-04 20:56:00,Richmond,Cash,a148c1d5-eb17-4a20-9c51-520914c949c3,Flat White,2.75
+2024-07-04 20:56:00,Richmond,Cash,a148c1d5-eb17-4a20-9c51-520914c949c3,Americano,2.2
+2024-07-04 20:56:00,Richmond,Card,26d50438-8090-48ea-8bc9-2386e05842c7,Espresso,2.0
+2024-07-04 20:56:00,Richmond,Card,26d50438-8090-48ea-8bc9-2386e05842c7,Latte,2.5
+2024-09-22 05:39:00,Richmond,Card,8062dace-38c9-4712-bda9-237f5d47cf46,Americano,2.2
+2024-09-22 05:39:00,Richmond,Card,8062dace-38c9-4712-bda9-237f5d47cf46,Espresso,2.0
+2024-08-26 07:03:00,Richmond,Cash,45edb71e-8654-4538-b01f-074153888681,Americano,2.2
+2024-08-26 07:03:00,Richmond,Cash,45edb71e-8654-4538-b01f-074153888681,Cappuccino,3.0
+2024-11-25 05:01:00,Richmond,Card,8eb5f4c7-e836-495d-8eb4-54c21b60dc36,Espresso,2.0
+2024-11-25 05:01:00,Richmond,Card,8eb5f4c7-e836-495d-8eb4-54c21b60dc36,Mocha,3.75
+2024-11-25 05:01:00,Richmond,Card,8eb5f4c7-e836-495d-8eb4-54c21b60dc36,Macchiato,3.1
+2024-08-25 10:25:00,Richmond,Cash,515392da-4936-4d46-b328-bbd835bbc529,Americano,2.2
+2024-08-25 10:25:00,Richmond,Cash,515392da-4936-4d46-b328-bbd835bbc529,Mocha,3.75
+2024-10-03 16:58:00,Richmond,Card,a5210329-45ba-45fb-8204-542e709f3d7f,Macchiato,3.1
+2024-10-03 16:58:00,Richmond,Card,a5210329-45ba-45fb-8204-542e709f3d7f,Macchiato,3.1
+2024-10-03 16:58:00,Richmond,Card,a5210329-45ba-45fb-8204-542e709f3d7f,Cappuccino,3.0
+2024-08-24 07:27:00,Richmond,Cash,b3f06f70-e749-4099-aa5f-fbf12a834024,Espresso,2.0
+2024-08-24 07:27:00,Richmond,Cash,b3f06f70-e749-4099-aa5f-fbf12a834024,Americano,2.2
+2024-08-24 07:27:00,Richmond,Cash,b3f06f70-e749-4099-aa5f-fbf12a834024,Macchiato,3.1
+2024-10-03 16:58:00,Richmond,Card,35a96572-3e07-4bd0-89bf-a527e1d5152c,Macchiato,3.1
+2024-10-03 16:58:00,Richmond,Card,35a96572-3e07-4bd0-89bf-a527e1d5152c,Macchiato,3.1
+2024-10-03 16:58:00,Richmond,Card,35a96572-3e07-4bd0-89bf-a527e1d5152c,Cappuccino,3.0
+2024-08-21 12:46:00,Richmond,Card,75c94cb2-51b8-445d-af81-58a9a2e3a110,Latte,2.5
+2024-08-21 12:46:00,Richmond,Card,75c94cb2-51b8-445d-af81-58a9a2e3a110,Macchiato,3.1
+2024-09-03 22:07:00,Richmond,Cash,dadf0724-0b8e-4138-92af-a8140fa9990f,Latte,2.5
+2024-07-04 20:56:00,Richmond,Cash,317c412b-1a19-406e-b0b2-7b395e13594e,Cappuccino,3.0
+2024-07-04 20:56:00,Richmond,Cash,317c412b-1a19-406e-b0b2-7b395e13594e,Flat White,2.75
+2024-07-04 20:56:00,Richmond,Cash,317c412b-1a19-406e-b0b2-7b395e13594e,Americano,2.2
+2024-12-31 08:42:00,Richmond,Card,c5301bd9-84d9-492f-a05f-9a18e57a7720,Mocha,3.75
+2024-12-31 08:42:00,Richmond,Card,c5301bd9-84d9-492f-a05f-9a18e57a7720,Americano,2.2
+2024-12-31 08:42:00,Richmond,Card,c5301bd9-84d9-492f-a05f-9a18e57a7720,Macchiato,3.1
+2024-09-13 03:02:00,Richmond,Cash,541d9a92-44c0-48c4-8c03-11b0536ad06b,Americano,2.2
+2024-09-13 03:02:00,Richmond,Cash,541d9a92-44c0-48c4-8c03-11b0536ad06b,Macchiato,3.1
+2024-09-13 03:02:00,Richmond,Cash,541d9a92-44c0-48c4-8c03-11b0536ad06b,Espresso,2.0
+2024-10-01 04:33:00,Richmond,Card,3f84beef-ff07-4e88-ac48-1729c1af002b,Mocha,3.75
+2024-08-25 10:25:00,Richmond,Cash,ca214997-c7f5-4f81-8fed-4ede95497c7e,Americano,2.2
+2024-08-25 10:25:00,Richmond,Cash,ca214997-c7f5-4f81-8fed-4ede95497c7e,Mocha,3.75
+2024-09-22 05:39:00,Richmond,Card,fc886ab2-7704-479d-be41-076bc5acfc1e,Americano,2.2
+2024-09-22 05:39:00,Richmond,Card,fc886ab2-7704-479d-be41-076bc5acfc1e,Espresso,2.0
+2024-07-24 12:05:00,Richmond,Card,6338928a-d945-456b-a580-4dea8d37567c,Flat White,2.75
+2024-07-24 12:05:00,Richmond,Card,6338928a-d945-456b-a580-4dea8d37567c,Flat White,2.75
+2024-07-10 12:50:00,Richmond,Cash,9fe0883d-df16-4614-b062-ce228a28e550,Macchiato,3.1
+2024-07-10 12:50:00,Richmond,Cash,9fe0883d-df16-4614-b062-ce228a28e550,Espresso,2.0
+2024-07-10 12:50:00,Richmond,Cash,9fe0883d-df16-4614-b062-ce228a28e550,Espresso,2.0
+2024-08-26 07:03:00,Richmond,Card,e392d67b-0f80-41f9-895a-affd00e89d39,Americano,2.2
+2024-08-26 07:03:00,Richmond,Card,e392d67b-0f80-41f9-895a-affd00e89d39,Cappuccino,3.0
+2024-08-26 07:03:00,Richmond,Card,e392d67b-0f80-41f9-895a-affd00e89d39,Americano,2.2
+2025-05-27 20:30:00,Richmond,Cash,a7e7686e-c53f-48af-aa8c-172762275d68,Americano,2.2
+2025-05-27 20:30:00,Richmond,Cash,a7e7686e-c53f-48af-aa8c-172762275d68,Espresso,2.0
+2024-11-12 07:31:00,Richmond,Card,fd901c5e-8fd6-45c9-93c0-447229b233e5,Americano,2.2
+2024-10-12 23:40:00,Richmond,Card,a188b92f-2329-46d4-92ef-d79eebf6de7c,Americano,2.2
+2024-10-12 23:40:00,Richmond,Card,a188b92f-2329-46d4-92ef-d79eebf6de7c,Cappuccino,3.0
+2024-10-12 23:40:00,Richmond,Card,a188b92f-2329-46d4-92ef-d79eebf6de7c,Mocha,3.75
+2024-12-18 05:22:00,Richmond,Cash,5aaa8683-ce0b-4a51-b210-30014b8c65d3,Latte,2.5
+2024-12-18 05:22:00,Richmond,Cash,5aaa8683-ce0b-4a51-b210-30014b8c65d3,Mocha,3.75
+2024-08-08 23:44:00,Richmond,Card,a528384d-fc37-428f-868b-247c676688dd,Americano,2.2
+2024-09-24 09:10:00,Richmond,Cash,f989b636-3c39-4586-a58f-de8d4c5fcb06,Macchiato,3.1
+2024-09-24 09:10:00,Richmond,Cash,f989b636-3c39-4586-a58f-de8d4c5fcb06,Macchiato,3.1
+2024-09-24 09:10:00,Richmond,Cash,f989b636-3c39-4586-a58f-de8d4c5fcb06,Latte,2.5
+2025-03-22 14:44:00,Richmond,Card,40b5d111-81e9-481c-8704-348bc2f6cc05,Mocha,3.75
+2025-05-19 08:01:00,Richmond,Card,b4b922fa-db83-4725-9642-edc3ecc87950,Espresso,2.0
+2025-05-19 08:01:00,Richmond,Card,b4b922fa-db83-4725-9642-edc3ecc87950,Latte,2.5
+2025-05-19 08:01:00,Richmond,Card,b4b922fa-db83-4725-9642-edc3ecc87950,Americano,2.2
+2024-11-25 05:01:00,Richmond,Cash,bb363717-575b-4f86-9194-f713bfd47eed,Mocha,3.75
+2024-11-25 05:01:00,Richmond,Cash,bb363717-575b-4f86-9194-f713bfd47eed,Macchiato,3.1
+2024-11-03 18:05:00,Richmond,Card,227c5af4-3f73-4d6c-98ab-c332563f750b,Macchiato,3.1
+2024-11-03 18:05:00,Richmond,Card,227c5af4-3f73-4d6c-98ab-c332563f750b,Flat White,2.75
+2024-07-28 11:21:00,Richmond,Cash,711a87b7-2599-4b7f-9fed-25bd8ce7b61c,Mocha,3.75
+2024-07-28 11:21:00,Richmond,Cash,711a87b7-2599-4b7f-9fed-25bd8ce7b61c,Latte,2.5
+2024-07-28 11:21:00,Richmond,Cash,711a87b7-2599-4b7f-9fed-25bd8ce7b61c,Flat White,2.75
+2024-12-07 12:36:00,Richmond,Card,1206620a-7dfd-482b-b8db-31f570ad6add,Mocha,3.75
+2024-12-07 12:36:00,Richmond,Card,1206620a-7dfd-482b-b8db-31f570ad6add,Espresso,2.0
+2024-12-07 12:36:00,Richmond,Card,1206620a-7dfd-482b-b8db-31f570ad6add,Flat White,2.75
+2024-12-07 12:36:00,Richmond,Card,1206620a-7dfd-482b-b8db-31f570ad6add,Latte,2.5
+2025-05-05 06:08:00,Richmond,Cash,24c362e2-6e13-4baf-8024-04e8a3030a21,Mocha,3.75
+2025-05-05 06:08:00,Richmond,Cash,24c362e2-6e13-4baf-8024-04e8a3030a21,Flat White,2.75
+2025-05-05 06:08:00,Richmond,Cash,24c362e2-6e13-4baf-8024-04e8a3030a21,Espresso,2.0
+2024-07-04 20:56:00,Richmond,Cash,e85caa51-32f2-48e3-8031-6a7324c07a23,Cappuccino,3.0
+2024-07-04 20:56:00,Richmond,Cash,e85caa51-32f2-48e3-8031-6a7324c07a23,Flat White,2.75
+2024-07-04 20:56:00,Richmond,Cash,e85caa51-32f2-48e3-8031-6a7324c07a23,Americano,2.2
+2024-07-04 20:56:00,Richmond,Card,4990b483-8e48-4177-b33a-b8e3d6db4e25,Espresso,2.0
+2024-07-04 20:56:00,Richmond,Card,4990b483-8e48-4177-b33a-b8e3d6db4e25,Latte,2.5
+2024-08-26 07:03:00,Richmond,Cash,266119c6-c670-475d-8d05-03b3ceda93a9,Americano,2.2
+2024-08-26 07:03:00,Richmond,Cash,266119c6-c670-475d-8d05-03b3ceda93a9,Cappuccino,3.0
+2024-11-25 05:01:00,Richmond,Card,c7ce32fe-7030-4dee-8ace-e14de3fc0193,Espresso,2.0
+2024-11-25 05:01:00,Richmond,Card,c7ce32fe-7030-4dee-8ace-e14de3fc0193,Mocha,3.75
+2024-11-25 05:01:00,Richmond,Card,c7ce32fe-7030-4dee-8ace-e14de3fc0193,Macchiato,3.1
+2024-08-25 10:25:00,Richmond,Cash,48345c84-6b34-4ab5-acca-540181f2393c,Americano,2.2
+2024-08-25 10:25:00,Richmond,Cash,48345c84-6b34-4ab5-acca-540181f2393c,Mocha,3.75
+2024-10-03 16:58:00,Richmond,Card,c047567c-4bc2-4701-add6-65c36be74367,Macchiato,3.1
+2024-10-03 16:58:00,Richmond,Card,c047567c-4bc2-4701-add6-65c36be74367,Macchiato,3.1
+2024-10-03 16:58:00,Richmond,Card,c047567c-4bc2-4701-add6-65c36be74367,Cappuccino,3.0
+2024-08-24 07:27:00,Richmond,Cash,7274c485-3456-48a4-b6f4-cf5418f03a2b,Espresso,2.0
+2024-08-24 07:27:00,Richmond,Cash,7274c485-3456-48a4-b6f4-cf5418f03a2b,Americano,2.2
+2024-08-24 07:27:00,Richmond,Cash,7274c485-3456-48a4-b6f4-cf5418f03a2b,Macchiato,3.1
+2024-08-21 12:46:00,Richmond,Card,a6a47873-b16f-4801-a46c-6851df488ba1,Latte,2.5
+2024-08-21 12:46:00,Richmond,Card,a6a47873-b16f-4801-a46c-6851df488ba1,Macchiato,3.1
+2024-09-03 22:07:00,Richmond,Cash,7e9ac92d-cec2-4e7f-8598-3bd0931d9897,Latte,2.5
+2024-07-04 20:56:00,Richmond,Cash,3cd021b6-5c4c-4a87-8401-ff526e62ec4a,Cappuccino,3.0
+2024-07-04 20:56:00,Richmond,Cash,3cd021b6-5c4c-4a87-8401-ff526e62ec4a,Flat White,2.75
+2024-07-04 20:56:00,Richmond,Cash,3cd021b6-5c4c-4a87-8401-ff526e62ec4a,Americano,2.2
+2024-12-31 08:42:00,Richmond,Card,8fe522c2-806b-47ee-8b91-c16b65150db2,Mocha,3.75
+2024-12-31 08:42:00,Richmond,Card,8fe522c2-806b-47ee-8b91-c16b65150db2,Americano,2.2
+2024-12-31 08:42:00,Richmond,Card,8fe522c2-806b-47ee-8b91-c16b65150db2,Macchiato,3.1
+2024-09-13 03:02:00,Richmond,Cash,dab9e719-0a3f-43b7-8464-8c285828f633,Americano,2.2
+2024-09-13 03:02:00,Richmond,Cash,dab9e719-0a3f-43b7-8464-8c285828f633,Macchiato,3.1
+2024-09-13 03:02:00,Richmond,Cash,dab9e719-0a3f-43b7-8464-8c285828f633,Espresso,2.0
+2024-10-01 04:33:00,Richmond,Card,40001952-5e7f-4a65-a80d-8a3c75cd3ebc,Mocha,3.75
+2024-08-25 10:25:00,Richmond,Cash,e67f1ac8-7bae-41ae-b434-5227b999c85c,Americano,2.2
+2024-08-25 10:25:00,Richmond,Cash,e67f1ac8-7bae-41ae-b434-5227b999c85c,Mocha,3.75
+2024-09-22 05:39:00,Richmond,Card,0025e40d-f8ec-4f70-a6cc-9ce7611c870c,Americano,2.2
+2024-09-22 05:39:00,Richmond,Card,0025e40d-f8ec-4f70-a6cc-9ce7611c870c,Espresso,2.0
+2024-07-24 12:05:00,Richmond,Card,f4f4f83a-939e-49af-a7cd-fb2c86718556,Flat White,2.75
+2024-07-24 12:05:00,Richmond,Card,f4f4f83a-939e-49af-a7cd-fb2c86718556,Flat White,2.75
+2024-07-10 12:50:00,Richmond,Cash,bbf385f7-2a2d-4119-8cc8-c4bcb524c263,Macchiato,3.1
+2024-07-10 12:50:00,Richmond,Cash,bbf385f7-2a2d-4119-8cc8-c4bcb524c263,Espresso,2.0
+2024-07-10 12:50:00,Richmond,Cash,bbf385f7-2a2d-4119-8cc8-c4bcb524c263,Espresso,2.0
+2024-08-26 07:03:00,Richmond,Card,61d117ca-74e6-4af1-9a8f-714cf0b89c60,Americano,2.2
+2024-08-26 07:03:00,Richmond,Card,61d117ca-74e6-4af1-9a8f-714cf0b89c60,Cappuccino,3.0
+2024-08-26 07:03:00,Richmond,Card,61d117ca-74e6-4af1-9a8f-714cf0b89c60,Americano,2.2
+2025-01-16 11:51:00,Richmond,Card,ca9be170-c0fc-4ed1-bec5-3f9a632ab51d,Macchiato,3.1
+2025-01-16 11:51:00,Richmond,Card,ca9be170-c0fc-4ed1-bec5-3f9a632ab51d,Cappuccino,3.0
+2024-11-12 07:31:00,Richmond,Card,f599c376-2fe0-417a-9342-28e43799aec5,Flat White,2.75
+2024-11-12 07:31:00,Richmond,Card,f599c376-2fe0-417a-9342-28e43799aec5,Mocha,3.75
+2024-11-12 07:31:00,Richmond,Card,f599c376-2fe0-417a-9342-28e43799aec5,Espresso,2.0
+Unknown,Richmond,Cash,78d32233-4eaa-464d-a5a5-fde4cd61585c,Americano,2.2
+Unknown,Richmond,Cash,78d32233-4eaa-464d-a5a5-fde4cd61585c,Espresso,2.0
+2024-12-18 05:22:00,Richmond,Cash,24e9c38b-08d8-4e87-b3ee-b51c1028deb8,Latte,2.5
+2024-12-18 05:22:00,Richmond,Cash,24e9c38b-08d8-4e87-b3ee-b51c1028deb8,Mocha,3.75
+2024-08-08 23:44:00,Richmond,Card,af710ac4-7904-4029-8a3d-a241cf7c3a64,Latte,2.5
+2025-05-19 08:01:00,Richmond,Card,6a743f7b-f605-491f-9193-8e938a23c92a,Espresso,2.0
+2025-05-19 08:01:00,Richmond,Card,6a743f7b-f605-491f-9193-8e938a23c92a,Latte,2.5
+2025-05-19 08:01:00,Richmond,Card,6a743f7b-f605-491f-9193-8e938a23c92a,Americano,2.2
+Unknown,Richmond,Card,7177639a-7e0d-4247-b978-114a007477e4,Macchiato,3.1
+Unknown,Richmond,Card,7177639a-7e0d-4247-b978-114a007477e4,Flat White,2.75
+2024-09-24 09:10:00,Richmond,Cash,ceca5006-479b-4b06-8c46-c3b288a798c5,Macchiato,3.1
+2024-09-24 09:10:00,Richmond,Cash,ceca5006-479b-4b06-8c46-c3b288a798c5,Macchiato,3.1
+2024-09-24 09:10:00,Richmond,Cash,ceca5006-479b-4b06-8c46-c3b288a798c5,Latte,2.5
+2025-03-22 14:44:00,Richmond,Card,79d848ad-8c47-4f9c-8e6d-aeff06454bac,Mocha,3.75
+Unknown,Richmond,Cash,6b2f4824-e740-43eb-ba5b-92134ba8e61c,Mocha,3.75
+Unknown,Richmond,Cash,6b2f4824-e740-43eb-ba5b-92134ba8e61c,Macchiato,3.1
+2024-07-31 11:14:00,Richmond,Cash,9465d5a9-583b-41f1-b903-709f73f19e4c,Americano,2.2
+2024-07-31 11:14:00,Richmond,Cash,9465d5a9-583b-41f1-b903-709f73f19e4c,Macchiato,3.1
+2024-07-28 11:21:00,Richmond,Cash,17bee4fc-eee3-49b1-9ad3-899aa02f2377,Mocha,3.75
+2024-07-28 11:21:00,Richmond,Cash,17bee4fc-eee3-49b1-9ad3-899aa02f2377,Latte,2.5
+2024-07-28 11:21:00,Richmond,Cash,17bee4fc-eee3-49b1-9ad3-899aa02f2377,Flat White,2.75
+2024-12-07 12:36:00,Richmond,Card,da139a89-324b-4ec6-a033-efe7d639d8dd,Mocha,3.75
+2025-05-05 06:08:00,Richmond,Cash,13d00407-b3b6-476a-9eaf-8eb9dbb09224,Mocha,3.75
+2024-09-19 14:53:00,Richmond,Cash,9c2192a9-2368-427f-98f9-c82ae3182857,Macchiato,3.1
+2024-09-19 14:53:00,Richmond,Cash,9c2192a9-2368-427f-98f9-c82ae3182857,Macchiato,3.1
+2024-09-19 14:53:00,Richmond,Cash,9c2192a9-2368-427f-98f9-c82ae3182857,Mocha,3.75
+2024-07-04 20:56:00,Richmond,Cash,6ad5b31e-e8c2-461f-9248-f41e46bc4d05,Cappuccino,3.0
+2024-07-04 20:56:00,Richmond,Cash,6ad5b31e-e8c2-461f-9248-f41e46bc4d05,Flat White,2.75
+2024-07-04 20:56:00,Richmond,Cash,6ad5b31e-e8c2-461f-9248-f41e46bc4d05,Americano,2.2
+2024-07-04 20:56:00,Richmond,Card,4517dfa4-cadf-4a2b-8279-9583bd775f62,Espresso,2.0
+2024-07-04 20:56:00,Richmond,Card,4517dfa4-cadf-4a2b-8279-9583bd775f62,Latte,2.5
+2024-09-22 05:39:00,Richmond,Card,f3057048-5712-409a-98a6-c2702fe43b97,Americano,2.2
+2024-09-22 05:39:00,Richmond,Card,f3057048-5712-409a-98a6-c2702fe43b97,Espresso,2.0
+2024-08-26 07:03:00,Richmond,Cash,0ebe7608-cc92-4338-9942-1b43113c1c08,Americano,2.2
+2024-08-26 07:03:00,Richmond,Cash,0ebe7608-cc92-4338-9942-1b43113c1c08,Cappuccino,3.0
+2024-11-25 05:01:00,Richmond,Card,1888a381-9521-4124-af75-ba963fe90ebe,Espresso,2.0
+2024-11-25 05:01:00,Richmond,Card,1888a381-9521-4124-af75-ba963fe90ebe,Mocha,3.75
+2024-11-25 05:01:00,Richmond,Card,1888a381-9521-4124-af75-ba963fe90ebe,Macchiato,3.1
+2024-08-25 10:25:00,Richmond,Cash,fac08070-dea0-4c67-bf0f-e23c3f0ebc91,Americano,2.2
+2024-08-25 10:25:00,Richmond,Cash,fac08070-dea0-4c67-bf0f-e23c3f0ebc91,Mocha,3.75
+2024-10-03 16:58:00,Richmond,Card,16a54fdf-9e4e-447c-92e1-c74fcb0f8ba9,Macchiato,3.1
+2024-10-03 16:58:00,Richmond,Card,16a54fdf-9e4e-447c-92e1-c74fcb0f8ba9,Macchiato,3.1
+2024-10-03 16:58:00,Richmond,Card,16a54fdf-9e4e-447c-92e1-c74fcb0f8ba9,Cappuccino,3.0
+2024-08-24 07:27:00,Richmond,Cash,2d886acc-13ad-4644-829c-7196a2bf4666,Espresso,2.0
+2024-08-24 07:27:00,Richmond,Cash,2d886acc-13ad-4644-829c-7196a2bf4666,Americano,2.2
+2024-08-24 07:27:00,Richmond,Cash,2d886acc-13ad-4644-829c-7196a2bf4666,Macchiato,3.1
+2024-10-03 16:58:00,Richmond,Card,b14ee300-4a09-49ae-9886-d61a5c0b63c1,Macchiato,3.1
+2024-10-03 16:58:00,Richmond,Card,b14ee300-4a09-49ae-9886-d61a5c0b63c1,Macchiato,3.1
+2024-10-03 16:58:00,Richmond,Card,b14ee300-4a09-49ae-9886-d61a5c0b63c1,Cappuccino,3.0
+2024-08-21 12:46:00,Richmond,Card,a358356e-6648-48a7-8463-c024efdb2437,Latte,2.5
+2024-08-21 12:46:00,Richmond,Card,a358356e-6648-48a7-8463-c024efdb2437,Macchiato,3.1
+2024-09-03 22:07:00,Richmond,Cash,793f5672-5bf2-4605-a966-66e4d69d130e,Latte,2.5
+2024-07-04 20:56:00,Richmond,Cash,96722150-0f10-46b9-845c-356e09612af6,Cappuccino,3.0
+2024-07-04 20:56:00,Richmond,Cash,96722150-0f10-46b9-845c-356e09612af6,Flat White,2.75
+2024-07-04 20:56:00,Richmond,Cash,96722150-0f10-46b9-845c-356e09612af6,Americano,2.2
+2024-12-31 08:42:00,Richmond,Card,b19e7687-5c59-407b-a080-23739da992a8,Mocha,3.75
+2024-12-31 08:42:00,Richmond,Card,b19e7687-5c59-407b-a080-23739da992a8,Americano,2.2
+2024-12-31 08:42:00,Richmond,Card,b19e7687-5c59-407b-a080-23739da992a8,Macchiato,3.1
+2024-09-13 03:02:00,Richmond,Cash,d243237d-758d-4a73-b526-a5795b68caf9,Americano,2.2
+2024-09-13 03:02:00,Richmond,Cash,d243237d-758d-4a73-b526-a5795b68caf9,Macchiato,3.1
+2024-09-13 03:02:00,Richmond,Cash,d243237d-758d-4a73-b526-a5795b68caf9,Espresso,2.0
+2024-10-01 04:33:00,Richmond,Card,db3a5ed9-5d4f-4416-8396-d2cc81b5e46d,Mocha,3.75
+2024-08-25 10:25:00,Richmond,Cash,5df5201c-ef6e-4083-9f9f-b5e07706f34e,Americano,2.2
+2024-08-25 10:25:00,Richmond,Cash,5df5201c-ef6e-4083-9f9f-b5e07706f34e,Mocha,3.75
+2024-09-22 05:39:00,Richmond,Card,26e1bc8b-5255-4454-aa5e-19e5a894bbce,Americano,2.2
+2024-09-22 05:39:00,Richmond,Card,26e1bc8b-5255-4454-aa5e-19e5a894bbce,Espresso,2.0
+2024-07-24 12:05:00,Richmond,Card,d80da0c0-a6d6-4429-93ff-dd80cd831997,Flat White,2.75
+2024-07-24 12:05:00,Richmond,Card,d80da0c0-a6d6-4429-93ff-dd80cd831997,Flat White,2.75
+2024-07-10 12:50:00,Richmond,Cash,8cd394a0-3e3b-4912-b875-453a49255192,Macchiato,3.1
+2024-07-10 12:50:00,Richmond,Cash,8cd394a0-3e3b-4912-b875-453a49255192,Espresso,2.0
+2024-07-10 12:50:00,Richmond,Cash,8cd394a0-3e3b-4912-b875-453a49255192,Espresso,2.0
+2024-08-26 07:03:00,Richmond,Card,1641e66a-5151-4121-bec1-796d5c00deb8,Americano,2.2
+2024-08-26 07:03:00,Richmond,Card,1641e66a-5151-4121-bec1-796d5c00deb8,Cappuccino,3.0
+2024-08-26 07:03:00,Richmond,Card,1641e66a-5151-4121-bec1-796d5c00deb8,Americano,2.2

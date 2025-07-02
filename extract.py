@@ -117,13 +117,18 @@ def correct_drink_name(drink_name, valid_list, threshold=85): # check columns ex
 
 
 def transformation_product_price(df): #check column exist, and there is a price and product name 
-    # Split the drink name and price into separate columns - everything once space after the drink name, split into a seperate coloumn 
-    df[["Product", "Price"]] = df["Drinks Ordered"].str.split(' - ', n=1, expand=True)
-
-    # Convert price to float and replace £ with ""
-    df["Price"] = df["Price"].str.replace("£", "", regex=False).astype(float)
-
-    # Drop the old column you don't need
+    # Define regex pattern to capture product name and price separately
+    # ^(.*?)      -> Capture product name (non-greedy)
+    # \s*[-]?\s*  -> Optional spaces, optional dash, optional spaces
+    # £?          -> Optional £ sign (not captured)
+    # ([\d\.]+)   -> Capture price (digits and dot)
+    # $           -> End of string
+    pattern = r'^(.*?)\s*[-]?\s*£?([\d\.]+)$'
+    # Extract 'Product' and 'Price' into separate columns based on pattern
+    df[['Product', 'Price']] = df['Drinks Ordered'].str.extract(pattern)
+    # Convert the 'Price' column to float type (removes any string formatting)
+    df['Price'] = df['Price'].astype(float)
+    # Drop the original 'Drinks Ordered' column as it's no longer needed
     df = df.drop(columns=['Drinks Ordered'])
     return df
 
