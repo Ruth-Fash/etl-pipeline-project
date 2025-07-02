@@ -1,5 +1,5 @@
 from extract import read_csv_file
-from extract import transformation_card_number, transformation_date_time, tranformation, product_tb, order_item_tb
+from extract import transformation_card_number, transformation_date_time, tranformation, product_tb, order_item_tb, order_tb
 from pathlib import Path
 import shutil
 
@@ -62,6 +62,8 @@ if main_menu_selection == "2":
     tranformation(df)
     product_tb()
     order_item_tb()
+    order_tb()
+    print("The files are now ready to be loaded into the database. Please go to the 'load' step to complete this process.")
 
 
 
