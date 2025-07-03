@@ -1,5 +1,5 @@
 from extract import read_csv_file
-from extract import transformation_card_number, transformation_date_time, tranformation, product_tb, order_item_tb, order_tb
+from extract import transformation_card_number, transformation_date_time, transformation, product_tb, order_item_tb, order_tb
 from pathlib import Path
 import shutil
 
@@ -70,12 +70,14 @@ while True:
         df = read_csv_file(selected_file)  # Read selected CSV put into a df
 
         #  Transform function 
-        tranformation(df)
-        product_tb()
-        order_item_tb()
-        order_tb()
-        """ Ideally you want to say here if all the steps are completed without error it will move the extracted file into the archive, may need to be done in the extract.py"""
-        print("The files are now ready to be loaded into the database. Please go to the 'load' step to complete this process.")
+        if transformation(df) is None: # call tranformation function and chekc if returns none from errors 
+            print("Transformation failed, stopping further processing.")
+        else:
+            product_tb()
+            order_item_tb()
+            order_tb()
+            """ Ideally you want to say here if all the steps are completed without error it will move the extracted file into the archive, may need to be done in the extract.py"""
+            print("The files are now ready to be loaded into the database. Please go to the 'load' step to complete this process.")
         next_step = input("Enter 1 to move to the Loading step, or 0 to Exit to the main menu")
         if next_step == "1":
             print("under construction")

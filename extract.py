@@ -68,6 +68,7 @@ def fix_blanks(df):
 def transformation_split_orders(df):
     if df.empty:
         print("The DataFrame is empty — no data available to transform.")
+        return None
     if "Drinks Ordered" not in df.columns:
         raise KeyError("Column 'Drinks Ordered' not found in DataFrame.")
     else:
@@ -80,27 +81,55 @@ def transformation_split_orders(df):
             df_product["Drinks Ordered"] = df_product['Drinks Ordered'].str.strip()
             return df_product
         except Exception as e:
-            print(f"Error during transformation (splitting orders) {e}")
-            return df 
+            print(f"Error during transformation (splitting orders), please resolve before moving forward  {e}")
+            return None
 
 
-def transformation_date_time(df): # handle error - if date.tiem column not date/time and other figures...., chekc if coloumn exists
-    df["Date/Time"] = df["Date/Time"].astype(str).str.strip()
-    df["Date/Time"] = pd.to_datetime(df["Date/Time"], format="mixed", dayfirst=True)  # Convert those strings into pandas datetime objects , dayfirst = True explicitly telling pandas how to interpret the order.
+def transformation_date_time(df): 
+    if df.empty:
+        print("The DataFrame is empty — no data available to transform.") # check if df is empty, i empty return none
+        return None
+    if "Date/Time" not in df.columns:  # check if date/time column exists, if not raise error
+        raise KeyError("Column 'Date/Time' not found in DataFrame.")
+    else:
+        try: # if all good try to concert column to certain format, and return change (df), if soemthing happens raise error 
+            df["Date/Time"] = df["Date/Time"].astype(str).str.strip()
+            df["Date/Time"] = pd.to_datetime(df["Date/Time"], format="mixed", dayfirst=True)  # Convert those strings into pandas datetime objects , dayfirst = True explicitly telling pandas how to interpret the order.
+            return df
+        except Exception as e:
+            print(f"Error during transformation of Date/Time Column, please resolve before moving forward {e}")
+            return None
+
+
+def transformation_card_number(df): # check column exists
+    df = df.drop(columns=["Card Number"]) 
     return df
 
-def transformation_card_number(df): # check if coloumn exists
-    df = df.drop(columns=["Card Number"])  # drop card number but after establishing uuid 
-    return df
-
-def transformation_customer_name(df): # check if coloumn exists
-    df = df.drop(columns=["Customer Name"])
+def transformation_customer_name(df): # check column exists
+    df = df.drop(columns=["Customer Name"]) 
     return df  
 
 def transformation_branch(df): # check if coloumn exists, list of branches against what in the data? - message new branch detected?
-    df["Branch"] = df["Branch"].str.strip()
-    return df  
-    # check against all store names
+    if df.empty: 
+        print("The DataFrame is empty — no data available to transform.")
+        return None
+    if "Branch" not in df.columns:
+        print("Column 'Branch' not found in DataFrame.")
+        return None
+    else:
+        df["Branch"] = df["Branch"].str.strip().str.capitalize()
+
+        valid_branch_df = read_csv_file("valid_branch_list.csv")["Branch"].dropna().str.strip().tolist() 
+        df["Branch"] =  df["Branch"].apply(lambda x: fuzzy_correction(x,valid_branch_df)) 
+
+        unique_branches = df["Branch"].dropna().unique() # returns all unique values in the column (ignoring NaNs).
+        all_same = len(unique_branches) == 1 # If the length of that is 1, it means all branch values are identical
+
+        if all_same == False: # if not all the same (so false) print message
+            print (f"Warning: Multiple branch names detected: {', '.join(unique_branches)}. Please review and update the branch list if needed.")
+            return None
+        return df  
+  
 
 def transformation_payment_type(df): # check exists, and only 2 payment types
     df["Payment Type"] = df["Payment Type"].str.strip()
@@ -108,13 +137,12 @@ def transformation_payment_type(df): # check exists, and only 2 payment types
     # only cash or card
 
 # Your fuzzy correction function 
-def correct_drink_name(drink_name, valid_list, threshold=85): # check columns exist,
-    # Load your valid drinks list from CSV, convert to a plain python list of strings (rapidfuzz expects list of choices not panda series)
-    if pd.isna(drink_name):
+def fuzzy_correction(name, valid_list, threshold=85): # check columns exist,
+    # Load your valid drinks/product/branch list from CSV, convert to a plain python list of strings (rapidfuzz expects list of choices not panda series)
+    if pd.isna(name):
         return None
-    match, score, _ = process.extractOne(drink_name, valid_list)
-    return match if score >= threshold else drink_name
-
+    match, score, _ = process.extractOne(name, valid_list)
+    return match if score >= threshold else name
 
 def transformation_product_price(df): #check column exist, and there is a price and product name 
     # Define regex pattern to capture product name and price separately
@@ -130,6 +158,9 @@ def transformation_product_price(df): #check column exist, and there is a price 
     df['Price'] = df['Price'].astype(float)
     # Drop the original 'Drinks Ordered' column as it's no longer needed
     df = df.drop(columns=['Drinks Ordered'])
+
+    valid_product_list = pd.read_csv("valid_drinks_list.csv")["Product"].dropna().str.strip().tolist() # read the valid list csv
+    df["Product"] =  df["Product"].apply(lambda x: fuzzy_correction(x,valid_product_list)) # Applies the correct_drink_name function to each value (x) in the 'Product' column.
     return df
 
 """"""""""VALIDATING THE DATA SCHEMA"""""""""
@@ -140,40 +171,59 @@ def validate_schema(df,schema):
     # This will raise an error if validation fails
     return schema.validate(df)
 
-
 product_schema = pa.DataFrameSchema({
                             "Product":pa.Column(str, 
                                         checks=[no_whitespace, not_blank]
                                         ,nullable=False),
                             "Price":pa.Column(float, checks=pa.Check.gt(0), 
+                                nullable=False),
+                            "Product ID":pa.Column(str, checks=[no_whitespace, not_blank], 
                                 nullable=False)},
-                            unique=["Product", "Price"]
+                            unique=["Product", "Price"],
+                            strict=True
                             )
 
-
+order_item_schema = pa.DataFrameSchema({"Quantity":pa.Column(int,
+                                            checks=pa.Check.gt(0),
+                                            nullable=False),
+                                        "Product ID":pa.Column(str, 
+                                            checks=[no_whitespace, not_blank], 
+                                            nullable=False),
+                                        "Order ID":pa.Column(str, 
+                                            checks=[no_whitespace, not_blank], 
+                                            nullable=False),
+                                        "Order Item ID":pa.Column(str, 
+                                            checks=[no_whitespace, not_blank], 
+                                            nullable=False)},
+                                            strict=True)
 
 #Transform all on one tabel first
-def tranformation(df):
-    df = order_uuid(df)
-    df = transformation_split_orders(df)
-    df = transformation_branch(df)
-    df = transformation_payment_type(df)
-    df = transformation_date_time(df)
-    df = transformation_card_number(df)
-    df = transformation_customer_name(df)
-    df = transformation_product_price(df)        
-    df = fix_blanks(df)
-    
-    valid_list = pd.read_csv("valid_drinks_list.csv")["Product"].dropna().str.strip().tolist()
-    df["Product"] =  df["Product"].apply(lambda x: correct_drink_name(x,valid_list)) # Applies the correct_drink_name function to each value (x) in the 'Product' column.
-    # It compares x against the list of valid drinks in valid_list using fuzzy matching.
-    # If a close enough match is found (above threshold), it replaces x with the corrected name
-
-    # df = error_rows(df)
-
+def transformation(df):
+    # List of transformation functions to apply, in order
+    funcs = [
+        order_uuid,
+        transformation_split_orders,
+        transformation_branch,
+        transformation_payment_type,
+        transformation_date_time,
+        transformation_card_number,
+        transformation_customer_name,
+        transformation_product_price,
+        fix_blanks
+    ]
+    # Loop over each function in the list
+    for func in funcs:
+        # Call the current function with the dataframe and update df with the result
+        df = func(df)
+        # Check if the function returned None, indicating an error or failure
+        if df is None:
+            # Print which transformation failed and stop processing
+            print(f"Transformation failed at {func.__name__}. Stopping process.")
+            return None
+        
+    # Save the fully transformed DataFrame to CSV
     df.to_csv("transformed_data/unnormalised_data.csv", index=False)
     return df
-""" maybe do all error handling after updating and saving data frame """
 
  # Seperate onto product table and creat product uuid
 def product_tb():
@@ -196,11 +246,17 @@ def order_item_tb():
     # Merge order_item[prouduct] with product[product] and include  product id 
     product_df = pd.read_csv("transformed_data/products_transformed.csv")
     order_item_df = order_item_df.merge(product_df[["Product","Product ID"]], on="Product", how="left") # Merge 'Product ID' from product_df into order_item_df based on matching 'Product' names
-    order_item_df = order_item_df.groupby(["Order ID", "Product ID"]).size().reset_index(name="Quantity") # group the two coloumsn and count how many times a combo appear
+    order_item_df = order_item_df.groupby(["Order ID", "Product ID"]).size().reset_index(name="Quantity") # group the two coloumsn and count how many times a combo appear, reset name to 
     order_item_df = order_item_uuid(order_item_df)  # Add UUIDs directly to the product_df
-    order_item_df.to_csv("transformed_data/order_item_transformed.csv", index=False) # Save again with UUIDs and merge
+    try:
+        validated_order_item_df = validate_schema(order_item_df, order_item_schema )
+    except pa.errors.SchemaError as e:
+        print("Order Items Table Validation failed:", e)
+        return # Stop the function if validation fails
+    validated_order_item_df .to_csv("transformed_data/order_item_transformed.csv", index=False) # Save again with UUIDs and merge
+    print("Order Items Table saved successfully!")
 
-# Creat a seperat order table - where we delete coloumns not needed
+# Create a seperat order table - where we delete coloumns not needed
 def order_tb():
     df = pd.read_csv("transformed_data/unnormalised_data.csv")
     order_df = df[["Order ID", "Date/Time", "Branch", "Payment Type"]].copy()
@@ -214,7 +270,7 @@ def order_tb():
 # archive the files once transformation/ load process done 
 # need ot chnage data to be for 1 day only - naming convention with dataa ein front of it and time
 # saves as it's current file name, so for instance file name may be current extracted_2024_07_09_camden.csv, and once the transformation phase is done I want to save the data frame under an altered name like unormalised_2024_07_09_camden.csv
-
+# for fuzzy check with branches, i need to flag if the branch name exists in the branch list check csv. 
 
 
 
