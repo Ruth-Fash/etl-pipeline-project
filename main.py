@@ -1,8 +1,15 @@
 from extract import read_csv_file
 from extract import transformation_card_number, transformation_date_time, transformation, product_tb, order_item_tb, order_tb
+from load_data import load_to_database
 from pathlib import Path
 import shutil
+import os 
+import sys
 
+def clear_terminal():
+    # For Windows, the command is 'cls'
+    # For Mac/Linux, the command is 'clear'
+    os.system('cls' if os.name == 'nt' else 'clear')
 
 raw_data_folder = Path("/Users/ruthfashogbon/Desktop/personal-project/etl-pipeline-project/raw_data")
 archive_raw_data_folder = Path("/Users/ruthfashogbon/Desktop/personal-project/etl-pipeline-project/raw_data/archive")
@@ -22,6 +29,7 @@ def get_csv_filepaths_from(folder_path): # For each file path in the raw_data_fo
 
 
 while True:
+    clear_terminal()
     print_list(main_menu)
     main_menu_selection = input("Enter an option from the main menu (e.g., 1, 2, 3): ")
     if main_menu_selection == "1":
@@ -53,6 +61,7 @@ while True:
 
         elif next_step == "0":
             continue
+
         
     # print list of options ("extract another, transform data, exit to main menu")      
 
@@ -68,16 +77,34 @@ while True:
         selected_file = files[int(csv_selection) - 1]  
 
         df = read_csv_file(selected_file)  # Read selected CSV put into a df
+        if df is None:
+            print("File read failed, exiting.")
+            sys.exit(1)
 
         #  Transform function 
-        if transformation(df) is None: # call tranformation function and chekc if returns none from errors 
+        df_transformed = transformation(df)
+        if df_transformed is None:
             print("Transformation failed, stopping further processing.")
-        else:
-            product_tb()
-            order_item_tb()
-            order_tb()
+            sys.exit(1)
+
+        product_df = product_tb()
+        if product_df is None:
+            print("Transformation failed with product table, stopping further processing.")
+            sys.exit(1)
+
+        order_item_df = order_item_tb()
+        if order_item_df is None:
+            print("Transformation failed with order item table, stopping further processing.")
+            sys.exit(1)
+
+        order_df = order_tb()
+        if order_df is None:
+            print("Transformation failed with order table, stopping further processing.")
+            sys.exit(1)
             """ Ideally you want to say here if all the steps are completed without error it will move the extracted file into the archive, may need to be done in the extract.py"""
-            print("The files are now ready to be loaded into the database. Please go to the 'load' step to complete this process.")
+        print("The files are now ready to be loaded into the database. Please go to the 'load' step to complete this process.")
+
+
         next_step = input("Enter 1 to move to the Loading step, or 0 to Exit to the main menu")
         if next_step == "1":
             print("under construction")
@@ -85,6 +112,7 @@ while True:
 
         elif next_step == "0":
             continue
+
 
     if main_menu_selection == "3":
         files = get_csv_filepaths_from(transformed_data_folder)

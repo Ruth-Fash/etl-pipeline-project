@@ -1,0 +1,17 @@
+version: "3.8"  # This specifies the Docker Compose file format version
+
+services:   # Defines the different containers (services) to run
+  db:  # Name of the service (PostgreSQL database)
+    image: docker.io/postgres:latest # Use the latest official PostgreSQL image
+    container_name: etl-project-postgres # Name of the container (makes it easier to reference)
+    ports:
+      - "5432:5432"  # Maps port 5432 on your local machine to the same port in the container  #PostgreSQL listens on port 5432 by default
+    environment: # Set the password for the Postgres user
+      - POSTGRES_PASSWORD=${POSTGRES_PASSWORD}  # This uses the value from your `.env` file
+      - POSTGRES_DB=${POSTGRES_DB}
+  adminer:
+    image: docker.io/adminer
+    container_name: etl-project-adminer
+    restart: always
+    ports:
+      - 8080:8080

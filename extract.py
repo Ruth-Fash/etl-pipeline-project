@@ -5,7 +5,8 @@ import pandas as pd
 import uuid
 from rapidfuzz import process
 import pandera as pa
-import re
+from pandera.dtypes import DateTime
+
 
 
 
@@ -48,7 +49,6 @@ def product_uuid(df):
 def order_item_uuid(df):
     df['Order Item ID'] = [str(uuid.uuid4()) for i in range(len(df))] # create a uuid  for each cell between 0 and the number of rows in the df
     return df
-
 # Checks blanks - for data if anything is blank should be missing data as all fields must be populated , so if not replace with unkown
 def fix_blanks(df):
     cols = ["Date/Time", "Branch", "Payment Type", "Product", "Price"]
@@ -70,7 +70,8 @@ def transformation_split_orders(df):
         print("The DataFrame is empty — no data available to transform.")
         return None
     if "Drinks Ordered" not in df.columns:
-        raise KeyError("Column 'Drinks Ordered' not found in DataFrame.")
+        print("Column 'Drinks Ordered' not found in DataFrame.")
+        return None
     else:
         try:
             # Step 1: Split the 'drinks_ordered' column on the commas to get lists of drinks
@@ -84,13 +85,13 @@ def transformation_split_orders(df):
             print(f"Error during transformation (splitting orders), please resolve before moving forward  {e}")
             return None
 
-
 def transformation_date_time(df): 
     if df.empty:
         print("The DataFrame is empty — no data available to transform.") # check if df is empty, i empty return none
         return None
     if "Date/Time" not in df.columns:  # check if date/time column exists, if not raise error
-        raise KeyError("Column 'Date/Time' not found in DataFrame.")
+        print("Column 'Date/Time' not found in DataFrame.")
+        return None
     else:
         try: # if all good try to concert column to certain format, and return change (df), if soemthing happens raise error 
             df["Date/Time"] = df["Date/Time"].astype(str).str.strip()
@@ -99,7 +100,6 @@ def transformation_date_time(df):
         except Exception as e:
             print(f"Error during transformation of Date/Time Column, please resolve before moving forward {e}")
             return None
-
 
 def transformation_card_number(df): # check column exists
     df = df.drop(columns=["Card Number"]) 
@@ -130,11 +130,16 @@ def transformation_branch(df): # check if coloumn exists, list of branches again
             return None
         return df  
   
-
-def transformation_payment_type(df): # check exists, and only 2 payment types
-    df["Payment Type"] = df["Payment Type"].str.strip()
+def transformation_payment_type(df):
+    allowed_payment = ("Card", "Cash")
+    if df.empty:
+        print("The DataFrame is empty — no data available to transform.") # check if df is empty, i empty return none
+        return None
+    if "Payment Type" not in df.columns:
+        print("Column 'Payment Type' not found in DataFrame.")
+        return None      
+    df["Payment Type"] = df["Payment Type"].str.strip().str.capitalize()
     return df
-    # only cash or card
 
 # Your fuzzy correction function 
 def fuzzy_correction(name, valid_list, threshold=85): # check columns exist,
@@ -197,6 +202,13 @@ order_item_schema = pa.DataFrameSchema({"Quantity":pa.Column(int,
                                             nullable=False)},
                                             strict=True)
 
+order_schema = pa.DataFrameSchema({"Order ID":pa.Column(str, 
+                                            checks=[no_whitespace, not_blank], 
+                                            nullable=False),
+                                    "Date/Time":pa.Column(DateTime, nullable=False),
+                                    "Branch":pa.Column(str, checks=[no_whitespace, not_blank], nullable=False),
+                                    "Payment Type":pa.Column(str, nullable=False)})
+
 #Transform all on one tabel first
 def transformation(df):
     # List of transformation functions to apply, in order
@@ -234,9 +246,13 @@ def product_tb():
         validated_product_df = validate_schema(product_df,product_schema) # check data vlaidation of product table columns
     except pa.errors.SchemaError as e:
         print("Products Table Validation failed:", e)
-        return # Stop the function if validation fails
+        return None # Stop the function if validation fails
+    except Exception as e:
+        print("Unexpected error during product schema validation:", e)
+        return None
     validated_product_df.to_csv("transformed_data/products_transformed.csv", index=False) # Save the unique product-price pairs to a csv from the DF
     print("Product Table saved successfully!")
+    return validated_product_df
 
 def order_item_tb():
     df = read_csv_file("transformed_data/unnormalised_data.csv")
@@ -252,17 +268,32 @@ def order_item_tb():
         validated_order_item_df = validate_schema(order_item_df, order_item_schema )
     except pa.errors.SchemaError as e:
         print("Order Items Table Validation failed:", e)
-        return # Stop the function if validation fails
-    validated_order_item_df .to_csv("transformed_data/order_item_transformed.csv", index=False) # Save again with UUIDs and merge
+        return None # Stop the function if validation fails
+    except Exception as e:
+        print("Unexpected error during product schema validation:", e)
+        return None
+
+    validated_order_item_df.to_csv("transformed_data/order_item_transformed.csv", index=False) # Save again with UUIDs and merge
     print("Order Items Table saved successfully!")
+    return validated_order_item_df
 
 # Create a seperat order table - where we delete coloumns not needed
 def order_tb():
     df = pd.read_csv("transformed_data/unnormalised_data.csv")
     order_df = df[["Order ID", "Date/Time", "Branch", "Payment Type"]].copy()
-    order_df.to_csv("transformed_data/order_transformed.csv", index=False) # save the new df to a csv
+    order_df["Date/Time"] = pd.to_datetime(order_df["Date/Time"].astype(str).str.strip(), errors='raise')
+    try:
+        validated_order_df = validate_schema(order_df, order_schema)
+    except pa.errors.SchemaError as e:
+        print("Order Table Validation failed:", e)
+        return None
+    except Exception as e:
+        print("Unexpected error during product schema validation:", e)
+        return None
 
-        
+    validated_order_df.to_csv("transformed_data/order_transformed.csv", index=False) # save the new df to a csv
+    print("Order Table saved successfully!")
+    return validated_order_df
 
 
 # check before goign aheadf with tranformation that in contains columns expected
