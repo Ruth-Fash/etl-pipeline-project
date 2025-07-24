@@ -10,6 +10,9 @@ from pandera.dtypes import DateTime
 
 
 
+def get_csv_filepaths_from(folder_path): # For each file path in the raw_data_folder (or another folder), if it's a file (not a folder) and has a '.csv' extension, add the Path object to the files list.
+    files = [f for f in folder_path.iterdir() if f.is_file() and f.suffix == '.csv']
+    return files
 
 """Extract:
 Imporing raw data csv file - storing data into a dataframe using pandas """
@@ -25,9 +28,23 @@ def read_csv_file(csv,dtype=None):
         return None
 
 
-""" Test to see the output"""
+def read_all_csvs(folder):
+    csv_path = get_csv_filepaths_from(folder)
+    all_branch_df = []
+    for path in csv_path:
+         df = pd.read_csv(path)
+         all_branch_df.append(df)  # Use filename (without .csv) as key
+
+    combined_df = pd.concat(all_branch_df, ignore_index=True) # Combine all DataFrames into one (resetting index)
+    return combined_df
+
+
+    """ Test to see the output"""
 # extract_raw_data('data/unnormalized_orders_with_abnormal_cards.csv')
 
+def rename_columns(df):
+    df = df.rename(columns={"Date/Time": "date_time", "Branch": "branch", "Payment Type": "payment_type", "Product": "product", "Price": "price"})
+    return df
 
 """Transform
 1. Change data-types
@@ -41,27 +58,30 @@ def read_csv_file(csv,dtype=None):
 
 
 def order_uuid(df):
-    df['Order ID'] = [str(uuid.uuid4()) for i in range(len(df))] # create a uuid  for each cell between 0 and the number of rows in the df
+    df['order_id'] = [str(uuid.uuid4()) for i in range(len(df))] # create a uuid  for each cell between 0 and the number of rows in the df
     return df
 def product_uuid(df):
-    df['Product ID'] = [str(uuid.uuid4()) for i in range(len(df))] # create a uuid  for each cell between 0 and the number of rows in the df
+    df['product_id'] = [str(uuid.uuid4()) for i in range(len(df))] # create a uuid  for each cell between 0 and the number of rows in the df
     return df
 def order_item_uuid(df):
-    df['Order Item ID'] = [str(uuid.uuid4()) for i in range(len(df))] # create a uuid  for each cell between 0 and the number of rows in the df
+    df['order_item_id'] = [str(uuid.uuid4()) for i in range(len(df))] # create a uuid  for each cell between 0 and the number of rows in the df
     return df
-# Checks blanks - for data if anything is blank should be missing data as all fields must be populated , so if not replace with unkown
+# Checks blanks - for data if anything is blank should be missing data as all fields must be populated , so if not replace with unknown
 def fix_blanks(df):
-    cols = ["Date/Time", "Branch", "Payment Type", "Product", "Price"]
-    df[cols] = df[cols].replace("", pd.NA).fillna("Unknown")
+    cols = ["date_time", "branch", "payment_type", "product", "price"]
+    df[cols] = df[cols].replace("", pd.NA)
     return df
 
-# def error_rows(df):
-#     cols = ["Date/Time", "Branch", "Payment Type", "Product", "Price"]
-#     rows_with_errors =  df[cols].isin(["Unknown"]).any(axis=1)
-#     df_errors = df[rows_with_errors].copy()
-#     df_errors.to_csv('data_errors.csv', index=False)
-
-#     return df[~rows_with_errors]
+def remove_and_save_blank_rows(df):
+    has_missing_values =  df[["product", "price"]].isna().any(axis=1)# check for actual NaN / pd.NA values in the df
+    rows_with_missing = df[has_missing_values].copy()  # copy rows with blanks in the df
+    
+    if not rows_with_missing.empty:
+        rows_with_missing.to_csv('rows_with_missing.csv', index=False) # save to csv 
+        print("Rows with missing 'Product' or 'Price' have been saved to 'rows_with_missing.csv' and removed from the main dataset.")
+        
+        return df[~has_missing_values] # return rows without the blanks
+        
 
 
 # Take extracted data that is in tranform folder to transform it 
@@ -121,13 +141,6 @@ def transformation_branch(df): # check if coloumn exists, list of branches again
 
         valid_branch_df = read_csv_file("valid_branch_list.csv")["Branch"].dropna().str.strip().tolist() 
         df["Branch"] =  df["Branch"].apply(lambda x: fuzzy_correction(x,valid_branch_df)) 
-
-        unique_branches = df["Branch"].dropna().unique() # returns all unique values in the column (ignoring NaNs).
-        all_same = len(unique_branches) == 1 # If the length of that is 1, it means all branch values are identical
-
-        if all_same == False: # if not all the same (so false) print message
-            print (f"Warning: Multiple branch names detected: {', '.join(unique_branches)}. Please review and update the branch list if needed.")
-            return None
         return df  
   
 def transformation_payment_type(df):
@@ -177,37 +190,37 @@ def validate_schema(df,schema):
     return schema.validate(df)
 
 product_schema = pa.DataFrameSchema({
-                            "Product":pa.Column(str, 
+                            "product":pa.Column(str, 
                                         checks=[no_whitespace, not_blank]
                                         ,nullable=False),
-                            "Price":pa.Column(float, checks=pa.Check.gt(0), 
+                            "price":pa.Column(float, checks=pa.Check.gt(0), 
                                 nullable=False),
-                            "Product ID":pa.Column(str, checks=[no_whitespace, not_blank], 
+                            "product_id":pa.Column(str, checks=[no_whitespace, not_blank], 
                                 nullable=False)},
-                            unique=["Product", "Price"],
+                            unique=["product", "price"],
                             strict=True
                             )
 
-order_item_schema = pa.DataFrameSchema({"Quantity":pa.Column(int,
+order_item_schema = pa.DataFrameSchema({"quantity":pa.Column(int,
                                             checks=pa.Check.gt(0),
                                             nullable=False),
-                                        "Product ID":pa.Column(str, 
+                                        "product_id":pa.Column(str, 
                                             checks=[no_whitespace, not_blank], 
                                             nullable=False),
-                                        "Order ID":pa.Column(str, 
+                                        "order_id":pa.Column(str, 
                                             checks=[no_whitespace, not_blank], 
                                             nullable=False),
-                                        "Order Item ID":pa.Column(str, 
+                                        "order_item_id":pa.Column(str, 
                                             checks=[no_whitespace, not_blank], 
                                             nullable=False)},
                                             strict=True)
 
-order_schema = pa.DataFrameSchema({"Order ID":pa.Column(str, 
+order_schema = pa.DataFrameSchema({"order_id":pa.Column(str, 
                                             checks=[no_whitespace, not_blank], 
                                             nullable=False),
-                                    "Date/Time":pa.Column(DateTime, nullable=False),
-                                    "Branch":pa.Column(str, checks=[no_whitespace, not_blank], nullable=False),
-                                    "Payment Type":pa.Column(str, nullable=False)})
+                                    "date_time":pa.Column(DateTime, nullable=False),
+                                    "branch":pa.Column(str, checks=[no_whitespace, not_blank], nullable=False),
+                                    "payment_type":pa.Column(str, nullable=True)})
 
 #Transform all on one tabel first
 def transformation(df):
@@ -221,7 +234,9 @@ def transformation(df):
         transformation_card_number,
         transformation_customer_name,
         transformation_product_price,
-        fix_blanks
+        rename_columns,
+        fix_blanks,
+        remove_and_save_blank_rows
     ]
     # Loop over each function in the list
     for func in funcs:
@@ -234,13 +249,13 @@ def transformation(df):
             return None
         
     # Save the fully transformed DataFrame to CSV
-    df.to_csv("transformed_data/unnormalised_data.csv", index=False)
+    df.to_csv("extracted_data/unnormalised_data.csv", index=False)
     return df
 
  # Seperate onto product table and creat product uuid
-def product_tb():
-    df = read_csv_file("transformed_data/unnormalised_data.csv")
-    product_df = df[["Product", "Price"]].drop_duplicates().copy()
+def product_tb(folder_name):
+    df = read_csv_file("extracted_data/unnormalised_data.csv")
+    product_df = df[["product", "price"]].drop_duplicates().copy()
     product_df = product_uuid(product_df)  # Add UUIDs directly to the product_df
     try:
         validated_product_df = validate_schema(product_df,product_schema) # check data vlaidation of product table columns
@@ -250,19 +265,19 @@ def product_tb():
     except Exception as e:
         print("Unexpected error during product schema validation:", e)
         return None
-    validated_product_df.to_csv("transformed_data/products_transformed.csv", index=False) # Save the unique product-price pairs to a csv from the DF
+    validated_product_df.to_csv(f"transformed_data/{folder_name}/products_table.csv", index=False) # Save the unique product-price pairs to a csv from the DF
     print("Product Table saved successfully!")
     return validated_product_df
 
-def order_item_tb():
-    df = read_csv_file("transformed_data/unnormalised_data.csv")
-    order_item_df = df[["Order ID", "Product" ]].copy()
-    order_item_df.to_csv("transformed_data/order_item_transformed.csv", index=False) 
+def order_item_tb(folder_name):
+    df = read_csv_file("extracted_data/unnormalised_data.csv")
+    order_item_df = df[["order_id", "product" ]].copy()
+    order_item_df.to_csv(f"transformed_data/{folder_name}/order_item_table.csv", index=False) 
 
     # Merge order_item[prouduct] with product[product] and include  product id 
-    product_df = pd.read_csv("transformed_data/products_transformed.csv")
-    order_item_df = order_item_df.merge(product_df[["Product","Product ID"]], on="Product", how="left") # Merge 'Product ID' from product_df into order_item_df based on matching 'Product' names
-    order_item_df = order_item_df.groupby(["Order ID", "Product ID"]).size().reset_index(name="Quantity") # group the two coloumsn and count how many times a combo appear, reset name to 
+    product_df = pd.read_csv(f"transformed_data/{folder_name}/products_table.csv")
+    order_item_df = order_item_df.merge(product_df[["product","product_id"]], on="product", how="left") # Merge 'Product ID' from product_df into order_item_df based on matching 'Product' names
+    order_item_df = order_item_df.groupby(["order_id", "product_id"]).size().reset_index(name="quantity") # group the two coloumsn and count how many times a combo appear, reset name to 
     order_item_df = order_item_uuid(order_item_df)  # Add UUIDs directly to the product_df
     try:
         validated_order_item_df = validate_schema(order_item_df, order_item_schema )
@@ -273,15 +288,15 @@ def order_item_tb():
         print("Unexpected error during product schema validation:", e)
         return None
 
-    validated_order_item_df.to_csv("transformed_data/order_item_transformed.csv", index=False) # Save again with UUIDs and merge
+    validated_order_item_df.to_csv(f"transformed_data/{folder_name}/order_item_table.csv", index=False) # Save again with UUIDs and merge
     print("Order Items Table saved successfully!")
     return validated_order_item_df
 
 # Create a seperat order table - where we delete coloumns not needed
-def order_tb():
-    df = pd.read_csv("transformed_data/unnormalised_data.csv")
-    order_df = df[["Order ID", "Date/Time", "Branch", "Payment Type"]].copy()
-    order_df["Date/Time"] = pd.to_datetime(order_df["Date/Time"].astype(str).str.strip(), errors='raise')
+def order_tb(folder_name):
+    df = pd.read_csv("extracted_data/unnormalised_data.csv")
+    order_df = df[["order_id", "date_time", "branch", "payment_type"]].copy()
+    order_df["date_time"] = pd.to_datetime(order_df["date_time"].astype(str).str.strip(), errors='raise')
     try:
         validated_order_df = validate_schema(order_df, order_schema)
     except pa.errors.SchemaError as e:
@@ -291,9 +306,10 @@ def order_tb():
         print("Unexpected error during product schema validation:", e)
         return None
 
-    validated_order_df.to_csv("transformed_data/order_transformed.csv", index=False) # save the new df to a csv
+    validated_order_df.to_csv(f"transformed_data/{folder_name}/order_table.csv", index=False) # save the new df to a csv
     print("Order Table saved successfully!")
     return validated_order_df
+
 
 
 # check before goign aheadf with tranformation that in contains columns expected

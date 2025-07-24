@@ -1,0 +1,6 @@
+date_time,branch,payment_type,order_id,product,price
+2025-04-20 00:00:00,Soho,Card,e5cb6aed-4a50-4d2c-ab6e-36fd2d7f49ea,,
+2024-09-10 21:26:00,Soho,Cash,dfd1419a-4516-4ba1-9d4b-4e3d57aa4f7a,,
+2024-09-08 19:13:00,Soho,Cash,b00424e8-8b35-47e7-9ca5-4b3184470eef,,
+2024-09-10 15:55:00,Soho,Cash,84038b17-5be0-4355-a026-1aa5932e3925,,
+2024-08-30 08:00:00,Soho,Cash,bf3fc590-8e21-4b51-b1f2-007a0354ccf7,,

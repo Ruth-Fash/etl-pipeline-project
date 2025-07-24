@@ -17,11 +17,11 @@ def load_to_database(product_df, order_item_df, order_df):
     try:
         # Create SQLAlchemy engine
         engine = create_engine(f"postgresql+psycopg2://{user_name}:{user_password}@{host_name}:{port}/{database_name}")
-        product_df.to_sql("products", engine, if_exists="replace", index=False)
+        product_df.to_sql("products", engine, if_exists="append", index=False)  # chnaged if_exist from "replace" to "append"
         print("Uploaded products table")
-        order_item_df.to_sql("order_item", engine, if_exists="replace", index=False)
+        order_item_df.to_sql("order_item", engine, if_exists="append", index=False)
         print("Uploaded order_item table")
-        order_df.to_sql("orders", engine, if_exists="replace", index=False)
+        order_df.to_sql("orders", engine, if_exists="append", index=False)
         print("Uploaded orders table")
         
     except Exception as ex:
