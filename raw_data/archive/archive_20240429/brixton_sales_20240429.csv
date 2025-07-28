@@ -1,0 +1,67 @@
+Customer Name,Date/Time,Branch,Payment Type,Drinks Ordered,Card Number
+Grace Kim,2024/04/29 14:05,Brixton,Cash,"Flat White - 2.75, Cappuccino - 3.0",
+Maria Lopez,29th April 2024,Brixton,Card,Americano - £2.2,8.656273060538686e+00+15
+Anna Smith,29th April 2024,Brixton,Card,"Macchiato - 3.1, Espresso - 2.0",10670265150653230
+Fatima Yusuf,29 Apr 2024 21:57,Brixton,Cash,"Cappuccino -  3.0 , Flat White - 2.75, Flat White - 2.75",
+Aisha Bello,29 Apr 2024 12:57,Brixton,Cash,Latte - 2.5,
+Carlos Reyes,29-04-2024 15:23,Brixton,Card,Mocha - 3.75,6.133370246375813e+00+16
+Anna Smith,29th April 2024,Brixton,Cash,"Cappuccino - £3.0, Latte -  2.5 ",
+Chen Wei,2024/04/29 21:03,Brixton,Cash,"Flat White -  2.75 , Mocha - £3.75, Latte - £2.5",
+James Carter,29 Apr 2024 16:38,Brixton,Card,"Flat White -  2.75 , Latte -  2.5 ",6.766441810703748e+00+17
+James Carter,29th April 2024,Brixton,Cash,"Latte -  2.5 , Mocha - £3.75",
+Leila Ahmed,2024/04/29 16:38,Brixton,Cash,Mocha - £3.75,
+Chinedu Okafor,2024/04/29 10:38,Brixton,Cash,"Flat White -  2.75 , Latte - 2.5",
+Grace Kim,2024/04/29 16:31,Brixton,Card,"Macchiato - 3.1, Cappuccino - 3.0",17217721586172412
+Leila Ahmed,2024/04/29 12:43,Brixton,Card,Americano - 2.2,5.089383077888883e+00+17
+Carlos Reyes,29-04-2024 21:31,Brixton,Cash,Mocha - £3.75,
+James Carter,29 Apr 2024 08:55,Brixton,Card,Flat White - £2.75,1.879237139254104e+00+16
+Chinedu Okafor,2024/04/29 11:28,Brixton,Cash,Espresso - £2.0,
+Anna Smith,2024/04/29 17:51,Brixton,Card,"Cappuccino -  3.0 , Flat White - £2.75",
+Grace Kim,2024/04/29 09:24,Brixton,Cash,"Mocha - £3.75, Mocha - £3.75",
+Fatima Yusuf,29-04-2024 16:26,Brixton,Cash,"Americano -  2.2 , Macchiato - £3.1, Macchiato -  3.1 ",
+Leila Ahmed,29/04/2024,Brixton,Cash,"Mocha -  3.75 , Macchiato - 3.1, Mocha - £3.75",
+Sophie Dubois,29th April 2024,Brixton,Cash,Americano -  2.2 ,
+Grace Kim,2024/04/29 16:28,Brixton,Card,Americano -  2.2 ,3.336231661520185e+00+17
+James Carter,29-04-2024 12:12,Brixton,Cash,"Cappuccino -  3.0 , Latte - 2.5",
+Chen Wei,29 Apr 2024 10:58,Brixton,Card,Espresso - 2.0,39728348101726983
+Sophie Dubois,29 Apr 2024 18:23,Brixton,Card,"Flat White - 2.75, Mocha - £3.75",68724208983469632
+Carlos Reyes,29 Apr 2024 19:42,Brixton,Cash,"Latte - £2.5, Latte - £2.5",
+Anna Smith,29-04-2024 11:44,Brixton,Cash,Latte - 2.5,
+Jake Thompson,29-04-2024 12:33,Brixton,Card,Cappuccino - £3.0,3.777200045169012e+00+16
+Dave Johnson,2024/04/29 11:13,Brixton,Cash,"Espresso - 2.0, Mocha -  3.75 ",
+Fatima Yusuf,29 Apr 2024 21:30,Brixton,Cash,"Cappuccino -  3.0 , Flat White - 2.75, Flat White - 2.75",
+,2024/04/29 20:20,Brixton,Card,"Macchiato -  3.1 , Flat White -  2.75 ",61756724054201769
+Oliver Twist,2024/04/29 20:33,Brixton,Cash,"Mocha - 3.75, Cappuccino - £3.0, Cappuccino -  3.0 , Macchiato -  3.1 ",
+Nina Patel,2024/04/29 14:34,Brixton,Card,"Espresso - 2.0, Americano - 2.2",
+Aisha Bello,29 Apr 2024 08:16,Brixton,Cash,Latte - £2.5,
+Jake Thompson,29/04/2024,Brixton,Card,Latte - 2.5,86475104148256020
+Dave Johnson,2024/04/29 15:26,Brixton,Cash,"Flat White - 2.75, Espresso - 2.0, Cappuccino - £3.0",
+Anna Smith,29/04/2024,Brixton,Cash,Invalid Order String,
+Carlos Reyes,29/04/2024,Brixton,Card,"Flat White - £2.75, Espresso - 2.0, Latte -  2.5 ",56431195220900886
+Grace Kim,29/04/2024,Brixton,Card,"Flat White - 2.75, Mocha - 3.75",76200724713939015
+Dave Johnson,29th April 2024,Brixton,Card,Macchiato -  3.1 ,10470290548401554
+Fatima Yusuf,29-04-2024 10:16,Brixton,Card,"Latte -  2.5 , Flat White - £2.75, Cappuccino - £3.0",
+James Carter,2024/04/29 19:52,Brixton,Cash,Latte - £2.5,
+Maria Lopez,2024/04/29 19:08,Brixton,Cash,"Cappuccino - 3.0, Flat White - £2.75",
+Oliver Twist,29/04/2024,Brixton,Cash,"Mocha - 3.75, Cappuccino -  3.0 , Cappuccino - 3.0",
+Nina Patel,29/04/2024,Brixton,Card,"Latte - £2.5, Cappuccino - 3.0",26972967445351318
+Aisha Bello,2024/04/29 07:02,Brixton,Cash,Macchiato -  3.1 ,
+Carlos Reyes,29th April 2024,Brixton,Cash,Mocha -  3.75 ,
+Leila Ahmed,29-04-2024 15:11,Brixton,Card,"Flat White -  2.75 , Espresso - £2.0",94384392517769510
+Grace Kim,29/04/2024,Brixton,Cash,Espresso - £2.0,
+Sophie Dubois,29/04/2024,Brixton,Card,Latte - 2.5,59454491990015348
+,2024/04/29 21:55,Brixton,Cash,"Cappuccino - 3.0, Americano - £2.2, Mocha - 3.75",
+Sophie Dubois,29-04-2024 22:53,Brixton,Cash,Cappuccino - 3.0,
+Jake Thompson,29-04-2024 08:44,Brixton,Card,Flat White - 2.75,
+Maria Lopez,29-04-2024 15:54,Brixton,Cash,"Flat White -  2.75 , Mocha - £3.75",
+Jake Thompson,2024/04/29 15:43,Brixton,Card,"Cappuccino - £3.0, Cappuccino -  3.0 ",4.840079559902940e+00+16
+Anna Smith,29-04-2024 20:43,Brixton,Cash,"Cappuccino - 3.0, Cappuccino -  3.0 ",
+Aisha Bello,29th April 2024,Brixton,Cash,"Cappuccino - 3.0, Espresso - 2.0",
+Jake Thompson,29/04/2024,Brixton,Cash,"Americano -  2.2 , Cappuccino -  3.0 ",
+Anna Smith,29 Apr 2024 11:29,Brixton,Card,Macchiato - 3.1,36109211971565874
+Fatima Yusuf,29-04-2024 19:52,Brixton,Cash,"Latte - £2.5, Macchiato -  3.1 , Flat White -  2.75 ",
+Maria Lopez,29-04-2024 15:00,Brixton,Card,"Americano - 2.2, Macchiato - £3.1, Americano -  2.2 ",9.305804512008109e+00+15
+James Carter,29-04-2024 10:30,Brixton,Card,Flat White -  2.75 ,61022204176324401
+Dave Johnson,29 Apr 2024 08:44,Brixton,Card,Latte - 2.5,
+Chen Wei,29/04/2024,Brixton,Cash,Flat White -  2.75 ,
+Chinedu Okafor,2024/04/29 10:30,Brixton,Cash,"Americano -  2.2 , Mocha - 3.75",

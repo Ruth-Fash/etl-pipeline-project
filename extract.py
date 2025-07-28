@@ -60,12 +60,17 @@ def rename_columns(df):
 def order_uuid(df):
     df['order_id'] = [str(uuid.uuid4()) for i in range(len(df))] # create a uuid  for each cell between 0 and the number of rows in the df
     return df
+
+    # Generate a stable UUID for each product based on its name.
+    # Uses uuid5 with NAMESPACE_DNS to ensure the same product name
+    # always gets the same UUID. Assumes product names are already cleaned.
 def product_uuid(df):
-    df['product_id'] = [str(uuid.uuid4()) for i in range(len(df))] # create a uuid  for each cell between 0 and the number of rows in the df
+    df['product_id'] = df['product'].apply(lambda name: str(uuid.uuid5(uuid.NAMESPACE_DNS, name)))
     return df
 def order_item_uuid(df):
     df['order_item_id'] = [str(uuid.uuid4()) for i in range(len(df))] # create a uuid  for each cell between 0 and the number of rows in the df
     return df
+
 # Checks blanks - for data if anything is blank should be missing data as all fields must be populated , so if not replace with unknown
 def fix_blanks(df):
     cols = ["date_time", "branch", "payment_type", "product", "price"]
@@ -77,7 +82,7 @@ def remove_and_save_blank_rows(df):
     rows_with_missing = df[has_missing_values].copy()  # copy rows with blanks in the df
     
     if not rows_with_missing.empty:
-        rows_with_missing.to_csv('rows_with_missing.csv', index=False) # save to csv 
+        rows_with_missing.to_csv('rows_with_missing.csv', mode='a', header=False, index=False) # save to csv 
         print("Rows with missing 'Product' or 'Price' have been saved to 'rows_with_missing.csv' and removed from the main dataset.")
         
         return df[~has_missing_values] # return rows without the blanks
@@ -215,7 +220,8 @@ order_item_schema = pa.DataFrameSchema({"quantity":pa.Column(int,
                                             nullable=False)},
                                             strict=True)
 
-order_schema = pa.DataFrameSchema({"order_id":pa.Column(str, 
+order_schema = pa.DataFrameSchema({
+                                    "order_id":pa.Column(str, 
                                             checks=[no_whitespace, not_blank], 
                                             nullable=False),
                                     "date_time":pa.Column(DateTime, nullable=False),
@@ -223,7 +229,7 @@ order_schema = pa.DataFrameSchema({"order_id":pa.Column(str,
                                     "payment_type":pa.Column(str, nullable=True)})
 
 #Transform all on one tabel first
-def transformation(df):
+def transformation(df, folder_name):
     # List of transformation functions to apply, in order
     funcs = [
         order_uuid,
@@ -249,12 +255,12 @@ def transformation(df):
             return None
         
     # Save the fully transformed DataFrame to CSV
-    df.to_csv("extracted_data/unnormalised_data.csv", index=False)
+    df.to_csv(f"transformed_data/{folder_name}/unnormalised_data.csv", index=False)
     return df
 
  # Seperate onto product table and creat product uuid
 def product_tb(folder_name):
-    df = read_csv_file("extracted_data/unnormalised_data.csv")
+    df = read_csv_file(f"transformed_data/{folder_name}/unnormalised_data.csv")
     product_df = df[["product", "price"]].drop_duplicates().copy()
     product_df = product_uuid(product_df)  # Add UUIDs directly to the product_df
     try:
@@ -270,14 +276,14 @@ def product_tb(folder_name):
     return validated_product_df
 
 def order_item_tb(folder_name):
-    df = read_csv_file("extracted_data/unnormalised_data.csv")
+    df = read_csv_file(f"transformed_data/{folder_name}/unnormalised_data.csv")
     order_item_df = df[["order_id", "product" ]].copy()
     order_item_df.to_csv(f"transformed_data/{folder_name}/order_item_table.csv", index=False) 
 
     # Merge order_item[prouduct] with product[product] and include  product id 
     product_df = pd.read_csv(f"transformed_data/{folder_name}/products_table.csv")
     order_item_df = order_item_df.merge(product_df[["product","product_id"]], on="product", how="left") # Merge 'Product ID' from product_df into order_item_df based on matching 'Product' names
-    order_item_df = order_item_df.groupby(["order_id", "product_id"]).size().reset_index(name="quantity") # group the two coloumsn and count how many times a combo appear, reset name to 
+    order_item_df = order_item_df.groupby(["order_id", "product_id"]).size().reset_index(name="quantity") # group the two coloumns and count how many times a combo appear, reset name to 
     order_item_df = order_item_uuid(order_item_df)  # Add UUIDs directly to the product_df
     try:
         validated_order_item_df = validate_schema(order_item_df, order_item_schema )
@@ -294,9 +300,10 @@ def order_item_tb(folder_name):
 
 # Create a seperat order table - where we delete coloumns not needed
 def order_tb(folder_name):
-    df = pd.read_csv("extracted_data/unnormalised_data.csv")
+    df = pd.read_csv(f"transformed_data/{folder_name}/unnormalised_data.csv")
     order_df = df[["order_id", "date_time", "branch", "payment_type"]].copy()
     order_df["date_time"] = pd.to_datetime(order_df["date_time"].astype(str).str.strip(), errors='raise')
+    order_df = order_df.drop_duplicates(subset="order_id").reset_index(drop=True)
     try:
         validated_order_df = validate_schema(order_df, order_schema)
     except pa.errors.SchemaError as e:

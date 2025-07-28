@@ -1,0 +1,132 @@
+Customer Name,Date/Time,Branch,Payment Type,Drinks Ordered,Card Number
+Dave Johnson,28th April 2024,Soho,Card,Macchiato - £3.1,8.995618579156062e+00+15
+Aisha Bello,2024/04/28 10:22,Soho,Card,"Flat White -  2.75 , Cappuccino - 3.0",86499308448282168
+Carlos Reyes,28-04-2024 11:41,Soho,Cash,"Latte -  2.5 , Americano - £2.2",
+Carlos Reyes,28th April 2024,Soho,Card,Latte -  2.5 ,70576327479234580
+Maria Lopez,2024/04/28 19:21,Soho,Card,"Cappuccino - 3.0, Mocha - £3.75, Cappuccino - 3.0",55614193725017771
+Jake Thompson,28th April 2024,Soho,Cash,Mocha -  3.75 ,
+James Carter,28-04-2024 17:44,Soho,Card,"Macchiato -  3.1 , Macchiato - £3.1",
+James Carter,28th April 2024,Soho,Card,"Espresso - 2.0, Americano -  2.2 ",6.246696362602078e+00+16
+Anna Smith,28th April 2024,Soho,Cash,"Macchiato - £3.1, Cappuccino - £3.0",
+,28 Apr 2024 12:49,Soho,Cash,"Flat White - 2.75, Flat White - 2.75",
+Anna Smith,28 Apr 2024 08:26,Soho,Card,"Americano - £2.2, Flat White - £2.75, Flat White -  2.75 ",66260088609674160
+,28th April 2024,Soho,,Americano -  2.2 ,
+,2024/04/28 15:59,Soho,Card,"Macchiato - 3.1, Macchiato -  3.1 ",21025406784555324
+James Carter,28-04-2024 22:17,Soho,Cash,Flat White - £2.75,
+Leila Ahmed,2024/04/28 10:53,Soho,Cash,"Latte -  2.5 , Americano - £2.2, Americano - 2.2",
+Oliver Twist,2024/04/28 16:04,Soho,Cash,Latte -  2.5 ,
+Anna Smith,28 Apr 2024 18:18,Soho,Card,"Mocha -  3.75 , Americano - 2.2, Latte - £2.5",45067010225862014
+Sophie Dubois,28/04/2024,Soho,Cash,Espresso - 2.0,
+Dave Johnson,28th April 2024,Soho,Card,"Macchiato - 3.1, Macchiato - £3.1",35579153006922041
+James Carter,2024/04/28 22:18,Soho,Card,Americano - £2.2,47373696742045765
+Maria Lopez,28th April 2024,Soho,Cash,"Cappuccino - £3.0, Flat White -  2.75 , Macchiato - £3.1, Cappuccino - £3.0",
+Anna Smith,28 Apr 2024 16:23,Soho,Cash,Espresso - £2.0,
+Carlos Reyes,28/04/2024,Soho,Cash,Cappuccino -  3.0 ,
+Oliver Twist,28/04/2024,Soho,Card,Macchiato - 3.1,25982646079249746
+Nina Patel,28th April 2024,Soho,Cash,Flat White -  2.75 ,
+Oliver Twist,2024/04/28 13:07,Soho,Cash,Macchiato - £3.1,
+Grace Kim,2024/04/28 10:33,Soho,Cash,Cappuccino - 3.0,
+Nina Patel,2024/04/28 16:54,Soho,Card,Mocha - 3.75,61984351606194177
+Fatima Yusuf,28/04/2024,Soho,Cash,Cappuccino - 3.0,
+Oliver Twist,28-04-2024 10:07,Soho,Cash,Macchiato - 3.1,
+Fatima Yusuf,28-04-2024 10:14,Soho,Card,"Americano - £2.2, Americano - 2.2",29049227807885136
+Maria Lopez,2024/04/28 21:00,Soho,Cash,Mocha - £3.75,
+Chinedu Okafor,28 Apr 2024 11:08,Soho,Cash,"Latte - 2.5, Flat White - 2.75, Latte - 2.5",
+Maria Lopez,2024/04/28 21:46,Soho,Card,Flat White -  2.75 ,8251999625730052
+James Carter,28th April 2024,Soho,Card,"Espresso - 2.0, Mocha -  3.75 , Americano -  2.2 , Espresso - 2.0",24704157445004372
+Fatima Yusuf,28/04/2024,Soho,Card,"Americano - £2.2, Macchiato - £3.1, Macchiato -  3.1 ",65131388502560116
+Sophie Dubois,28/04/2024,Soho,Cash,"Latte - £2.5, Latte -  2.5 , Macchiato - 3.1, Cappuccino -  3.0 ",
+Fatima Yusuf,28-04-2024 12:17,Soho,Cash,"Latte - 2.5, Mocha - 3.75",
+Jake Thompson,28/04/2024,Soho,Cash,"Flat White - 2.75, Latte -  2.5 , Espresso - £2.0",
+Sophie Dubois,28-04-2024 21:12,Soho,Card,Cappuccino - £3.0,21094659108398546
+Maria Lopez,28th April 2024,Soho,Cash,Espresso - 2.0,
+Grace Kim,28/04/2024,Soho,Card,"Latte - 2.5, Cappuccino - £3.0",6.371989214032577e+00+16
+Carlos Reyes,28th April 2024,Soho,Card,"Macchiato - £3.1, Espresso - £2.0",18765568831637424
+,28/04/2024,Soho,Cash,Espresso - 2.0,
+Jake Thompson,28-04-2024 19:34,Soho,Cash,"Flat White - 2.75, Flat White -  2.75 ",
+Chen Wei,28th April 2024,Soho,Card,"Espresso - £2.0, Cappuccino - £3.0, Americano - £2.2",83864873118542071
+Jake Thompson,28th April 2024,Soho,Card,"Americano - 2.2, Mocha -  3.75 ",36044603569845366
+Leila Ahmed,28-04-2024 10:50,Soho,Card,"Flat White - 2.75, Americano -  2.2 , Macchiato -  3.1 , Espresso - 2.0",1.195605422111466e+00+15
+,2024/04/28 13:26,Soho,Cash,"Latte -  2.5 , Mocha - 3.75, Cappuccino -  3.0 ",
+Anna Smith,2024/04/28 15:14,Soho,Cash,"Mocha - £3.75, Flat White - 2.75",
+Chen Wei,2024/04/28 21:07,Soho,Card,"Cappuccino - 3.0, Latte - 2.5, Cappuccino - 3.0",47513721274787899
+Nina Patel,28th April 2024,Soho,Cash,Flat White - 2.75,
+Grace Kim,28/04/2024,Soho,Cash,Espresso - 2.0,
+Grace Kim,28-04-2024 07:26,Soho,Cash,Latte - 2.5,
+,2024/04/28 08:21,Soho,Cash,Latte - 2.5,
+Chinedu Okafor,28/04/2024,Soho,Cash,"Mocha - £3.75, Latte - 2.5",
+Oliver Twist,28th April 2024,Soho,Card,"Macchiato - 3.1, Cappuccino - 3.0, Cappuccino - £3.0",5206920447062306
+Carlos Reyes,2024/04/28 09:49,Soho,Card,"Espresso - 2.0, Americano - £2.2, Macchiato -  3.1 ",70186487977857812
+Chinedu Okafor,28/04/2024,Soho,Card,"Latte - 2.5, Macchiato -  3.1 , Americano - £2.2, Flat White - £2.75",17596112161668029
+Fatima Yusuf,28-04-2024 18:02,Soho,Cash,"Latte - £2.5, Americano - £2.2",
+Chen Wei,28/04/2024,Soho,,"Macchiato -  3.1 , Latte - £2.5",
+Aisha Bello,28th April 2024,Soho,Cash,"Mocha -  3.75 , Mocha - 3.75",
+,2024/04/28 08:22,Soho,Cash,Americano - 2.2,
+Grace Kim,28-04-2024 15:02,Soho,Cash,"Latte - £2.5, Americano - 2.2",
+Fatima Yusuf,2024/04/28 10:26,Soho,Card,Americano - £2.2,4545119454714951
+,28-04-2024 13:15,Soho,Cash,Cappuccino -  3.0 ,
+James Carter,2024/04/28 13:00,Soho,Cash,Espresso - £2.0,
+Jake Thompson,28-04-2024 18:28,Soho,Cash,"Americano - 2.2, Cappuccino - £3.0",
+James Carter,2024/04/28 16:53,Soho,Cash,"Flat White - 2.75, Mocha -  3.75 , Cappuccino - £3.0",
+Grace Kim,28th April 2024,Soho,Card,"Espresso - 2.0, Mocha -  3.75 ",76621202015672333
+Anna Smith,28/04/2024,Soho,Card,Cappuccino - £3.0,8.529261915294335e+00+17
+Grace Kim,2024/04/28 11:33,Soho,Card,"Americano - £2.2, Flat White -  2.75 ",31211331650279829
+Maria Lopez,28th April 2024,Soho,Card,"Mocha - 3.75, Cappuccino - £3.0",4.901207960821127e+00+16
+Nina Patel,28th April 2024,Soho,Card,Americano -  2.2 ,
+Grace Kim,2024/04/28 07:46,Soho,Cash,Cappuccino - £3.0,
+Chen Wei,28 Apr 2024 18:44,Soho,Cash,Americano - 2.2,
+Nina Patel,28 Apr 2024 18:38,Soho,Card,Flat White - £2.75,1899623211232814
+Aisha Bello,2024/04/28 20:10,Soho,Cash,Cappuccino - 3.0,
+Maria Lopez,28-04-2024 18:39,Soho,Cash,Latte - £2.5,
+Aisha Bello,28-04-2024 18:59,Soho,Card,"Flat White -  2.75 , Espresso - £2.0",8.306881317023997e+00+17
+Dave Johnson,28/04/2024,Soho,Cash,"Macchiato -  3.1 , Espresso - 2.0, Macchiato - £3.1",
+Nina Patel,28 Apr 2024 07:13,Soho,Card,Macchiato - £3.1,49837693125881500
+Maria Lopez,2024/04/28 16:16,Soho,Card,"Macchiato -  3.1 , Mocha -  3.75 , Latte -  2.5 ",8.674507199636416e+00+17
+Carlos Reyes,2024/04/28 14:39,Soho,Cash,"Espresso - 2.0, Macchiato - £3.1",
+Jake Thompson,28 Apr 2024 14:28,Soho,Cash,"Espresso - 2.0, Mocha - £3.75",
+Chinedu Okafor,28 Apr 2024 10:42,Soho,Card,"Flat White - £2.75, Macchiato - 3.1, Flat White -  2.75 ",2.668988506966366e+00+15
+Sophie Dubois,2024/04/28 10:12,Soho,Cash,Espresso - £2.0,
+Nina Patel,28 Apr 2024 09:13,Soho,Cash,"Espresso - 2.0, Americano -  2.2 ",
+Leila Ahmed,2024/04/28 15:15,Soho,Card,"Mocha - £3.75, Latte - 2.5",5.025377607410046e+00+15
+Maria Lopez,2024/04/28 15:22,Soho,Card,"Latte - £2.5, Americano -  2.2 ",3.597345062191367e+00+17
+Dave Johnson,28th April 2024,Soho,Card,Mocha - 3.75,7106001746016576
+Sophie Dubois,28-04-2024 18:17,Soho,Card,Macchiato - 3.1,3.699141441849390e+00+17
+Jake Thompson,28-04-2024 15:42,Soho,,Espresso - 2.0,
+Sophie Dubois,28 Apr 2024 11:51,Soho,Card,"Latte - 2.5, Cappuccino -  3.0 , Americano -  2.2 ",79459984233468185
+Jake Thompson,28th April 2024,Soho,Cash,"Cappuccino - 3.0, Cappuccino - 3.0, Espresso - £2.0",
+Leila Ahmed,2024/04/28 14:38,Soho,Card,"Flat White -  2.75 , Macchiato - £3.1, Mocha - 3.75",6.830906806620978e+00+16
+Aisha Bello,2024/04/28 12:16,Soho,Card,Flat White - 2.75,10752775866088695
+Fatima Yusuf,28-04-2024 22:43,Soho,Cash,"Americano - 2.2, Mocha - £3.75",
+James Carter,2024/04/28 17:22,Soho,Card,"Cappuccino - 3.0, Cappuccino - £3.0, Cappuccino - 3.0",37394595254166922
+Oliver Twist,28-04-2024 20:50,Soho,Card,"Americano - 2.2, Latte - 2.5",3.370505980031445e+00+17
+James Carter,28th April 2024,Soho,Card,"Flat White - £2.75, Mocha - 3.75",
+Carlos Reyes,28-04-2024 11:06,Soho,Card,Cappuccino - 3.0,49443939268646389
+Leila Ahmed,2024/04/28 15:38,Soho,Card,"Espresso - 2.0, Cappuccino -  3.0 ",65228674636396281
+Dave Johnson,28-04-2024 07:14,Soho,Card,"Mocha - £3.75, Cappuccino -  3.0 , Latte - £2.5, Americano - 2.2",83844323827668547
+Anna Smith,28 Apr 2024 15:54,Soho,Cash,"Latte - 2.5, Americano -  2.2 ",
+Fatima Yusuf,28-04-2024 11:20,Soho,Cash,"Mocha - £3.75, Americano - 2.2, Americano -  2.2 ",
+Jake Thompson,28/04/2024,Soho,Card,"Latte -  2.5 , Mocha -  3.75 , Macchiato - £3.1",2131660581578433
+Maria Lopez,28th April 2024,Soho,Cash,"Americano -  2.2 , Cappuccino -  3.0 , Cappuccino -  3.0 ",
+Dave Johnson,28-04-2024 13:18,Soho,Card,Flat White - £2.75,92885415155926728
+Oliver Twist,28 Apr 2024 19:48,Soho,Cash,Espresso - 2.0,
+Grace Kim,28/04/2024,Soho,Cash,Latte - £2.5,
+Carlos Reyes,2024/04/28 22:59,Soho,Cash,Latte -  2.5 ,
+Maria Lopez,2024/04/28 13:23,Soho,Cash,Cappuccino - 3.0,
+Leila Ahmed,2024/04/28 18:56,Soho,Cash,Cappuccino -  3.0 ,
+Maria Lopez,28 Apr 2024 09:02,Soho,Card,Cappuccino -  3.0 ,
+Aisha Bello,28-04-2024 18:11,Soho,Cash,Espresso - £2.0,
+Chen Wei,28th April 2024,Soho,Cash,Mocha - £3.75,
+Fatima Yusuf,28-04-2024 12:19,Soho,Cash,"Americano - 2.2, Espresso - 2.0, Macchiato -  3.1 ",
+Fatima Yusuf,2024/04/28 16:12,Soho,Cash,"Mocha - 3.75, Espresso - 2.0, Mocha -  3.75 ",
+Fatima Yusuf,28/04/2024,Soho,Cash,"Mocha - 3.75, Mocha -  3.75 ",
+Maria Lopez,28/04/2024,Soho,Cash,Flat White - £2.75,
+Dave Johnson,28-04-2024 20:08,Soho,Cash,"Cappuccino - £3.0, Mocha -  3.75 , Espresso - £2.0",
+Maria Lopez,28 Apr 2024 21:36,Soho,Card,"Mocha - £3.75, Mocha - £3.75, Americano -  2.2 ",27206994774401898
+Anna Smith,28th April 2024,Soho,Card,Latte - £2.5,
+Carlos Reyes,2024/04/28 20:24,Soho,Cash,Americano - £2.2,
+Fatima Yusuf,28 Apr 2024 11:42,Soho,Card,Cappuccino - 3.0,34189767101476055
+James Carter,28th April 2024,Soho,Card,Cappuccino -  3.0 ,44878631152570981
+Anna Smith,2024/04/28 19:48,Soho,Card,Latte - 2.5,74150692499938828
+Aisha Bello,2024/04/28 13:21,Soho,,"Americano - 2.2, Americano - £2.2, Americano - 2.2, Americano - 2.2",
+Chinedu Okafor,28-04-2024 07:18,Soho,Card,Espresso - £2.0,13605316102608771
+Nina Patel,28/04/2024,Soho,Card,Americano -  2.2 ,1.629767301964939e+00+17

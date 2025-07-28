@@ -196,3 +196,5 @@ cython_debug/
 
 # Ignore planning folder
 planning/
+
+sql_queries
