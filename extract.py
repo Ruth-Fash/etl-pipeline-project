@@ -29,14 +29,28 @@ def read_csv_file(csv,dtype=None):
 
 
 def read_all_csvs(folder):
-    csv_path = get_csv_filepaths_from(folder)
-    all_branch_df = []
-    for path in csv_path:
-         df = pd.read_csv(path)
-         all_branch_df.append(df)  # Use filename (without .csv) as key
+    try:
+        csv_path = get_csv_filepaths_from(folder)
+        all_branch_df = []
+        required_columns = "Customer Name", "Date/Time", "Branch", "Payment Type", "Drinks Ordered", "Card Number"
 
-    combined_df = pd.concat(all_branch_df, ignore_index=True) # Combine all DataFrames into one (resetting index)
-    return combined_df
+        for path in csv_path:
+            df = pd.read_csv(path)
+            if all(col in df.columns for col in required_columns):
+                all_branch_df.append(df)  # appends each as seperate df into all_branch_df variable 
+            else:
+                print(f"{path.name} does not have all required columns, so it was skipped.") # stops if there a csv if missing the correct columns 
+                return None
+        combined_df = pd.concat(all_branch_df, ignore_index=True) # Combine all DataFrames into one (resetting index)
+        return combined_df
+    
+    except FileNotFoundError:
+        print("Oops! The file was not found. Please check the path.")
+        return None
+    except pd.errors.EmptyDataError:
+        print("The file is empty!")
+        return None
+        
 
 
     """ Test to see the output"""
