@@ -1,0 +1,108 @@
+Customer Name,Date/Time,Branch,Payment Type,Drinks Ordered,Card Number
+Anna Smith,10/05/2024,Brixton,Cash,"Americano - £2.2, Latte -  2.5 ",45718057738406643
+Chinedu Okafor,10th May 2024,Brixton,Cash,"Cappuccino - 3.0, Latte -  £2.5 ",
+Chinedu Okafor,2024/05/10 09:48,Brixton,Cash,"Espresso -  2.0 , Americano - £2.2, Latte - £2.5",62419102368106251
+Aisha Bello,10 May 2024 12:16,Brixton,Card,"Americano -  2.2 , Americano - 2.2",55462956326761905
+Chen Wei,10-05-2024 17:21,Brixton,Cash,"Americano -  £2.2 , Cappuccino -  £3.0 , Mocha - £3.75",94750038797668522
+Fatima Yusuf,10th May 2024,Brixton,Cash,"Mocha -  3.75 , Mocha -  3.75 ",32238977535736782
+Dave Johnson,2024/05/10 14:19,Brixton,Card,"Cappuccino - £3.0, Cappuccino -  £3.0 , Cappuccino - 3.0",4874639515635336
+Jake Thompson,2024/05/10 21:01,Brixton,Cash,Mocha - £3.75,8882670941324365
+Chen Wei,10 May 2024 16:00,Brixton,Cash,"Mocha -  3.75 , Mocha -  £3.75 , Americano - 2.2",
+Carlos Reyes,10th May 2024,Brixton,Card,"Latte - 2.5, Macchiato -  3.1 ",
+Chinedu Okafor,10-05-2024 07:37,Brixton,Card,"Latte -  2.5 , Latte - £2.5, Mocha -  £3.75 ",24277117738966226
+Grace Kim,10-05-2024 11:24,Brixton,Card,Americano -  £2.2 ,
+Aisha Bello,2024/05/10 15:32,Brixton,Cash,"Flat White -  2.75 , Mocha -  3.75 ",29918627150269024
+Aisha Bello,2024/05/10 12:25,Brixton,Card,"Americano -  £2.2 , Macchiato - £3.1, Espresso -  2.0 ",
+Anna Smith,10 May 2024 18:41,Brixton,Card,"Cappuccino -  £3.0 , Cappuccino -  £3.0 ",39117082853323234
+Aisha Bello,2024/05/10 11:20,Brixton,Card,"Mocha - 3.75, Cappuccino - £3.0, Americano -  £2.2 ",76425632735543369
+Leila Ahmed,10-05-2024 17:32,Brixton,Card,"Espresso -  2.0 , Cappuccino -  £3.0 ",
+Fatima Yusuf,10-05-2024 08:48,Brixton,Card,"Americano - 2.2, Macchiato - £3.1, Cappuccino -  £3.0 ",
+Aisha Bello,10-05-2024 07:23,Brixton,Cash,"Flat White -  2.75 , Americano - 2.2, Cappuccino - 3.0",17914286184178062
+Aisha Bello,10 May 2024 15:28,Brixton,Card,"Latte - £2.5, Mocha -  £3.75 ",29863867435755953
+Maria Lopez,10/05/2024,Brixton,Cash,"Americano -  £2.2 , Latte - £2.5, Espresso -  £2.0 ",58811839347023655
+Maria Lopez,10/05/2024,Brixton,Card,Americano - 2.2,
+Chinedu Okafor,10 May 2024 20:21,Brixton,Card,"Flat White - 2.75, Latte -  2.5 , Americano -  £2.2 ",
+Oliver Twist,10-05-2024 12:58,Brixton,Cash,"Cappuccino - £3.0, Latte - £2.5, Flat White -  £2.75 ",4.266706270492433e+16
+Chen Wei,10-05-2024 17:03,Brixton,Cash,"Espresso -  2.0 , Mocha - 3.75, Cappuccino - £3.0",4.345413922712867e+16
+Anna Smith,10th May 2024,Brixton,Card,"Americano -  2.2 , Espresso -  £2.0 ",30420705733161469
+Nina Patel,10/05/2024,Brixton,Cash,"Flat White - £2.75, Macchiato -  3.1 ",
+Chen Wei,10 May 2024 15:28,Brixton,Card,Latte -  £2.5 ,82333764155812990
+Oliver Twist,2024/05/10 17:59,Brixton,Cash,"Macchiato -  £3.1 , Macchiato -  £3.1 ",88197733219044043
+Oliver Twist,2024/05/10 21:15,Brixton,Card,"Flat White -  £2.75 , Flat White - £2.75",64064030914483408
+Nina Patel,10/05/2024,Brixton,Card,Americano - 2.2,31632394312064213
+Anna Smith,10th May 2024,Brixton,Card,Mocha -  £3.75 ,13914401513444455
+Dave Johnson,2024/05/10 19:21,Brixton,Card,"Espresso - £2.0, Cappuccino - 3.0, Macchiato -  3.1 ",14400049213738770
+James Carter,10th May 2024,Brixton,Card,"Flat White - 2.75, Mocha -  £3.75 , Espresso - £2.0",86738602816746374
+Maria Lopez,2024/05/10 18:42,Brixton,Card,"Flat White -  2.75 , Americano - £2.2, Latte -  £2.5 ",
+Dave Johnson,2024/05/10 20:36,Brixton,Card,Mocha - 3.75,68957653163640890
+Chen Wei,10 May 2024 11:41,Brixton,Cash,"Latte - 2.5, Flat White -  2.75 , Espresso -  2.0 ",2.6909258596309356e+16
+Sophie Dubois,10 May 2024 10:50,Brixton,Cash,Cappuccino - £3.0,
+Grace Kim,10 May 2024 17:00,Brixton,Cash,"Flat White - 2.75, Mocha - £3.75, Americano -  2.2 ",2.3562868356294096e+16
+Carlos Reyes,10 May 2024 17:47,Brixton,Cash,"Cappuccino -  £3.0 , Americano -  2.2 ",26006018338864471
+James Carter,10 May 2024 16:18,Brixton,Cash,"Cappuccino -  £3.0 , Latte - £2.5, Cappuccino -  £3.0 ",
+Carlos Reyes,10 May 2024 09:14,Brixton,Cash,"Latte - 2.5, Mocha - 3.75, Latte -  £2.5 ",85564761360747965
+Grace Kim,2024/05/10 17:03,Brixton,Card,Mocha - 3.75,
+Maria Lopez,10 May 2024 20:49,Brixton,Cash,"Flat White - £2.75, Mocha - 3.75, Macchiato - 3.1",34450041565447999
+Maria Lopez,10/05/2024,Brixton,Cash,"Cappuccino -  £3.0 , Americano -  £2.2 ",579096321612885
+Aisha Bello,2024/05/10 20:13,Brixton,Card,Latte -  £2.5 ,5.526542759366788e+16
+Anna Smith,10th May 2024,Brixton,Cash,"Macchiato - 3.1, Latte -  £2.5 ",
+Carlos Reyes,10 May 2024 15:33,Brixton,Card,"Americano - 2.2, Mocha - £3.75",
+Fatima Yusuf,10-05-2024 17:54,Brixton,Cash,"Cappuccino - £3.0, Espresso - 2.0, Macchiato - £3.1",
+Nina Patel,10-05-2024 09:27,Brixton,Cash,"Americano -  £2.2 , Macchiato -  £3.1 ",93091827772576304
+Fatima Yusuf,10th May 2024,Brixton,Card,"Cappuccino -  £3.0 , Mocha - £3.75, Mocha -  £3.75 ",77144721944965773
+Chinedu Okafor,10th May 2024,Brixton,Cash,"Mocha - 3.75, Cappuccino - £3.0",88607987003755178
+Grace Kim,10th May 2024,Brixton,Card,"Mocha -  £3.75 , Macchiato - £3.1",
+Grace Kim,10 May 2024 12:51,Brixton,Card,"Macchiato -  £3.1 , Cappuccino - 3.0, Flat White - 2.75",
+Chinedu Okafor,10/05/2024,Brixton,Card,Macchiato -  £3.1 ,9.730260112974266e+16
+Leila Ahmed,10th May 2024,Brixton,Card,"Cappuccino -  £3.0 , Mocha -  £3.75 ",6437023980249984
+Chen Wei,10/05/2024,Brixton,Cash,Macchiato -  £3.1 ,
+Fatima Yusuf,10 May 2024 20:49,Brixton,Card,Macchiato -  3.1 ,81121351732398755
+Chen Wei,2024/05/10 10:22,Brixton,Cash,"Mocha - £3.75, Macchiato - 3.1, Macchiato -  3.1 ",
+Fatima Yusuf,10th May 2024,Brixton,Cash,"Americano - 2.2, Mocha - £3.75, Espresso -  2.0 ",49791838034297376
+Grace Kim,10-05-2024 13:27,Brixton,Cash,"Flat White - £2.75, Latte -  £2.5 , Latte - 2.5",39272971586275156
+Anna Smith,2024/05/10 09:07,Brixton,Cash,"Latte - £2.5, Americano - 2.2, Macchiato - £3.1",37662818970992612
+Jake Thompson,2024/05/10 20:53,Brixton,Card,"Macchiato - 3.1, Cappuccino -  3.0 ",59523684890686824
+Dave Johnson,10th May 2024,Brixton,Cash,Flat White -  £2.75 ,
+Grace Kim,10-05-2024 14:11,Brixton,Card,"Flat White -  £2.75 , Cappuccino -  £3.0 , Americano - £2.2",3.5550249828446652e+16
+Nina Patel,10th May 2024,Brixton,Card,"Mocha -  £3.75 , Flat White - £2.75",
+Chinedu Okafor,10 May 2024 20:48,Brixton,Cash,Mocha -  3.75 ,14230523703157154
+Dave Johnson,10th May 2024,Brixton,Cash,Cappuccino -  £3.0 ,
+Fatima Yusuf,10 May 2024 22:58,Brixton,Cash,Cappuccino - £3.0,
+Nina Patel,10-05-2024 20:00,Brixton,Card,"Cappuccino -  £3.0 , Macchiato -  £3.1 , Macchiato - 3.1",57267278488766542
+Aisha Bello,10/05/2024,Brixton,Cash,"Latte -  2.5 , Cappuccino -  3.0 , Cappuccino - £3.0",88353839960337480
+Aisha Bello,2024/05/10 19:07,Brixton,Card,Macchiato -  £3.1 ,48318730015230824
+Oliver Twist,2024/05/10 20:16,Brixton,Card,Macchiato - £3.1,
+Nina Patel,2024/05/10 11:11,Brixton,Cash,"Mocha - £3.75, Latte - £2.5",
+Fatima Yusuf,10-05-2024 11:53,Brixton,Cash,Flat White -  2.75 ,80702104222562960
+Oliver Twist,10th May 2024,Brixton,Cash,"Flat White -  £2.75 , Mocha -  3.75 ",35330974625665710
+Fatima Yusuf,10-05-2024 12:20,Brixton,Card,"Mocha -  3.75 , Macchiato - 3.1",40329146024557466
+Chinedu Okafor,10 May 2024 21:59,Brixton,Card,"Mocha -  £3.75 , Macchiato -  3.1 ",51726595104361310
+Jake Thompson,10/05/2024,Brixton,Card,"Latte -  £2.5 , Espresso -  £2.0 , Americano - 2.2",
+James Carter,2024/05/10 08:01,Brixton,Cash,"Macchiato -  3.1 , Macchiato - £3.1",58195294451589393
+Jake Thompson,10/05/2024,Brixton,Cash,Americano -  £2.2 ,375400940270285
+Jake Thompson,10 May 2024 18:39,Brixton,Card,"Espresso - 2.0, Espresso - £2.0",66195929108926127
+Chen Wei,10-05-2024 18:40,Brixton,Cash,"Latte -  2.5 , Cappuccino -  £3.0 ",11333328875842435
+James Carter,10 May 2024 19:41,Brixton,Card,Americano -  2.2 ,90051022008093737
+Dave Johnson,10 May 2024 12:45,Brixton,Cash,Flat White -  2.75 ,82934445793016532
+Sophie Dubois,10/05/2024,Brixton,Card,"Espresso -  2.0 , Flat White - £2.75, Espresso - 2.0",98790815729520712
+Sophie Dubois,10th May 2024,Brixton,Card,Mocha - 3.75,
+Jake Thompson,10/05/2024,Brixton,Cash,"Macchiato -  3.1 , Latte -  2.5 , Espresso -  £2.0 ",
+Aisha Bello,10th May 2024,Brixton,Card,Espresso -  £2.0 ,38136366238593027
+Chen Wei,10th May 2024,Brixton,Cash,"Americano -  2.2 , Latte -  £2.5 ",867802512839238.0
+Nina Patel,2024/05/10 15:16,Brixton,Cash,"Macchiato -  3.1 , Espresso -  £2.0 ",
+Dave Johnson,10th May 2024,Brixton,Cash,"Flat White -  2.75 , Mocha -  3.75 , Mocha - 3.75",
+Dave Johnson,2024/05/10 21:05,Brixton,Cash,"Macchiato -  3.1 , Americano - 2.2",
+Chinedu Okafor,10th May 2024,Brixton,Card,Latte - 2.5,32651566411193041
+Dave Johnson,2024/05/10 22:17,Brixton,Card,"Macchiato -  3.1 , Mocha - £3.75, Cappuccino -  £3.0 ",
+Oliver Twist,10/05/2024,Brixton,Card,"Flat White - £2.75, Cappuccino -  £3.0 , Espresso -  £2.0 ",8.46508396950057e+16
+James Carter,2024/05/10 09:03,Brixton,Card,Espresso -  2.0 ,96602438126247601
+Nina Patel,10-05-2024 19:54,Brixton,Cash,"Latte -  £2.5 , Latte -  2.5 ",
+Oliver Twist,10th May 2024,Brixton,Cash,Flat White - £2.75,3108808704299540
+Leila Ahmed,10th May 2024,Brixton,Card,Cappuccino -  3.0 ,
+Leila Ahmed,10-05-2024 10:05,Brixton,Card,Macchiato - £3.1,78648135567357874
+Anna Smith,2024/05/10 22:27,Brixton,Cash,"Espresso -  2.0 , Latte -  £2.5 ",1829016414281257
+Grace Kim,10/05/2024,Brixton,Cash,"Americano - £2.2, Americano - 2.2, Macchiato - 3.1",34499423044153980
+Aisha Bello,2024/05/10 14:15,Brixton,Cash,Cappuccino - 3.0,52918623337396346
+Nina Patel,10-05-2024 22:42,Brixton,Cash,"Latte - 2.5, Cappuccino - £3.0",11487328258628984
+Chen Wei,10 May 2024 21:00,Brixton,Cash,"Macchiato - 3.1, Mocha - £3.75",
+James Carter,10/05/2024,Brixton,Card,"Cappuccino -  3.0 , Latte - £2.5",57524897958131353

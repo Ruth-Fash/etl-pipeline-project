@@ -6,6 +6,7 @@ import uuid
 from rapidfuzz import process
 import pandera as pa
 from pandera.dtypes import DateTime
+import traceback
 
 
 
@@ -92,14 +93,21 @@ def fix_blanks(df):
     return df
 
 def remove_and_save_blank_rows(df):
-    has_missing_values =  df[["product", "price"]].isna().any(axis=1)# check for actual NaN / pd.NA values in the df
-    rows_with_missing = df[has_missing_values].copy()  # copy rows with blanks in the df
+    try:
+        has_missing_values =  df[["product", "price"]].isna().any(axis=1)# check for actual NaN / pd.NA values in the df
+        rows_with_missing = df[has_missing_values].copy()  # copy rows with blanks in the df
     
-    if not rows_with_missing.empty:
-        rows_with_missing.to_csv('rows_with_missing.csv', mode='a', header=False, index=False) # save to csv 
-        print("Rows with missing 'Product' or 'Price' have been saved to 'rows_with_missing.csv' and removed from the main dataset.")
+        if not rows_with_missing.empty:
+            rows_with_missing.to_csv('rows_with_missing.csv', mode='a', header=False, index=False) # save to csv 
+            print("Rows with missing 'Product' or 'Price' have been saved to 'rows_with_missing.csv' and removed from the main dataset.")
         
-        return df[~has_missing_values] # return rows without the blanks
+        return df[~has_missing_values] # return rows without the blanks - Always return cleaned data — even if nothing was removed
+        
+        
+    except Exception as e:
+        print("Error in remove_and_save_blank_rows:")
+        traceback.print_exc()
+        return None  # Explicitly return None if something fails
         
 
 

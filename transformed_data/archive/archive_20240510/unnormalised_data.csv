@@ -1,0 +1,827 @@
+date_time,branch,payment_type,order_id,product,price
+2024-05-10 00:00:00,Brixton,Cash,24c4344b-2612-483f-854d-a4f30f0119c0,Americano,2.2
+2024-05-10 00:00:00,Brixton,Cash,24c4344b-2612-483f-854d-a4f30f0119c0,Latte,2.5
+2024-05-10 00:00:00,Brixton,Cash,d8789060-f927-4c6e-942e-3e6c83ffcaaa,Cappuccino,3.0
+2024-05-10 00:00:00,Brixton,Cash,d8789060-f927-4c6e-942e-3e6c83ffcaaa,Latte,2.5
+2024-05-10 09:48:00,Brixton,Cash,96c57399-8212-45e4-9967-7a12b6461e4c,Espresso,2.0
+2024-05-10 09:48:00,Brixton,Cash,96c57399-8212-45e4-9967-7a12b6461e4c,Americano,2.2
+2024-05-10 09:48:00,Brixton,Cash,96c57399-8212-45e4-9967-7a12b6461e4c,Latte,2.5
+2024-05-10 12:16:00,Brixton,Card,f2420e9d-03a1-4d73-9ae3-f4ed2e45e04b,Americano,2.2
+2024-05-10 12:16:00,Brixton,Card,f2420e9d-03a1-4d73-9ae3-f4ed2e45e04b,Americano,2.2
+2024-05-10 17:21:00,Brixton,Cash,9e9364cc-ed64-4a03-a827-affa43b67976,Americano,2.2
+2024-05-10 17:21:00,Brixton,Cash,9e9364cc-ed64-4a03-a827-affa43b67976,Cappuccino,3.0
+2024-05-10 17:21:00,Brixton,Cash,9e9364cc-ed64-4a03-a827-affa43b67976,Mocha,3.75
+2024-05-10 00:00:00,Brixton,Cash,0c2066e6-85f0-4988-9cf5-6c6dd6d5fe48,Mocha,3.75
+2024-05-10 00:00:00,Brixton,Cash,0c2066e6-85f0-4988-9cf5-6c6dd6d5fe48,Mocha,3.75
+2024-05-10 14:19:00,Brixton,Card,1a89004c-ec13-447b-a4aa-e9d0da75969f,Cappuccino,3.0
+2024-05-10 14:19:00,Brixton,Card,1a89004c-ec13-447b-a4aa-e9d0da75969f,Cappuccino,3.0
+2024-05-10 14:19:00,Brixton,Card,1a89004c-ec13-447b-a4aa-e9d0da75969f,Cappuccino,3.0
+2024-05-10 21:01:00,Brixton,Cash,f062592a-0b38-4d3f-a608-179a3cd91a10,Mocha,3.75
+2024-05-10 16:00:00,Brixton,Cash,eb5cd203-547a-48fa-b010-cc28a9bdacf4,Mocha,3.75
+2024-05-10 16:00:00,Brixton,Cash,eb5cd203-547a-48fa-b010-cc28a9bdacf4,Mocha,3.75
+2024-05-10 16:00:00,Brixton,Cash,eb5cd203-547a-48fa-b010-cc28a9bdacf4,Americano,2.2
+2024-05-10 00:00:00,Brixton,Card,560b09d7-f08c-4756-80c7-2f7fe64b92ad,Latte,2.5
+2024-05-10 00:00:00,Brixton,Card,560b09d7-f08c-4756-80c7-2f7fe64b92ad,Macchiato,3.1
+2024-05-10 07:37:00,Brixton,Card,1199906e-c49a-4631-b7b5-32516ca8193f,Latte,2.5
+2024-05-10 07:37:00,Brixton,Card,1199906e-c49a-4631-b7b5-32516ca8193f,Latte,2.5
+2024-05-10 07:37:00,Brixton,Card,1199906e-c49a-4631-b7b5-32516ca8193f,Mocha,3.75
+2024-05-10 11:24:00,Brixton,Card,a1efd12b-ea1b-401e-9d51-d75d8dc2c5e6,Americano,2.2
+2024-05-10 15:32:00,Brixton,Cash,08f2dd04-a6a2-4778-829e-e612839223cb,Flat White,2.75
+2024-05-10 15:32:00,Brixton,Cash,08f2dd04-a6a2-4778-829e-e612839223cb,Mocha,3.75
+2024-05-10 12:25:00,Brixton,Card,ab9d3932-40fe-4c90-8744-eb53a4e5fe48,Americano,2.2
+2024-05-10 12:25:00,Brixton,Card,ab9d3932-40fe-4c90-8744-eb53a4e5fe48,Macchiato,3.1
+2024-05-10 12:25:00,Brixton,Card,ab9d3932-40fe-4c90-8744-eb53a4e5fe48,Espresso,2.0
+2024-05-10 18:41:00,Brixton,Card,52d0fa32-295a-4106-abae-970b1d91a0fb,Cappuccino,3.0
+2024-05-10 18:41:00,Brixton,Card,52d0fa32-295a-4106-abae-970b1d91a0fb,Cappuccino,3.0
+2024-05-10 11:20:00,Brixton,Card,bf150d14-1e7d-4078-94d3-390c5b32263a,Mocha,3.75
+2024-05-10 11:20:00,Brixton,Card,bf150d14-1e7d-4078-94d3-390c5b32263a,Cappuccino,3.0
+2024-05-10 11:20:00,Brixton,Card,bf150d14-1e7d-4078-94d3-390c5b32263a,Americano,2.2
+2024-05-10 17:32:00,Brixton,Card,a67150ea-c981-49c5-aaa8-517bf631f172,Espresso,2.0
+2024-05-10 17:32:00,Brixton,Card,a67150ea-c981-49c5-aaa8-517bf631f172,Cappuccino,3.0
+2024-05-10 08:48:00,Brixton,Card,c44eacb6-70e8-41fa-8af6-15d7072734df,Americano,2.2
+2024-05-10 08:48:00,Brixton,Card,c44eacb6-70e8-41fa-8af6-15d7072734df,Macchiato,3.1
+2024-05-10 08:48:00,Brixton,Card,c44eacb6-70e8-41fa-8af6-15d7072734df,Cappuccino,3.0
+2024-05-10 07:23:00,Brixton,Cash,ba8b2c78-1d8f-4a97-8d5c-7039664b5219,Flat White,2.75
+2024-05-10 07:23:00,Brixton,Cash,ba8b2c78-1d8f-4a97-8d5c-7039664b5219,Americano,2.2
+2024-05-10 07:23:00,Brixton,Cash,ba8b2c78-1d8f-4a97-8d5c-7039664b5219,Cappuccino,3.0
+2024-05-10 15:28:00,Brixton,Card,57fc036f-5bd8-4e63-ba8e-5e300853043e,Latte,2.5
+2024-05-10 15:28:00,Brixton,Card,57fc036f-5bd8-4e63-ba8e-5e300853043e,Mocha,3.75
+2024-05-10 00:00:00,Brixton,Cash,8225bae0-fe75-4199-91e7-afed47334513,Americano,2.2
+2024-05-10 00:00:00,Brixton,Cash,8225bae0-fe75-4199-91e7-afed47334513,Latte,2.5
+2024-05-10 00:00:00,Brixton,Cash,8225bae0-fe75-4199-91e7-afed47334513,Espresso,2.0
+2024-05-10 00:00:00,Brixton,Card,bd7d6ef6-f17b-4d4b-a6ff-b4d15f6fca0b,Americano,2.2
+2024-05-10 20:21:00,Brixton,Card,42917300-9ae9-4872-8ad0-f1b0896d382c,Flat White,2.75
+2024-05-10 20:21:00,Brixton,Card,42917300-9ae9-4872-8ad0-f1b0896d382c,Latte,2.5
+2024-05-10 20:21:00,Brixton,Card,42917300-9ae9-4872-8ad0-f1b0896d382c,Americano,2.2
+2024-05-10 12:58:00,Brixton,Cash,fc8b5519-764e-44b1-9cc4-971ce7007013,Cappuccino,3.0
+2024-05-10 12:58:00,Brixton,Cash,fc8b5519-764e-44b1-9cc4-971ce7007013,Latte,2.5
+2024-05-10 12:58:00,Brixton,Cash,fc8b5519-764e-44b1-9cc4-971ce7007013,Flat White,2.75
+2024-05-10 17:03:00,Brixton,Cash,b497fc39-d308-4853-9fe1-c56db73f9b72,Espresso,2.0
+2024-05-10 17:03:00,Brixton,Cash,b497fc39-d308-4853-9fe1-c56db73f9b72,Mocha,3.75
+2024-05-10 17:03:00,Brixton,Cash,b497fc39-d308-4853-9fe1-c56db73f9b72,Cappuccino,3.0
+2024-05-10 00:00:00,Brixton,Card,bfa04e29-1b30-47c7-8d88-34afd5d3b178,Americano,2.2
+2024-05-10 00:00:00,Brixton,Card,bfa04e29-1b30-47c7-8d88-34afd5d3b178,Espresso,2.0
+2024-05-10 00:00:00,Brixton,Cash,a62283c2-9863-4dd6-a832-a9ca88d1ab59,Flat White,2.75
+2024-05-10 00:00:00,Brixton,Cash,a62283c2-9863-4dd6-a832-a9ca88d1ab59,Macchiato,3.1
+2024-05-10 15:28:00,Brixton,Card,6c98beee-991a-4b8f-96d7-12a5138df651,Latte,2.5
+2024-05-10 17:59:00,Brixton,Cash,898c222a-2504-488f-b707-7a8e2bb9a33f,Macchiato,3.1
+2024-05-10 17:59:00,Brixton,Cash,898c222a-2504-488f-b707-7a8e2bb9a33f,Macchiato,3.1
+2024-05-10 21:15:00,Brixton,Card,b287f98c-21a8-4f15-90b2-32c95014eab7,Flat White,2.75
+2024-05-10 21:15:00,Brixton,Card,b287f98c-21a8-4f15-90b2-32c95014eab7,Flat White,2.75
+2024-05-10 00:00:00,Brixton,Card,5488f632-4cc1-40a9-8113-cca56220a733,Americano,2.2
+2024-05-10 00:00:00,Brixton,Card,4065fbc4-a3a9-4613-b646-531600db50aa,Mocha,3.75
+2024-05-10 19:21:00,Brixton,Card,69f1b7dd-e51d-4850-b963-89ff16099506,Espresso,2.0
+2024-05-10 19:21:00,Brixton,Card,69f1b7dd-e51d-4850-b963-89ff16099506,Cappuccino,3.0
+2024-05-10 19:21:00,Brixton,Card,69f1b7dd-e51d-4850-b963-89ff16099506,Macchiato,3.1
+2024-05-10 00:00:00,Brixton,Card,812c2425-f0d7-4d0b-b29f-649990efa331,Flat White,2.75
+2024-05-10 00:00:00,Brixton,Card,812c2425-f0d7-4d0b-b29f-649990efa331,Mocha,3.75
+2024-05-10 00:00:00,Brixton,Card,812c2425-f0d7-4d0b-b29f-649990efa331,Espresso,2.0
+2024-05-10 18:42:00,Brixton,Card,7857bef7-4da4-48e2-b75d-f334704ed5e6,Flat White,2.75
+2024-05-10 18:42:00,Brixton,Card,7857bef7-4da4-48e2-b75d-f334704ed5e6,Americano,2.2
+2024-05-10 18:42:00,Brixton,Card,7857bef7-4da4-48e2-b75d-f334704ed5e6,Latte,2.5
+2024-05-10 20:36:00,Brixton,Card,6028c10b-b85d-43dc-ac37-858d03290dec,Mocha,3.75
+2024-05-10 11:41:00,Brixton,Cash,8dc618eb-ea10-4b76-aa5f-2a987d4ab50b,Latte,2.5
+2024-05-10 11:41:00,Brixton,Cash,8dc618eb-ea10-4b76-aa5f-2a987d4ab50b,Flat White,2.75
+2024-05-10 11:41:00,Brixton,Cash,8dc618eb-ea10-4b76-aa5f-2a987d4ab50b,Espresso,2.0
+2024-05-10 10:50:00,Brixton,Cash,030119fc-8187-4c89-b00d-f427a39fff42,Cappuccino,3.0
+2024-05-10 17:00:00,Brixton,Cash,a0d98a05-be6b-49d7-97aa-97a7b4624662,Flat White,2.75
+2024-05-10 17:00:00,Brixton,Cash,a0d98a05-be6b-49d7-97aa-97a7b4624662,Mocha,3.75
+2024-05-10 17:00:00,Brixton,Cash,a0d98a05-be6b-49d7-97aa-97a7b4624662,Americano,2.2
+2024-05-10 17:47:00,Brixton,Cash,10533a66-0cc7-4a31-bd84-d097dce334c2,Cappuccino,3.0
+2024-05-10 17:47:00,Brixton,Cash,10533a66-0cc7-4a31-bd84-d097dce334c2,Americano,2.2
+2024-05-10 16:18:00,Brixton,Cash,97c35369-75b0-4e3b-bb88-83101ee92729,Cappuccino,3.0
+2024-05-10 16:18:00,Brixton,Cash,97c35369-75b0-4e3b-bb88-83101ee92729,Latte,2.5
+2024-05-10 16:18:00,Brixton,Cash,97c35369-75b0-4e3b-bb88-83101ee92729,Cappuccino,3.0
+2024-05-10 09:14:00,Brixton,Cash,d7874ba6-1144-4120-afff-872078219030,Latte,2.5
+2024-05-10 09:14:00,Brixton,Cash,d7874ba6-1144-4120-afff-872078219030,Mocha,3.75
+2024-05-10 09:14:00,Brixton,Cash,d7874ba6-1144-4120-afff-872078219030,Latte,2.5
+2024-05-10 17:03:00,Brixton,Card,72b20487-e040-486a-a011-4494c763be21,Mocha,3.75
+2024-05-10 20:49:00,Brixton,Cash,e08a7d05-132f-4e9b-bbd4-04be3e195755,Flat White,2.75
+2024-05-10 20:49:00,Brixton,Cash,e08a7d05-132f-4e9b-bbd4-04be3e195755,Mocha,3.75
+2024-05-10 20:49:00,Brixton,Cash,e08a7d05-132f-4e9b-bbd4-04be3e195755,Macchiato,3.1
+2024-05-10 00:00:00,Brixton,Cash,0d669f32-5c7f-408a-b48b-e7b48292ead1,Cappuccino,3.0
+2024-05-10 00:00:00,Brixton,Cash,0d669f32-5c7f-408a-b48b-e7b48292ead1,Americano,2.2
+2024-05-10 20:13:00,Brixton,Card,e0db00c8-5fa5-4ce6-85d0-126640396ae2,Latte,2.5
+2024-05-10 00:00:00,Brixton,Cash,3cb07645-5f4c-4e2f-9e97-02b66aa18586,Macchiato,3.1
+2024-05-10 00:00:00,Brixton,Cash,3cb07645-5f4c-4e2f-9e97-02b66aa18586,Latte,2.5
+2024-05-10 15:33:00,Brixton,Card,ea039cfd-a13e-412e-8d24-16ad60948781,Americano,2.2
+2024-05-10 15:33:00,Brixton,Card,ea039cfd-a13e-412e-8d24-16ad60948781,Mocha,3.75
+2024-05-10 17:54:00,Brixton,Cash,2aab430e-5043-453d-8887-0f4855681125,Cappuccino,3.0
+2024-05-10 17:54:00,Brixton,Cash,2aab430e-5043-453d-8887-0f4855681125,Espresso,2.0
+2024-05-10 17:54:00,Brixton,Cash,2aab430e-5043-453d-8887-0f4855681125,Macchiato,3.1
+2024-05-10 09:27:00,Brixton,Cash,eb2eb2d1-8a2f-4833-af7c-d426d9798447,Americano,2.2
+2024-05-10 09:27:00,Brixton,Cash,eb2eb2d1-8a2f-4833-af7c-d426d9798447,Macchiato,3.1
+2024-05-10 00:00:00,Brixton,Card,81cc2d3b-ff03-476f-b7ed-91b7aa759653,Cappuccino,3.0
+2024-05-10 00:00:00,Brixton,Card,81cc2d3b-ff03-476f-b7ed-91b7aa759653,Mocha,3.75
+2024-05-10 00:00:00,Brixton,Card,81cc2d3b-ff03-476f-b7ed-91b7aa759653,Mocha,3.75
+2024-05-10 00:00:00,Brixton,Cash,17adc72a-1b12-49d2-82ea-e9eabfe66b2c,Mocha,3.75
+2024-05-10 00:00:00,Brixton,Cash,17adc72a-1b12-49d2-82ea-e9eabfe66b2c,Cappuccino,3.0
+2024-05-10 00:00:00,Brixton,Card,90d27f2b-77cb-406d-8774-624af64f3520,Mocha,3.75
+2024-05-10 00:00:00,Brixton,Card,90d27f2b-77cb-406d-8774-624af64f3520,Macchiato,3.1
+2024-05-10 12:51:00,Brixton,Card,32284804-94be-4173-a584-e17406d201e7,Macchiato,3.1
+2024-05-10 12:51:00,Brixton,Card,32284804-94be-4173-a584-e17406d201e7,Cappuccino,3.0
+2024-05-10 12:51:00,Brixton,Card,32284804-94be-4173-a584-e17406d201e7,Flat White,2.75
+2024-05-10 00:00:00,Brixton,Card,ebc8fa57-214e-43f9-9521-e4698108ddec,Macchiato,3.1
+2024-05-10 00:00:00,Brixton,Card,c68ccf04-aa8b-4f75-ab7e-dafc3fb69909,Cappuccino,3.0
+2024-05-10 00:00:00,Brixton,Card,c68ccf04-aa8b-4f75-ab7e-dafc3fb69909,Mocha,3.75
+2024-05-10 00:00:00,Brixton,Cash,e34c842a-31ce-436b-83c4-71b196e47168,Macchiato,3.1
+2024-05-10 20:49:00,Brixton,Card,7db4a349-f1f5-4c17-9e5c-6ca47618f9f6,Macchiato,3.1
+2024-05-10 10:22:00,Brixton,Cash,e895e048-c24d-40d8-97a9-9812f2450fb2,Mocha,3.75
+2024-05-10 10:22:00,Brixton,Cash,e895e048-c24d-40d8-97a9-9812f2450fb2,Macchiato,3.1
+2024-05-10 10:22:00,Brixton,Cash,e895e048-c24d-40d8-97a9-9812f2450fb2,Macchiato,3.1
+2024-05-10 00:00:00,Brixton,Cash,25140fce-d3c2-44c7-8996-2f806e15a1e0,Americano,2.2
+2024-05-10 00:00:00,Brixton,Cash,25140fce-d3c2-44c7-8996-2f806e15a1e0,Mocha,3.75
+2024-05-10 00:00:00,Brixton,Cash,25140fce-d3c2-44c7-8996-2f806e15a1e0,Espresso,2.0
+2024-05-10 13:27:00,Brixton,Cash,9a062c99-fe28-43fe-ae5e-808ac4a0d585,Flat White,2.75
+2024-05-10 13:27:00,Brixton,Cash,9a062c99-fe28-43fe-ae5e-808ac4a0d585,Latte,2.5
+2024-05-10 13:27:00,Brixton,Cash,9a062c99-fe28-43fe-ae5e-808ac4a0d585,Latte,2.5
+2024-05-10 09:07:00,Brixton,Cash,dd634009-fc9b-4a6b-9aa4-c99995a92b8b,Latte,2.5
+2024-05-10 09:07:00,Brixton,Cash,dd634009-fc9b-4a6b-9aa4-c99995a92b8b,Americano,2.2
+2024-05-10 09:07:00,Brixton,Cash,dd634009-fc9b-4a6b-9aa4-c99995a92b8b,Macchiato,3.1
+2024-05-10 20:53:00,Brixton,Card,8a4046fd-afe4-4ec5-bc5f-d7134a82a8b1,Macchiato,3.1
+2024-05-10 20:53:00,Brixton,Card,8a4046fd-afe4-4ec5-bc5f-d7134a82a8b1,Cappuccino,3.0
+2024-05-10 00:00:00,Brixton,Cash,00c284b8-49f4-4343-9fed-9e85d175b5a9,Flat White,2.75
+2024-05-10 14:11:00,Brixton,Card,cad0d068-c1b3-42c7-8d65-c65f1ac98920,Flat White,2.75
+2024-05-10 14:11:00,Brixton,Card,cad0d068-c1b3-42c7-8d65-c65f1ac98920,Cappuccino,3.0
+2024-05-10 14:11:00,Brixton,Card,cad0d068-c1b3-42c7-8d65-c65f1ac98920,Americano,2.2
+2024-05-10 00:00:00,Brixton,Card,9d2ae120-899f-4ffa-b0bf-eefd3dd00bad,Mocha,3.75
+2024-05-10 00:00:00,Brixton,Card,9d2ae120-899f-4ffa-b0bf-eefd3dd00bad,Flat White,2.75
+2024-05-10 20:48:00,Brixton,Cash,0a29bce5-6bb5-4311-9db6-3fd6a3f5b546,Mocha,3.75
+2024-05-10 00:00:00,Brixton,Cash,3b4c2e59-69bd-40a0-9b62-05dddb8315c2,Cappuccino,3.0
+2024-05-10 22:58:00,Brixton,Cash,e206cea7-2f76-4e82-b49a-7979ab3bbb97,Cappuccino,3.0
+2024-05-10 20:00:00,Brixton,Card,f7fe067e-af6b-4f5f-997f-340ea09c2cd1,Cappuccino,3.0
+2024-05-10 20:00:00,Brixton,Card,f7fe067e-af6b-4f5f-997f-340ea09c2cd1,Macchiato,3.1
+2024-05-10 20:00:00,Brixton,Card,f7fe067e-af6b-4f5f-997f-340ea09c2cd1,Macchiato,3.1
+2024-05-10 00:00:00,Brixton,Cash,09ce19f4-b92c-4703-8b54-bfbc29c4d878,Latte,2.5
+2024-05-10 00:00:00,Brixton,Cash,09ce19f4-b92c-4703-8b54-bfbc29c4d878,Cappuccino,3.0
+2024-05-10 00:00:00,Brixton,Cash,09ce19f4-b92c-4703-8b54-bfbc29c4d878,Cappuccino,3.0
+2024-05-10 19:07:00,Brixton,Card,ac84c72e-042c-4ebc-9a95-3f5f4b0134d6,Macchiato,3.1
+2024-05-10 20:16:00,Brixton,Card,b5e89b23-87b6-4a7b-b88f-5958e0b69a18,Macchiato,3.1
+2024-05-10 11:11:00,Brixton,Cash,790ed16b-1a42-4788-b392-9282e5a1d749,Mocha,3.75
+2024-05-10 11:11:00,Brixton,Cash,790ed16b-1a42-4788-b392-9282e5a1d749,Latte,2.5
+2024-05-10 11:53:00,Brixton,Cash,4330c417-5cad-4042-bc68-1112b58c2837,Flat White,2.75
+2024-05-10 00:00:00,Brixton,Cash,614b38f4-c8bf-45f4-b8b4-ce101bcb050d,Flat White,2.75
+2024-05-10 00:00:00,Brixton,Cash,614b38f4-c8bf-45f4-b8b4-ce101bcb050d,Mocha,3.75
+2024-05-10 12:20:00,Brixton,Card,6164fb91-7555-48cd-b151-191cb165fbe6,Mocha,3.75
+2024-05-10 12:20:00,Brixton,Card,6164fb91-7555-48cd-b151-191cb165fbe6,Macchiato,3.1
+2024-05-10 21:59:00,Brixton,Card,32cf344d-c101-43ed-ae08-f75dfc9fc0de,Mocha,3.75
+2024-05-10 21:59:00,Brixton,Card,32cf344d-c101-43ed-ae08-f75dfc9fc0de,Macchiato,3.1
+2024-05-10 00:00:00,Brixton,Card,7cd5c6d8-3ee5-4848-bb10-38af373b01ad,Latte,2.5
+2024-05-10 00:00:00,Brixton,Card,7cd5c6d8-3ee5-4848-bb10-38af373b01ad,Espresso,2.0
+2024-05-10 00:00:00,Brixton,Card,7cd5c6d8-3ee5-4848-bb10-38af373b01ad,Americano,2.2
+2024-05-10 08:01:00,Brixton,Cash,342146ee-98e8-4aac-b4d7-02ac3a0fb1ca,Macchiato,3.1
+2024-05-10 08:01:00,Brixton,Cash,342146ee-98e8-4aac-b4d7-02ac3a0fb1ca,Macchiato,3.1
+2024-05-10 00:00:00,Brixton,Cash,db45a130-afd6-46d1-b67f-f3b98918c794,Americano,2.2
+2024-05-10 18:39:00,Brixton,Card,0669432b-95cd-495b-87df-c9db2990ea62,Espresso,2.0
+2024-05-10 18:39:00,Brixton,Card,0669432b-95cd-495b-87df-c9db2990ea62,Espresso,2.0
+2024-05-10 18:40:00,Brixton,Cash,fd78a36d-181f-438d-badc-f30bb9a7af57,Latte,2.5
+2024-05-10 18:40:00,Brixton,Cash,fd78a36d-181f-438d-badc-f30bb9a7af57,Cappuccino,3.0
+2024-05-10 19:41:00,Brixton,Card,6cf3fb89-6cb4-4321-a04e-8acdc64dac42,Americano,2.2
+2024-05-10 12:45:00,Brixton,Cash,78112a4a-a5ba-4d88-874c-3dfe442abf7f,Flat White,2.75
+2024-05-10 00:00:00,Brixton,Card,11fbecdf-d83b-4afa-860d-c013c01755df,Espresso,2.0
+2024-05-10 00:00:00,Brixton,Card,11fbecdf-d83b-4afa-860d-c013c01755df,Flat White,2.75
+2024-05-10 00:00:00,Brixton,Card,11fbecdf-d83b-4afa-860d-c013c01755df,Espresso,2.0
+2024-05-10 00:00:00,Brixton,Card,46cd87a3-30aa-4364-a8aa-eec30922495c,Mocha,3.75
+2024-05-10 00:00:00,Brixton,Cash,2e4e4534-ac0a-4c98-b9f4-aad89c71cfe7,Macchiato,3.1
+2024-05-10 00:00:00,Brixton,Cash,2e4e4534-ac0a-4c98-b9f4-aad89c71cfe7,Latte,2.5
+2024-05-10 00:00:00,Brixton,Cash,2e4e4534-ac0a-4c98-b9f4-aad89c71cfe7,Espresso,2.0
+2024-05-10 00:00:00,Brixton,Card,6a6409a4-a5bc-4c05-aae9-9ec2b90e933c,Espresso,2.0
+2024-05-10 00:00:00,Brixton,Cash,fe43e439-a09d-44c3-9f0d-db6f22ade490,Americano,2.2
+2024-05-10 00:00:00,Brixton,Cash,fe43e439-a09d-44c3-9f0d-db6f22ade490,Latte,2.5
+2024-05-10 15:16:00,Brixton,Cash,c9ce5079-400c-4f97-9471-6aefdc73d6f5,Macchiato,3.1
+2024-05-10 15:16:00,Brixton,Cash,c9ce5079-400c-4f97-9471-6aefdc73d6f5,Espresso,2.0
+2024-05-10 00:00:00,Brixton,Cash,b541fa45-946b-47dd-bec2-9c89e9d7aba7,Flat White,2.75
+2024-05-10 00:00:00,Brixton,Cash,b541fa45-946b-47dd-bec2-9c89e9d7aba7,Mocha,3.75
+2024-05-10 00:00:00,Brixton,Cash,b541fa45-946b-47dd-bec2-9c89e9d7aba7,Mocha,3.75
+2024-05-10 21:05:00,Brixton,Cash,3742898c-dced-4bbe-9110-3e580fe45b1f,Macchiato,3.1
+2024-05-10 21:05:00,Brixton,Cash,3742898c-dced-4bbe-9110-3e580fe45b1f,Americano,2.2
+2024-05-10 00:00:00,Brixton,Card,4030e459-2bed-4347-9137-6a044f2c41fa,Latte,2.5
+2024-05-10 22:17:00,Brixton,Card,5eccf79e-9a2f-4f4b-9e41-a1b8a1dedd74,Macchiato,3.1
+2024-05-10 22:17:00,Brixton,Card,5eccf79e-9a2f-4f4b-9e41-a1b8a1dedd74,Mocha,3.75
+2024-05-10 22:17:00,Brixton,Card,5eccf79e-9a2f-4f4b-9e41-a1b8a1dedd74,Cappuccino,3.0
+2024-05-10 00:00:00,Brixton,Card,20fc619f-8217-438c-84eb-c0ceb5dea8fc,Flat White,2.75
+2024-05-10 00:00:00,Brixton,Card,20fc619f-8217-438c-84eb-c0ceb5dea8fc,Cappuccino,3.0
+2024-05-10 00:00:00,Brixton,Card,20fc619f-8217-438c-84eb-c0ceb5dea8fc,Espresso,2.0
+2024-05-10 09:03:00,Brixton,Card,c2df01d3-07ac-42a1-8e86-d6a5a8ad7e62,Espresso,2.0
+2024-05-10 19:54:00,Brixton,Cash,821cb492-65fa-4f40-876f-b0151f01f55e,Latte,2.5
+2024-05-10 19:54:00,Brixton,Cash,821cb492-65fa-4f40-876f-b0151f01f55e,Latte,2.5
+2024-05-10 00:00:00,Brixton,Cash,8b9ca442-aacd-4416-ab6f-cd3aaee97388,Flat White,2.75
+2024-05-10 00:00:00,Brixton,Card,3b0476ae-8310-4e5b-b26d-c4c2f897f6fa,Cappuccino,3.0
+2024-05-10 10:05:00,Brixton,Card,05563241-3b11-4330-829f-c92d09fe1302,Macchiato,3.1
+2024-05-10 22:27:00,Brixton,Cash,a0f2e642-85b1-4ee2-aeb3-ef27a74525e1,Espresso,2.0
+2024-05-10 22:27:00,Brixton,Cash,a0f2e642-85b1-4ee2-aeb3-ef27a74525e1,Latte,2.5
+2024-05-10 00:00:00,Brixton,Cash,df6e1f8a-800a-424f-a810-141fee4d4417,Americano,2.2
+2024-05-10 00:00:00,Brixton,Cash,df6e1f8a-800a-424f-a810-141fee4d4417,Americano,2.2
+2024-05-10 00:00:00,Brixton,Cash,df6e1f8a-800a-424f-a810-141fee4d4417,Macchiato,3.1
+2024-05-10 14:15:00,Brixton,Cash,22ac9bc8-cc1a-4a08-8776-6280ef737f6c,Cappuccino,3.0
+2024-05-10 22:42:00,Brixton,Cash,29680c95-1832-4fb7-b751-a459941c8001,Latte,2.5
+2024-05-10 22:42:00,Brixton,Cash,29680c95-1832-4fb7-b751-a459941c8001,Cappuccino,3.0
+2024-05-10 21:00:00,Brixton,Cash,7acb57aa-4cb7-4a89-adf3-713ca4048bbb,Macchiato,3.1
+2024-05-10 21:00:00,Brixton,Cash,7acb57aa-4cb7-4a89-adf3-713ca4048bbb,Mocha,3.75
+2024-05-10 00:00:00,Brixton,Card,ce43ebd3-cfd6-479c-a5f5-1c5ddfb64a1d,Cappuccino,3.0
+2024-05-10 00:00:00,Brixton,Card,ce43ebd3-cfd6-479c-a5f5-1c5ddfb64a1d,Latte,2.5
+2024-05-10 14:44:00,Richmond,Card,d6c2108d-1d77-49b9-89e6-16796497fac4,Latte,2.5
+2024-05-10 14:44:00,Richmond,Card,d6c2108d-1d77-49b9-89e6-16796497fac4,Cappuccino,3.0
+2024-05-10 14:44:00,Richmond,Card,d6c2108d-1d77-49b9-89e6-16796497fac4,Macchiato,3.1
+2024-05-10 00:00:00,Richmond,Card,8609a6db-f2bc-4053-a1f8-fb46ff948e38,Mocha,3.75
+2024-05-10 00:00:00,Richmond,Card,8609a6db-f2bc-4053-a1f8-fb46ff948e38,Espresso,2.0
+2024-05-10 00:00:00,Richmond,Card,8609a6db-f2bc-4053-a1f8-fb46ff948e38,Latte,2.5
+2024-05-10 15:30:00,Richmond,Cash,1f08637c-0bab-4d7b-a9ec-d6a228d6e2ad,Americano,2.2
+2024-05-10 15:30:00,Richmond,Cash,1f08637c-0bab-4d7b-a9ec-d6a228d6e2ad,Flat White,2.75
+2024-05-10 15:30:00,Richmond,Cash,1f08637c-0bab-4d7b-a9ec-d6a228d6e2ad,Latte,2.5
+2024-05-10 21:01:00,Richmond,Cash,d7b93dea-60b1-4a76-a53f-cb45907d6f09,Espresso,2.0
+2024-05-10 21:01:00,Richmond,Cash,d7b93dea-60b1-4a76-a53f-cb45907d6f09,Latte,2.5
+2024-05-10 21:01:00,Richmond,Cash,d7b93dea-60b1-4a76-a53f-cb45907d6f09,Flat White,2.75
+2024-05-10 00:00:00,Richmond,Cash,d5d55673-1530-4f9d-b7a3-35e209933f4c,Macchiato,3.1
+2024-05-10 00:00:00,Richmond,Cash,d5d55673-1530-4f9d-b7a3-35e209933f4c,Latte,2.5
+2024-05-10 09:54:00,Richmond,Card,7b70aeb4-d370-436b-8a0d-962cec191e07,Espresso,2.0
+2024-05-10 09:54:00,Richmond,Card,7b70aeb4-d370-436b-8a0d-962cec191e07,Latte,2.5
+2024-05-10 21:48:00,Richmond,Card,b85e1818-59bd-4227-8ecb-876c1164c426,Americano,2.2
+2024-05-10 22:21:00,Richmond,Card,3e01f52e-4323-43dd-8f0e-1576b7a2738d,Cappuccino,3.0
+2024-05-10 22:21:00,Richmond,Card,3e01f52e-4323-43dd-8f0e-1576b7a2738d,Latte,2.5
+2024-05-10 00:00:00,Richmond,Cash,ae1d6880-2cac-457b-861e-0754459be3cc,Americano,2.2
+2024-05-10 00:00:00,Richmond,Cash,ae1d6880-2cac-457b-861e-0754459be3cc,Latte,2.5
+2024-05-10 20:17:00,Richmond,Cash,f05a5e88-3c60-4127-8767-9615d8302362,Latte,2.5
+2024-05-10 20:17:00,Richmond,Cash,f05a5e88-3c60-4127-8767-9615d8302362,Macchiato,3.1
+2024-05-10 20:17:00,Richmond,Cash,f05a5e88-3c60-4127-8767-9615d8302362,Macchiato,3.1
+2024-05-10 09:36:00,Richmond,Cash,4b79cb7d-4201-4ade-b7d4-0972358fa6aa,Flat White,2.75
+2024-05-10 10:40:00,Richmond,Card,76457782-3ee0-4af7-90fc-fadb6da2009c,Flat White,2.75
+2024-05-10 10:40:00,Richmond,Card,76457782-3ee0-4af7-90fc-fadb6da2009c,Mocha,3.75
+2024-05-10 10:40:00,Richmond,Card,76457782-3ee0-4af7-90fc-fadb6da2009c,Americano,2.2
+2024-05-10 16:53:00,Richmond,Cash,2774fea5-950b-4fd7-ac40-c3b08819c9a5,Flat White,2.75
+2024-05-10 16:53:00,Richmond,Cash,2774fea5-950b-4fd7-ac40-c3b08819c9a5,Mocha,3.75
+2024-05-10 16:53:00,Richmond,Cash,2774fea5-950b-4fd7-ac40-c3b08819c9a5,Latte,2.5
+2024-05-10 00:00:00,Richmond,Card,d83d1430-a394-42d4-9a96-f0f3459d35de,Flat White,2.75
+2024-05-10 00:00:00,Richmond,Card,d83d1430-a394-42d4-9a96-f0f3459d35de,Macchiato,3.1
+2024-05-10 00:00:00,Richmond,Cash,8bcbdd8f-be09-4c8b-bfb7-711566975865,Americano,2.2
+2024-05-10 00:00:00,Richmond,Cash,8bcbdd8f-be09-4c8b-bfb7-711566975865,Mocha,3.75
+2024-05-10 00:00:00,Richmond,Cash,8bcbdd8f-be09-4c8b-bfb7-711566975865,Macchiato,3.1
+2024-05-10 00:00:00,Richmond,Cash,b7b3f2d4-9863-4d43-946e-9c64469670ec,Mocha,3.75
+2024-05-10 00:00:00,Richmond,Cash,b7b3f2d4-9863-4d43-946e-9c64469670ec,Mocha,3.75
+2024-05-10 00:00:00,Richmond,Cash,b7b3f2d4-9863-4d43-946e-9c64469670ec,Mocha,3.75
+2024-05-10 14:30:00,Richmond,Cash,50983302-1ef0-4331-8a71-31819c157e2a,Americano,2.2
+2024-05-10 09:31:00,Richmond,Cash,02b0091b-6aac-49cc-8a67-e3204a0359b7,Americano,2.2
+2024-05-10 09:31:00,Richmond,Cash,02b0091b-6aac-49cc-8a67-e3204a0359b7,Macchiato,3.1
+2024-05-10 09:31:00,Richmond,Cash,02b0091b-6aac-49cc-8a67-e3204a0359b7,Espresso,2.0
+2024-05-10 08:33:00,Richmond,Cash,e60c85df-5976-44e3-a985-88f5c13175a1,Americano,2.2
+2024-05-10 08:33:00,Richmond,Cash,e60c85df-5976-44e3-a985-88f5c13175a1,Cappuccino,3.0
+2024-05-10 00:00:00,Richmond,Cash,8c98df37-0c2b-4668-b7cc-de8f64a6eb4b,Espresso,2.0
+2024-05-10 21:38:00,Richmond,Cash,e140842b-56ce-4d40-823d-b9f9eed94907,Latte,2.5
+2024-05-10 10:24:00,Richmond,Cash,c2dfb268-9df6-4898-b84b-28a8ca156465,Espresso,2.0
+2024-05-10 10:24:00,Richmond,Cash,c2dfb268-9df6-4898-b84b-28a8ca156465,Mocha,3.75
+2024-05-10 10:24:00,Richmond,Cash,c2dfb268-9df6-4898-b84b-28a8ca156465,Latte,2.5
+2024-05-10 13:27:00,Richmond,Cash,930206cb-454d-4cdb-ae58-2f3decac7911,Flat White,2.75
+2024-05-10 20:56:00,Richmond,Cash,5a2d14bf-6c9d-4d7b-ab29-132c49bf37bb,Macchiato,3.1
+2024-05-10 20:56:00,Richmond,Cash,5a2d14bf-6c9d-4d7b-ab29-132c49bf37bb,Flat White,2.75
+2024-05-10 16:23:00,Richmond,Card,e9d3d383-8a67-4328-a487-c73569064be8,Espresso,2.0
+2024-05-10 16:23:00,Richmond,Card,e9d3d383-8a67-4328-a487-c73569064be8,Espresso,2.0
+2024-05-10 16:23:00,Richmond,Card,e9d3d383-8a67-4328-a487-c73569064be8,Mocha,3.75
+2024-05-10 11:12:00,Richmond,Card,18657246-1c54-4853-94d6-370a7b5df57c,Flat White,2.75
+2024-05-10 00:00:00,Richmond,Cash,a8aef42a-378e-4e7a-9e86-323d6eb9db61,Flat White,2.75
+2024-05-10 00:00:00,Richmond,Cash,a8aef42a-378e-4e7a-9e86-323d6eb9db61,Flat White,2.75
+2024-05-10 00:00:00,Richmond,Cash,a8aef42a-378e-4e7a-9e86-323d6eb9db61,Mocha,3.75
+2024-05-10 07:08:00,Richmond,Card,1e0eb801-445a-45c1-b3b7-661c713e28f0,Cappuccino,3.0
+2024-05-10 00:00:00,Richmond,Card,c2e517d2-4baf-49a1-9068-6a5b4d8c3785,Cappuccino,3.0
+2024-05-10 00:00:00,Richmond,Card,c2e517d2-4baf-49a1-9068-6a5b4d8c3785,Cappuccino,3.0
+2024-05-10 00:00:00,Richmond,Card,c2e517d2-4baf-49a1-9068-6a5b4d8c3785,Mocha,3.75
+2024-05-10 22:25:00,Richmond,Cash,7e28bf96-ac3c-4538-b24b-0085d9cdca2a,Cappuccino,3.0
+2024-05-10 22:25:00,Richmond,Cash,7e28bf96-ac3c-4538-b24b-0085d9cdca2a,Americano,2.2
+2024-05-10 22:25:00,Richmond,Cash,7e28bf96-ac3c-4538-b24b-0085d9cdca2a,Americano,2.2
+2024-05-10 00:00:00,Richmond,Card,2fb9ea6d-7cab-48db-8304-1af59458d663,Espresso,2.0
+2024-05-10 00:00:00,Richmond,Card,9e01bbf8-6950-4462-96ad-9aa22e079690,Espresso,2.0
+2024-05-10 00:00:00,Richmond,Card,9e01bbf8-6950-4462-96ad-9aa22e079690,Espresso,2.0
+2024-05-10 00:00:00,Richmond,Card,9e01bbf8-6950-4462-96ad-9aa22e079690,Latte,2.5
+2024-05-10 00:00:00,Richmond,Cash,a905e065-0507-4634-9baa-1f923fea95f7,Cappuccino,3.0
+2024-05-10 00:00:00,Richmond,Cash,a905e065-0507-4634-9baa-1f923fea95f7,Americano,2.2
+2024-05-10 20:00:00,Richmond,Cash,db907aa2-c525-4a2c-9726-6b6335e25254,Flat White,2.75
+2024-05-10 20:00:00,Richmond,Cash,db907aa2-c525-4a2c-9726-6b6335e25254,Macchiato,3.1
+2024-05-10 22:38:00,Richmond,Cash,31ea92ff-af51-4882-87f9-504128785086,Latte,2.5
+2024-05-10 22:38:00,Richmond,Cash,31ea92ff-af51-4882-87f9-504128785086,Americano,2.2
+2024-05-10 00:00:00,Richmond,Cash,a10cb528-03a9-40a3-8dba-b5c234de4d35,Flat White,2.75
+2024-05-10 00:00:00,Richmond,Cash,a10cb528-03a9-40a3-8dba-b5c234de4d35,Latte,2.5
+2024-05-10 10:08:00,Richmond,Card,7ef25e51-020a-4757-90ad-4cb0d297008d,Latte,2.5
+2024-05-10 10:08:00,Richmond,Card,7ef25e51-020a-4757-90ad-4cb0d297008d,Flat White,2.75
+2024-05-10 00:00:00,Richmond,Card,6dbd1b9e-f3e1-4e4d-aa98-0cf79f9ec9b1,Espresso,2.0
+2024-05-10 00:00:00,Richmond,Card,6dbd1b9e-f3e1-4e4d-aa98-0cf79f9ec9b1,Americano,2.2
+2024-05-10 00:00:00,Richmond,Card,6dbd1b9e-f3e1-4e4d-aa98-0cf79f9ec9b1,Mocha,3.75
+2024-05-10 08:49:00,Richmond,Cash,c5754d3c-86cc-4845-9108-0d64de5b3ee1,Cappuccino,3.0
+2024-05-10 14:02:00,Richmond,Card,8a2f4b25-4648-4d6b-8f98-405b4f1b73d2,Latte,2.5
+2024-05-10 14:02:00,Richmond,Card,8a2f4b25-4648-4d6b-8f98-405b4f1b73d2,Cappuccino,3.0
+2024-05-10 14:02:00,Richmond,Card,8a2f4b25-4648-4d6b-8f98-405b4f1b73d2,Espresso,2.0
+2024-05-10 10:50:00,Richmond,Card,8a14a5ea-ed4f-4bb4-a43d-989514970da3,Latte,2.5
+2024-05-10 00:00:00,Richmond,Cash,a072e49f-701f-4454-b4a2-882ca56c001c,Flat White,2.75
+2024-05-10 00:00:00,Richmond,Cash,a072e49f-701f-4454-b4a2-882ca56c001c,Americano,2.2
+2024-05-10 00:00:00,Richmond,Card,277ce4c5-56da-419b-aeee-74895b3caeb5,Americano,2.2
+2024-05-10 00:00:00,Richmond,Card,277ce4c5-56da-419b-aeee-74895b3caeb5,Cappuccino,3.0
+2024-05-10 00:00:00,Richmond,Card,277ce4c5-56da-419b-aeee-74895b3caeb5,Macchiato,3.1
+2024-05-10 13:38:00,Richmond,Card,57db8e96-05e1-4173-87e6-ff4c16e6bb92,Americano,2.2
+2024-05-10 13:38:00,Richmond,Card,57db8e96-05e1-4173-87e6-ff4c16e6bb92,Latte,2.5
+2024-05-10 00:00:00,Richmond,Cash,a9f154cf-6f94-4d3f-bdbf-e4dae16db332,Americano,2.2
+2024-05-10 00:00:00,Richmond,Cash,a9f154cf-6f94-4d3f-bdbf-e4dae16db332,Mocha,3.75
+2024-05-10 07:20:00,Richmond,Cash,e26da69a-01d3-456a-bdfa-abc35d388d9f,Espresso,2.0
+2024-05-10 07:20:00,Richmond,Cash,e26da69a-01d3-456a-bdfa-abc35d388d9f,Cappuccino,3.0
+2024-05-10 07:20:00,Richmond,Cash,e26da69a-01d3-456a-bdfa-abc35d388d9f,Cappuccino,3.0
+2024-05-10 09:54:00,Richmond,Card,b03df988-cae0-4233-9562-dec0715151b9,Americano,2.2
+2024-05-10 19:00:00,Richmond,Card,1ebeacc7-960e-4ad6-894a-51c45d6483b4,Macchiato,3.1
+2024-05-10 19:00:00,Richmond,Card,1ebeacc7-960e-4ad6-894a-51c45d6483b4,Flat White,2.75
+2024-05-10 21:17:00,Richmond,Card,1b60b246-5916-4eb1-896b-6ff204e23e74,Flat White,2.75
+2024-05-10 21:17:00,Richmond,Card,1b60b246-5916-4eb1-896b-6ff204e23e74,Flat White,2.75
+2024-05-10 00:00:00,Richmond,Cash,018f9d58-147e-4bac-9701-3fb0db3d7004,Latte,2.5
+2024-05-10 22:25:00,Richmond,Cash,a09b9466-e97c-45f1-bace-ca580cea722b,Americano,2.2
+2024-05-10 22:25:00,Richmond,Cash,a09b9466-e97c-45f1-bace-ca580cea722b,Macchiato,3.1
+2024-05-10 22:25:00,Richmond,Cash,a09b9466-e97c-45f1-bace-ca580cea722b,Flat White,2.75
+2024-05-10 20:20:00,Richmond,Cash,07162635-906b-4099-8eb7-e79e0774956c,Cappuccino,3.0
+2024-05-10 20:20:00,Richmond,Cash,07162635-906b-4099-8eb7-e79e0774956c,Espresso,2.0
+2024-05-10 00:00:00,Richmond,Card,6b6c7b7d-2c58-45ea-add9-c0fa8773e9ea,Americano,2.2
+2024-05-10 00:00:00,Richmond,Card,6b6c7b7d-2c58-45ea-add9-c0fa8773e9ea,Americano,2.2
+2024-05-10 00:00:00,Richmond,Card,6b6c7b7d-2c58-45ea-add9-c0fa8773e9ea,Cappuccino,3.0
+2024-05-10 00:00:00,Richmond,Cash,447097f6-6821-4e27-91be-487843da16ae,Macchiato,3.1
+2024-05-10 00:00:00,Richmond,Cash,447097f6-6821-4e27-91be-487843da16ae,Espresso,2.0
+2024-05-10 00:00:00,Richmond,Cash,447097f6-6821-4e27-91be-487843da16ae,Flat White,2.75
+2024-05-10 00:00:00,Richmond,Card,6fdd658f-1b8a-4ff9-b44c-0cef6b1dffa5,Flat White,2.75
+2024-05-10 00:00:00,Richmond,Card,6fdd658f-1b8a-4ff9-b44c-0cef6b1dffa5,Macchiato,3.1
+2024-05-10 00:00:00,Richmond,Cash,86006e43-d51d-45ee-8e61-bc3f3ad83957,Cappuccino,3.0
+2024-05-10 00:00:00,Richmond,Cash,86006e43-d51d-45ee-8e61-bc3f3ad83957,Espresso,2.0
+2024-05-10 00:00:00,Richmond,Cash,86006e43-d51d-45ee-8e61-bc3f3ad83957,Latte,2.5
+2024-05-10 20:25:00,Richmond,Cash,ccf68876-47c7-4af2-8cb2-4e2a246f5929,Americano,2.2
+2024-05-10 20:25:00,Richmond,Cash,ccf68876-47c7-4af2-8cb2-4e2a246f5929,Flat White,2.75
+2024-05-10 18:51:00,Richmond,Cash,2c0d31e8-b792-4533-86b4-99fbca93c50a,Espresso,2.0
+2024-05-10 18:51:00,Richmond,Cash,2c0d31e8-b792-4533-86b4-99fbca93c50a,Latte,2.5
+2024-05-10 07:48:00,Richmond,Card,b212e73b-1189-43ef-8be5-0c18380a3a83,Mocha,3.75
+2024-05-10 11:50:00,Richmond,Card,c198ba3f-bac7-453e-b7ae-1b564c537196,Americano,2.2
+2024-05-10 11:50:00,Richmond,Card,c198ba3f-bac7-453e-b7ae-1b564c537196,Espresso,2.0
+2024-05-10 11:50:00,Richmond,Card,c198ba3f-bac7-453e-b7ae-1b564c537196,Americano,2.2
+2024-05-10 00:00:00,Richmond,Cash,b335f429-d2ec-4820-9c98-6418d6277d4f,Flat White,2.75
+2024-05-10 00:00:00,Richmond,Cash,b335f429-d2ec-4820-9c98-6418d6277d4f,Mocha,3.75
+2024-05-10 00:00:00,Richmond,Cash,b335f429-d2ec-4820-9c98-6418d6277d4f,Mocha,3.75
+2024-05-10 00:00:00,Richmond,Cash,117ef30a-4618-4372-b168-01392ddbb084,Flat White,2.75
+2024-05-10 00:00:00,Richmond,Cash,117ef30a-4618-4372-b168-01392ddbb084,Flat White,2.75
+2024-05-10 00:00:00,Richmond,Cash,117ef30a-4618-4372-b168-01392ddbb084,Latte,2.5
+2024-05-10 00:00:00,Richmond,Cash,e43e3630-6f05-4216-a89a-093e16b7ca7b,Cappuccino,3.0
+2024-05-10 00:00:00,Richmond,Cash,e43e3630-6f05-4216-a89a-093e16b7ca7b,Espresso,2.0
+2024-05-10 00:00:00,Richmond,Cash,e43e3630-6f05-4216-a89a-093e16b7ca7b,Macchiato,3.1
+2024-05-10 09:18:00,Richmond,Cash,78566ada-d21e-45dd-b89a-0dd5c5792b91,Macchiato,3.1
+2024-05-10 09:18:00,Richmond,Cash,78566ada-d21e-45dd-b89a-0dd5c5792b91,Espresso,2.0
+2024-05-10 09:18:00,Richmond,Cash,78566ada-d21e-45dd-b89a-0dd5c5792b91,Espresso,2.0
+2024-05-10 00:00:00,Richmond,Cash,664e7684-bdbb-4256-a10b-f22a5b33a08d,Espresso,2.0
+2024-05-10 13:54:00,Richmond,Card,af5b997d-791b-4eee-82b4-6356455b7b4a,Cappuccino,3.0
+2024-05-10 13:54:00,Richmond,Card,af5b997d-791b-4eee-82b4-6356455b7b4a,Americano,2.2
+2024-05-10 13:24:00,Richmond,Card,28dc76c4-3714-41d7-9c05-053d9776122e,Mocha,3.75
+2024-05-10 13:24:00,Richmond,Card,28dc76c4-3714-41d7-9c05-053d9776122e,Cappuccino,3.0
+2024-05-10 13:24:00,Richmond,Card,28dc76c4-3714-41d7-9c05-053d9776122e,Macchiato,3.1
+2024-05-10 08:06:00,Richmond,Card,1e90fe34-4690-4457-9be0-147889c17727,Espresso,2.0
+2024-05-10 08:06:00,Richmond,Card,1e90fe34-4690-4457-9be0-147889c17727,Americano,2.2
+2024-05-10 08:06:00,Richmond,Card,1e90fe34-4690-4457-9be0-147889c17727,Mocha,3.75
+2024-05-10 00:00:00,Richmond,Card,a3169166-7d48-4a2d-ad54-823cb9a3ea2c,Espresso,2.0
+2024-05-10 00:00:00,Richmond,Card,a3169166-7d48-4a2d-ad54-823cb9a3ea2c,Espresso,2.0
+2024-05-10 20:15:00,Richmond,Cash,ebcc24f3-6e39-4a92-9ea3-2513d0d3220e,Espresso,2.0
+2024-05-10 20:15:00,Richmond,Cash,ebcc24f3-6e39-4a92-9ea3-2513d0d3220e,Flat White,2.75
+2024-05-10 19:28:00,Richmond,Cash,f84aed36-63f8-44af-8235-0205cf6dd729,Americano,2.2
+2024-05-10 00:00:00,Richmond,Cash,fb2a7b1d-2c42-4a28-b38a-ff998cc879ba,Americano,2.2
+2024-05-10 00:00:00,Richmond,Cash,fb2a7b1d-2c42-4a28-b38a-ff998cc879ba,Latte,2.5
+2024-05-10 21:25:00,Richmond,Cash,d738d48a-d19b-4ece-a620-ab19b9d1c05c,Flat White,2.75
+2024-05-10 21:25:00,Richmond,Cash,d738d48a-d19b-4ece-a620-ab19b9d1c05c,Americano,2.2
+2024-05-10 21:25:00,Richmond,Cash,d738d48a-d19b-4ece-a620-ab19b9d1c05c,Cappuccino,3.0
+2024-05-10 11:09:00,Richmond,Card,79acb393-87a1-49c9-9f90-d3d3bfb0595d,Espresso,2.0
+2024-05-10 22:14:00,Richmond,Cash,0b4eff25-25bc-44ca-a0c8-a360f85334bf,Flat White,2.75
+2024-05-10 22:14:00,Richmond,Cash,0b4eff25-25bc-44ca-a0c8-a360f85334bf,Flat White,2.75
+2024-05-10 22:14:00,Richmond,Cash,0b4eff25-25bc-44ca-a0c8-a360f85334bf,Latte,2.5
+2024-05-10 00:00:00,Richmond,Card,d337843c-0197-4dd4-a20a-ce36aa3a69b3,Macchiato,3.1
+2024-05-10 00:00:00,Richmond,Card,d337843c-0197-4dd4-a20a-ce36aa3a69b3,Macchiato,3.1
+2024-05-10 00:00:00,Richmond,Cash,f3e7698b-a691-463a-b898-1a79b4f3dcd3,Cappuccino,3.0
+2024-05-10 00:00:00,Richmond,Cash,f3e7698b-a691-463a-b898-1a79b4f3dcd3,Flat White,2.75
+2024-05-10 00:00:00,Richmond,Cash,18955978-ce12-46c1-87bc-98ea49d49244,Latte,2.5
+2024-05-10 00:00:00,Richmond,Cash,18955978-ce12-46c1-87bc-98ea49d49244,Macchiato,3.1
+2024-05-10 10:45:00,Richmond,Card,6f705a13-add8-4fba-a754-cc68cd80af61,Flat White,2.75
+2024-05-10 10:45:00,Richmond,Card,6f705a13-add8-4fba-a754-cc68cd80af61,Cappuccino,3.0
+2024-05-10 10:45:00,Richmond,Card,6f705a13-add8-4fba-a754-cc68cd80af61,Macchiato,3.1
+2024-05-10 00:00:00,Richmond,Cash,9656c61b-e436-42ec-abf4-72a9478e182a,Americano,2.2
+2024-05-10 00:00:00,Richmond,Cash,9656c61b-e436-42ec-abf4-72a9478e182a,Mocha,3.75
+2024-05-10 00:00:00,Richmond,Card,911b0bcc-9045-43b9-8f09-99a41c8ddf2d,Latte,2.5
+2024-05-10 00:00:00,Richmond,Card,911b0bcc-9045-43b9-8f09-99a41c8ddf2d,Latte,2.5
+2024-05-10 00:00:00,Richmond,Card,911b0bcc-9045-43b9-8f09-99a41c8ddf2d,Espresso,2.0
+2024-05-10 16:57:00,Richmond,Cash,dc03cc56-791a-4dea-bc8c-6618c5e94b6e,Mocha,3.75
+2024-05-10 16:57:00,Richmond,Cash,dc03cc56-791a-4dea-bc8c-6618c5e94b6e,Latte,2.5
+2024-05-10 09:13:00,Richmond,Cash,1e5ff570-4624-488b-a94c-b32d2883ecbc,Mocha,3.75
+2024-05-10 09:13:00,Richmond,Cash,1e5ff570-4624-488b-a94c-b32d2883ecbc,Mocha,3.75
+2024-05-10 13:15:00,Richmond,Card,d6755ec8-5ed4-42d1-81da-07c1d74b1d12,Macchiato,3.1
+2024-05-10 13:15:00,Richmond,Card,d6755ec8-5ed4-42d1-81da-07c1d74b1d12,Espresso,2.0
+2024-05-10 00:00:00,Richmond,Card,036732aa-473f-4235-8ede-65886e69bb4c,Flat White,2.75
+2024-05-10 00:00:00,Richmond,Card,036732aa-473f-4235-8ede-65886e69bb4c,Cappuccino,3.0
+2024-05-10 00:00:00,Richmond,Card,036732aa-473f-4235-8ede-65886e69bb4c,Mocha,3.75
+2024-05-10 15:58:00,Richmond,Cash,d4f85c3d-5054-46e3-a003-3b8e7f088bbb,Flat White,2.75
+2024-05-10 15:28:00,Richmond,Card,68a74cb3-7db9-4f29-b575-cc03098deb73,Mocha,3.75
+2024-05-10 21:17:00,Richmond,Cash,0a72f913-a37c-457b-9012-4f03b8dfa6c2,Mocha,3.75
+2024-05-10 21:17:00,Richmond,Cash,0a72f913-a37c-457b-9012-4f03b8dfa6c2,Mocha,3.75
+2024-05-10 00:00:00,Richmond,Card,e0ac0887-40b9-4536-bcdf-6a3393578145,Cappuccino,3.0
+2024-05-10 00:00:00,Richmond,Card,e0ac0887-40b9-4536-bcdf-6a3393578145,Espresso,2.0
+2024-05-10 00:00:00,Richmond,Card,e0ac0887-40b9-4536-bcdf-6a3393578145,Flat White,2.75
+2024-05-10 08:48:00,Richmond,Card,f2d99bd4-c6e3-4afc-b425-914cc66a6762,Mocha,3.75
+2024-05-10 00:00:00,Richmond,Cash,5b5a4416-664d-476a-8f8f-4d3ec03ab372,Latte,2.5
+2024-05-10 00:00:00,Richmond,Cash,5b5a4416-664d-476a-8f8f-4d3ec03ab372,Flat White,2.75
+2024-05-10 13:01:00,Richmond,Cash,77426dd4-c0ba-4b01-9885-91e31123e2f4,Espresso,2.0
+2024-05-10 13:01:00,Richmond,Cash,77426dd4-c0ba-4b01-9885-91e31123e2f4,Macchiato,3.1
+2024-05-10 13:01:00,Richmond,Cash,77426dd4-c0ba-4b01-9885-91e31123e2f4,Macchiato,3.1
+2024-05-10 15:11:00,Richmond,Cash,5c56e074-9860-4bb0-8798-a08737f85294,Latte,2.5
+2024-05-10 15:11:00,Richmond,Cash,5c56e074-9860-4bb0-8798-a08737f85294,Flat White,2.75
+2024-05-10 22:36:00,Richmond,Cash,5bccb344-cd84-4c6e-a658-65dd0cc39dba,Mocha,3.75
+2024-05-10 22:36:00,Richmond,Cash,5bccb344-cd84-4c6e-a658-65dd0cc39dba,Mocha,3.75
+2024-05-10 21:37:00,Richmond,Cash,504e3e5b-82fa-44f8-ab26-6b02048ea782,Cappuccino,3.0
+2024-05-10 21:37:00,Richmond,Cash,504e3e5b-82fa-44f8-ab26-6b02048ea782,Mocha,3.75
+2024-05-10 21:37:00,Richmond,Cash,504e3e5b-82fa-44f8-ab26-6b02048ea782,Mocha,3.75
+2024-05-10 11:18:00,Richmond,Card,9c8527a1-6a5e-482f-b856-e983af0cfd68,Macchiato,3.1
+2024-05-10 11:18:00,Richmond,Card,9c8527a1-6a5e-482f-b856-e983af0cfd68,Americano,2.2
+2024-05-10 11:18:00,Richmond,Card,9c8527a1-6a5e-482f-b856-e983af0cfd68,Cappuccino,3.0
+2024-05-10 00:00:00,Richmond,Card,f9361378-684c-4568-b078-808d7425e6d1,Espresso,2.0
+2024-05-10 00:00:00,Richmond,Card,f9361378-684c-4568-b078-808d7425e6d1,Macchiato,3.1
+2024-05-10 00:00:00,Richmond,Card,f9361378-684c-4568-b078-808d7425e6d1,Flat White,2.75
+2024-05-10 12:26:00,Richmond,Card,d2bd6640-f54f-48fd-97a3-4a2526ad1361,Latte,2.5
+2024-05-10 12:26:00,Richmond,Card,d2bd6640-f54f-48fd-97a3-4a2526ad1361,Macchiato,3.1
+2024-05-10 00:00:00,Richmond,Cash,fc4cfe28-3bc6-4189-94d2-1ea689d49545,Latte,2.5
+2024-05-10 00:00:00,Richmond,Cash,fc4cfe28-3bc6-4189-94d2-1ea689d49545,Espresso,2.0
+2024-05-10 00:00:00,Richmond,Cash,fc4cfe28-3bc6-4189-94d2-1ea689d49545,Americano,2.2
+2024-05-10 19:10:00,Richmond,Card,e745b402-a859-4715-8124-083888cc94fa,Cappuccino,3.0
+2024-05-10 19:49:00,Richmond,Card,0057193f-84d1-49e4-8751-b9eefe8a6d21,Mocha,3.75
+2024-05-10 19:49:00,Richmond,Card,0057193f-84d1-49e4-8751-b9eefe8a6d21,Espresso,2.0
+2024-05-10 08:10:00,Richmond,Cash,d0a3f822-8cca-416f-8aa9-436b4a3f4386,Macchiato,3.1
+2024-05-10 08:10:00,Richmond,Cash,d0a3f822-8cca-416f-8aa9-436b4a3f4386,Mocha,3.75
+2024-05-10 12:12:00,Richmond,Cash,02c4a3f7-2ccb-40ca-93ae-937e23821f18,Latte,2.5
+2024-05-10 00:00:00,Richmond,Card,73ace533-4685-49bd-80a7-77c01df3d307,Flat White,2.75
+2024-05-10 00:00:00,Richmond,Card,9b6a0fa9-ebfe-4765-a1b6-d3fd90defe26,Americano,2.2
+2024-05-10 00:00:00,Richmond,Card,013baf1f-764c-4616-b601-4ed82cde08a7,Espresso,2.0
+2024-05-10 15:28:00,Richmond,Cash,94c45dd6-68e0-4204-a472-c7f2e62ba5bd,Flat White,2.75
+2024-05-10 22:45:00,Richmond,Card,06967ffb-14af-44e7-bf1b-7667d385ebcb,Macchiato,3.1
+2024-05-10 22:45:00,Richmond,Card,06967ffb-14af-44e7-bf1b-7667d385ebcb,Cappuccino,3.0
+2024-05-10 22:45:00,Richmond,Card,06967ffb-14af-44e7-bf1b-7667d385ebcb,Espresso,2.0
+2024-05-10 10:39:00,Richmond,Cash,0afcb031-af8c-42a4-9ba5-2d94070bbf8c,Latte,2.5
+2024-05-10 00:00:00,Richmond,Card,13ad9df3-b7d2-4387-a466-efce7febc63f,Espresso,2.0
+2024-05-10 22:36:00,Richmond,Card,5c9f4f34-2a4f-489b-8304-e573a9313beb,Americano,2.2
+2024-05-10 22:36:00,Richmond,Card,5c9f4f34-2a4f-489b-8304-e573a9313beb,Macchiato,3.1
+2024-05-10 22:36:00,Richmond,Card,5c9f4f34-2a4f-489b-8304-e573a9313beb,Flat White,2.75
+2024-05-10 18:09:00,Richmond,Card,c583a25a-aef7-4d98-b8ec-74af28d6ec68,Macchiato,3.1
+2024-05-10 18:09:00,Richmond,Card,c583a25a-aef7-4d98-b8ec-74af28d6ec68,Cappuccino,3.0
+2024-05-10 18:09:00,Richmond,Card,c583a25a-aef7-4d98-b8ec-74af28d6ec68,Latte,2.5
+2024-05-10 00:00:00,Richmond,Cash,06017b0d-cfc4-4de8-9994-0f072597ac47,Americano,2.2
+2024-05-10 10:50:00,Richmond,Cash,e4c4de55-2ee4-4545-8d57-97412b7e3ce0,Flat White,2.75
+2024-05-10 00:00:00,Richmond,Card,82bf1bf4-df41-4c27-b663-5c55c0a7d8bd,Macchiato,3.1
+2024-05-10 00:00:00,Richmond,Card,82bf1bf4-df41-4c27-b663-5c55c0a7d8bd,Cappuccino,3.0
+2024-05-10 10:18:00,Richmond,Card,b80f939f-5eb5-48f7-8a24-adf2a3aad852,Latte,2.5
+2024-05-10 10:18:00,Richmond,Card,b80f939f-5eb5-48f7-8a24-adf2a3aad852,Latte,2.5
+2024-05-10 10:18:00,Richmond,Card,b80f939f-5eb5-48f7-8a24-adf2a3aad852,Flat White,2.75
+2024-05-10 00:00:00,Richmond,Card,aafc7ef9-1242-4217-a2db-a494a5fc954e,Espresso,2.0
+2024-05-10 00:00:00,Richmond,Cash,d366138a-502a-4c55-8b8b-bc14710ad341,Americano,2.2
+2024-05-10 00:00:00,Richmond,Card,0c317084-3d9b-4b2a-b44b-d135a9476317,Americano,2.2
+2024-05-10 00:00:00,Richmond,Card,0c317084-3d9b-4b2a-b44b-d135a9476317,Espresso,2.0
+2024-05-10 00:00:00,Richmond,Card,5680b462-3f62-4fcf-b8d9-79603ba4ab11,Latte,2.5
+2024-05-10 00:00:00,Richmond,Card,5680b462-3f62-4fcf-b8d9-79603ba4ab11,Macchiato,3.1
+2024-05-10 10:08:00,Richmond,Card,7ec3f47c-b3d9-4838-ac44-42cb3eb48f7a,Flat White,2.75
+2024-05-10 00:00:00,Richmond,Cash,a9f5dcde-47ef-4019-bb44-3e19fdf7e364,Espresso,2.0
+2024-05-10 14:44:00,Richmond,Cash,c9fc8526-61cf-4d1c-9433-8b2a6df1c2fe,Americano,2.2
+2024-05-10 14:44:00,Richmond,Cash,c9fc8526-61cf-4d1c-9433-8b2a6df1c2fe,Latte,2.5
+2024-05-10 14:44:00,Richmond,Cash,c9fc8526-61cf-4d1c-9433-8b2a6df1c2fe,Flat White,2.75
+2024-05-10 13:48:00,Richmond,Card,114188ec-7c68-4ad9-a4a9-5743380d5a1e,Americano,2.2
+2024-05-10 13:48:00,Richmond,Card,114188ec-7c68-4ad9-a4a9-5743380d5a1e,Americano,2.2
+2024-05-10 13:48:00,Richmond,Card,114188ec-7c68-4ad9-a4a9-5743380d5a1e,Americano,2.2
+2024-05-10 00:00:00,Richmond,Card,a1dbd1e3-ea4e-4498-8785-0a0590a72272,Espresso,2.0
+2024-05-10 21:42:00,Richmond,Cash,0274573e-8753-493b-aea4-2e4eac73e413,Macchiato,3.1
+2024-05-10 21:42:00,Richmond,Cash,0274573e-8753-493b-aea4-2e4eac73e413,Americano,2.2
+2024-05-10 21:42:00,Richmond,Cash,0274573e-8753-493b-aea4-2e4eac73e413,Macchiato,3.1
+2024-05-10 00:00:00,Richmond,Cash,5d434b8d-8373-4da0-ae04-eb46952604b8,Cappuccino,3.0
+2024-05-10 11:54:00,Richmond,Card,f061062e-7ad0-4491-b6a1-51277601fcee,Americano,2.2
+2024-05-10 11:54:00,Richmond,Card,f061062e-7ad0-4491-b6a1-51277601fcee,Latte,2.5
+2024-05-10 00:00:00,Richmond,Cash,fd9d75e9-8847-4975-8d5f-c25229372598,Flat White,2.75
+2024-05-10 15:12:00,Richmond,Cash,7fd61eae-ebe4-44fc-ae19-4d7bd2d40b78,Macchiato,3.1
+2024-05-10 15:12:00,Richmond,Cash,7fd61eae-ebe4-44fc-ae19-4d7bd2d40b78,Latte,2.5
+2024-05-10 15:12:00,Richmond,Cash,7fd61eae-ebe4-44fc-ae19-4d7bd2d40b78,Mocha,3.75
+2024-05-10 15:17:00,Richmond,Card,59fe7e91-4c11-48c8-aedb-2b0372ff754d,Latte,2.5
+2024-05-10 15:17:00,Richmond,Card,59fe7e91-4c11-48c8-aedb-2b0372ff754d,Espresso,2.0
+2024-05-10 15:20:00,Richmond,Cash,e17751de-d2e3-42b1-95b4-17076187a84a,Flat White,2.75
+2024-05-10 15:20:00,Richmond,Cash,e17751de-d2e3-42b1-95b4-17076187a84a,Flat White,2.75
+2024-05-10 15:20:00,Richmond,Cash,e17751de-d2e3-42b1-95b4-17076187a84a,Cappuccino,3.0
+2024-05-10 11:32:00,Richmond,Cash,ce87ec55-0a8d-4874-85b8-107eee1519ba,Macchiato,3.1
+2024-05-10 11:32:00,Richmond,Cash,ce87ec55-0a8d-4874-85b8-107eee1519ba,Cappuccino,3.0
+2024-05-10 11:32:00,Richmond,Cash,ce87ec55-0a8d-4874-85b8-107eee1519ba,Mocha,3.75
+2024-05-10 15:38:00,Richmond,Cash,df375d90-1e76-4334-aed4-114bfacfb01f,Latte,2.5
+2024-05-10 15:38:00,Richmond,Cash,df375d90-1e76-4334-aed4-114bfacfb01f,Latte,2.5
+2024-05-10 00:00:00,Richmond,Card,fc3a9bc2-baa5-4dc1-b3ad-cc01ee71be9e,Espresso,2.0
+2024-05-10 00:00:00,Richmond,Card,fc3a9bc2-baa5-4dc1-b3ad-cc01ee71be9e,Latte,2.5
+2024-05-10 10:09:00,Richmond,Cash,eeb9389a-5373-44da-bc8f-ba1ffa8ba7e4,Americano,2.2
+2024-05-10 11:05:00,Richmond,Cash,a93ead2b-5f2a-4eb6-8b7f-b2494801df4c,Flat White,2.75
+2024-05-10 11:05:00,Richmond,Cash,a93ead2b-5f2a-4eb6-8b7f-b2494801df4c,Latte,2.5
+2024-05-10 11:46:00,Richmond,Card,017629e6-7a31-4db2-86af-76184f4f2e3b,Flat White,2.75
+2024-05-10 00:00:00,Richmond,Card,c359278b-4e98-43e9-8989-f0976a81b15f,Cappuccino,3.0
+2024-05-10 00:00:00,Richmond,Card,9c2e2b0f-8e9c-478e-8a2f-59ba8ac4490c,Flat White,2.75
+2024-05-10 00:00:00,Richmond,Card,9c2e2b0f-8e9c-478e-8a2f-59ba8ac4490c,Espresso,2.0
+2024-05-10 13:24:00,Richmond,Cash,1725cb8a-1f7e-49b0-803c-a63be039a353,Americano,2.2
+2024-05-10 13:24:00,Richmond,Cash,1725cb8a-1f7e-49b0-803c-a63be039a353,Espresso,2.0
+2024-05-10 13:24:00,Richmond,Cash,1725cb8a-1f7e-49b0-803c-a63be039a353,Flat White,2.75
+2024-05-10 09:46:00,Richmond,Cash,101ca913-8f3b-4118-b583-cc710c9b0f95,Macchiato,3.1
+2024-05-10 09:46:00,Richmond,Cash,101ca913-8f3b-4118-b583-cc710c9b0f95,Flat White,2.75
+2024-05-10 13:08:00,Richmond,Cash,37aaec7e-ec60-4f89-adea-7ad4521a18ab,Macchiato,3.1
+2024-05-10 13:08:00,Richmond,Cash,37aaec7e-ec60-4f89-adea-7ad4521a18ab,Cappuccino,3.0
+2024-05-10 00:00:00,Richmond,Card,d9a2b787-5514-40dc-8720-127e9f9100af,Mocha,3.75
+2024-05-10 00:00:00,Richmond,Card,d9a2b787-5514-40dc-8720-127e9f9100af,Flat White,2.75
+2024-05-10 00:00:00,Richmond,Card,d9a2b787-5514-40dc-8720-127e9f9100af,Latte,2.5
+2024-05-10 00:00:00,Richmond,Card,be70a133-32b8-42dc-a225-9ac42b15f13b,Latte,2.5
+2024-05-10 00:00:00,Richmond,Card,be70a133-32b8-42dc-a225-9ac42b15f13b,Cappuccino,3.0
+2024-05-10 13:10:00,Richmond,Cash,b0b141ce-40c2-41e8-a7c4-d4eaa9d282c4,Latte,2.5
+2024-05-10 13:10:00,Richmond,Cash,b0b141ce-40c2-41e8-a7c4-d4eaa9d282c4,Macchiato,3.1
+2024-05-10 22:41:00,Richmond,Card,ab2118ba-f202-4c03-afaf-8da2aa570750,Macchiato,3.1
+2024-05-10 18:50:00,Richmond,Cash,b8f3eaba-9c6e-40d5-a846-9ab6d2d4685c,Americano,2.2
+2024-05-10 18:50:00,Richmond,Cash,b8f3eaba-9c6e-40d5-a846-9ab6d2d4685c,Mocha,3.75
+2024-05-10 00:00:00,Richmond,Card,dc2a57b6-9dcf-4114-9068-918799927b97,Cappuccino,3.0
+2024-05-10 00:00:00,Richmond,Card,dc2a57b6-9dcf-4114-9068-918799927b97,Macchiato,3.1
+2024-05-10 08:10:00,Richmond,Card,3fe27151-825d-4daf-b071-e3581ee576bd,Latte,2.5
+2024-05-10 08:10:00,Richmond,Card,3fe27151-825d-4daf-b071-e3581ee576bd,Americano,2.2
+2024-05-10 08:10:00,Richmond,Card,3fe27151-825d-4daf-b071-e3581ee576bd,Espresso,2.0
+2024-05-10 20:19:00,Richmond,Cash,e4b065db-2bee-4752-b6c6-850ef1c79376,Americano,2.2
+2024-05-10 20:19:00,Richmond,Cash,e4b065db-2bee-4752-b6c6-850ef1c79376,Mocha,3.75
+2024-05-10 20:19:00,Richmond,Cash,e4b065db-2bee-4752-b6c6-850ef1c79376,Flat White,2.75
+2024-05-10 08:57:00,Richmond,Cash,acbfa588-0807-4df6-9c03-3ae63f84c79e,Macchiato,3.1
+2024-05-10 08:57:00,Richmond,Cash,acbfa588-0807-4df6-9c03-3ae63f84c79e,Cappuccino,3.0
+2024-05-10 08:57:00,Richmond,Cash,acbfa588-0807-4df6-9c03-3ae63f84c79e,Espresso,2.0
+2024-05-10 20:30:00,Richmond,Cash,36b85544-e23f-428d-971c-0515e47b564b,Mocha,3.75
+2024-05-10 20:30:00,Richmond,Cash,36b85544-e23f-428d-971c-0515e47b564b,Cappuccino,3.0
+2024-05-10 12:23:00,Richmond,Cash,1a1ed155-f383-4410-b7b2-ec775eaee56a,Latte,2.5
+2024-05-10 17:41:00,Richmond,Cash,66bd3add-5b7f-41c8-8fd3-e1f75eb75c45,Espresso,2.0
+2024-05-10 17:41:00,Richmond,Cash,66bd3add-5b7f-41c8-8fd3-e1f75eb75c45,Latte,2.5
+2024-05-10 17:41:00,Richmond,Cash,66bd3add-5b7f-41c8-8fd3-e1f75eb75c45,Macchiato,3.1
+2024-05-10 12:06:00,Richmond,Card,c9af1cad-3982-4412-a5c2-b66764b9b353,Latte,2.5
+2024-05-10 14:31:00,Richmond,Cash,13d02341-4a87-47eb-b013-1a465675add2,Mocha,3.75
+2024-05-10 14:31:00,Richmond,Cash,13d02341-4a87-47eb-b013-1a465675add2,Cappuccino,3.0
+2024-05-10 14:31:00,Richmond,Cash,13d02341-4a87-47eb-b013-1a465675add2,Espresso,2.0
+2024-05-10 22:26:00,Richmond,Card,1867cee3-d9c7-46c6-a947-32e26db71e0a,Americano,2.2
+2024-05-10 22:26:00,Richmond,Card,1867cee3-d9c7-46c6-a947-32e26db71e0a,Macchiato,3.1
+2024-05-10 00:00:00,Soho,Card,c5c921a7-e4bd-4be7-8ff1-cf7991bbc8c9,Macchiato,3.1
+2024-05-10 00:00:00,Soho,Card,c5c921a7-e4bd-4be7-8ff1-cf7991bbc8c9,Macchiato,3.1
+2024-05-10 00:00:00,Soho,Card,c5c921a7-e4bd-4be7-8ff1-cf7991bbc8c9,Latte,2.5
+2024-05-10 07:40:00,Soho,Card,2f37ccfc-6a87-4cd7-8123-2b38cd15317f,Cappuccino,3.0
+2024-05-10 07:40:00,Soho,Card,2f37ccfc-6a87-4cd7-8123-2b38cd15317f,Mocha,3.75
+2024-05-10 07:40:00,Soho,Card,2f37ccfc-6a87-4cd7-8123-2b38cd15317f,Latte,2.5
+2024-05-10 00:00:00,Soho,Cash,fdf33a6f-cdf4-49ff-9807-64e71a2ccced,Mocha,3.75
+2024-05-10 00:00:00,Soho,Cash,fdf33a6f-cdf4-49ff-9807-64e71a2ccced,Americano,2.2
+2024-05-10 15:56:00,Soho,Cash,048eacb7-0e85-4166-bc78-ee7175d788d9,Espresso,2.0
+2024-05-10 17:16:00,Soho,Card,08a8a36f-06a4-4ab2-ba4d-1aa775f7da6b,Americano,2.2
+2024-05-10 17:16:00,Soho,Card,08a8a36f-06a4-4ab2-ba4d-1aa775f7da6b,Latte,2.5
+2024-05-10 17:16:00,Soho,Card,08a8a36f-06a4-4ab2-ba4d-1aa775f7da6b,Mocha,3.75
+2024-05-10 12:48:00,Soho,Cash,5688742f-24ef-4747-926f-c9bcebe543d2,Flat White,2.75
+2024-05-10 12:48:00,Soho,Cash,5688742f-24ef-4747-926f-c9bcebe543d2,Espresso,2.0
+2024-05-10 12:48:00,Soho,Cash,5688742f-24ef-4747-926f-c9bcebe543d2,Espresso,2.0
+2024-05-10 00:00:00,Soho,Card,332692bd-f76a-4a4d-a6db-92a242bc5414,Macchiato,3.1
+2024-05-10 10:20:00,Soho,Cash,b3101c28-f296-49af-a9a5-1f0f6bfefa0a,Flat White,2.75
+2024-05-10 00:00:00,Soho,Card,906194d0-c171-41ea-9b21-c15c404dcd71,Espresso,2.0
+2024-05-10 21:13:00,Soho,Card,514cfe32-18af-406b-baab-4b851af93830,Flat White,2.75
+2024-05-10 08:56:00,Soho,Cash,8b3e783d-820d-4f55-b5dd-e40db5738377,Espresso,2.0
+2024-05-10 08:56:00,Soho,Cash,8b3e783d-820d-4f55-b5dd-e40db5738377,Mocha,3.75
+2024-05-10 00:00:00,Soho,Card,615ae5f8-def5-46b0-8a16-fac817691fad,Mocha,3.75
+2024-05-10 00:00:00,Soho,Card,615ae5f8-def5-46b0-8a16-fac817691fad,Espresso,2.0
+2024-05-10 09:14:00,Soho,Cash,83d451b5-4da2-4389-8b56-741128dc3696,Macchiato,3.1
+2024-05-10 09:14:00,Soho,Cash,83d451b5-4da2-4389-8b56-741128dc3696,Macchiato,3.1
+2024-05-10 09:14:00,Soho,Cash,83d451b5-4da2-4389-8b56-741128dc3696,Flat White,2.75
+2024-05-10 00:00:00,Soho,Cash,46eefdbc-99d2-4969-8152-833668dcae1f,Macchiato,3.1
+2024-05-10 00:00:00,Soho,Cash,46eefdbc-99d2-4969-8152-833668dcae1f,Flat White,2.75
+2024-05-10 19:12:00,Soho,Cash,01b6481d-8e9a-43a5-a430-259ccb19c606,Cappuccino,3.0
+2024-05-10 19:12:00,Soho,Cash,01b6481d-8e9a-43a5-a430-259ccb19c606,Espresso,2.0
+2024-05-10 11:39:00,Soho,Cash,3dfcea34-80c4-40de-979e-9c4556cc538e,Macchiato,3.1
+2024-05-10 11:39:00,Soho,Cash,3dfcea34-80c4-40de-979e-9c4556cc538e,Espresso,2.0
+2024-05-10 15:40:00,Soho,Cash,b367b168-7da6-4d59-8315-92b0f8aece55,Americano,2.2
+2024-05-10 07:53:00,Soho,Card,fc4cdeb9-339d-49dc-b63d-1e5416cee2e6,Flat White,2.75
+2024-05-10 00:00:00,Soho,Card,7c1830da-ae1b-47e3-83be-0d28674af14d,Espresso,2.0
+2024-05-10 12:58:00,Soho,Card,b550d393-966d-4562-b004-59e93798212b,Americano,2.2
+2024-05-10 12:58:00,Soho,Card,b550d393-966d-4562-b004-59e93798212b,Macchiato,3.1
+2024-05-10 00:00:00,Soho,Card,03f534ca-a0a5-4dcc-8626-59742bc52744,Americano,2.2
+2024-05-10 00:00:00,Soho,Card,03f534ca-a0a5-4dcc-8626-59742bc52744,Mocha,3.75
+2024-05-10 00:00:00,Soho,Card,03f534ca-a0a5-4dcc-8626-59742bc52744,Flat White,2.75
+2024-05-10 22:39:00,Soho,Card,6ef9ac3e-d846-452f-8f5d-cecde849bbdb,Mocha,3.75
+2024-05-10 22:39:00,Soho,Card,6ef9ac3e-d846-452f-8f5d-cecde849bbdb,Macchiato,3.1
+2024-05-10 00:00:00,Soho,Card,6d237bc6-c9d6-45e2-9e20-456056b2f85a,Cappuccino,3.0
+2024-05-10 00:00:00,Soho,Card,6d237bc6-c9d6-45e2-9e20-456056b2f85a,Flat White,2.75
+2024-05-10 12:33:00,Soho,Card,6818ab99-a29c-4100-9447-abd84ea90753,Macchiato,3.1
+2024-05-10 12:33:00,Soho,Card,6818ab99-a29c-4100-9447-abd84ea90753,Macchiato,3.1
+2024-05-10 12:33:00,Soho,Card,6818ab99-a29c-4100-9447-abd84ea90753,Flat White,2.75
+2024-05-10 14:22:00,Soho,Card,11b7e42b-a4ae-47b4-a7e5-91d417babb44,Cappuccino,3.0
+2024-05-10 14:22:00,Soho,Card,11b7e42b-a4ae-47b4-a7e5-91d417babb44,Mocha,3.75
+2024-05-10 14:22:00,Soho,Card,11b7e42b-a4ae-47b4-a7e5-91d417babb44,Americano,2.2
+2024-05-10 09:51:00,Soho,Card,66d03863-c1ce-48f0-92b6-c43fb7c57a0b,Americano,2.2
+2024-05-10 18:38:00,Soho,Card,13b0c29f-49bf-47f2-8765-b1c2f765d8a2,Cappuccino,3.0
+2024-05-10 18:38:00,Soho,Card,13b0c29f-49bf-47f2-8765-b1c2f765d8a2,Espresso,2.0
+2024-05-10 00:00:00,Soho,Cash,eb4d2205-afa5-42e5-a4ce-a7580f3c18cb,Cappuccino,3.0
+2024-05-10 00:00:00,Soho,Cash,eb4d2205-afa5-42e5-a4ce-a7580f3c18cb,Macchiato,3.1
+2024-05-10 08:42:00,Soho,Card,c98add90-474a-4e84-b698-f0f9b0325844,Mocha,3.75
+2024-05-10 08:42:00,Soho,Card,c98add90-474a-4e84-b698-f0f9b0325844,Flat White,2.75
+2024-05-10 00:00:00,Soho,Cash,7414ccb1-096a-4ab8-8d1b-6fa04337fb82,Macchiato,3.1
+2024-05-10 00:00:00,Soho,Cash,7414ccb1-096a-4ab8-8d1b-6fa04337fb82,Americano,2.2
+2024-05-10 14:27:00,Soho,Cash,6f430a5b-de82-4563-b31f-9846e532c3d0,Flat White,2.75
+2024-05-10 14:27:00,Soho,Cash,6f430a5b-de82-4563-b31f-9846e532c3d0,Americano,2.2
+2024-05-10 14:27:00,Soho,Cash,6f430a5b-de82-4563-b31f-9846e532c3d0,Macchiato,3.1
+2024-05-10 13:50:00,Soho,Cash,9af081a2-d0e2-4053-b81e-52e393253c42,Mocha,3.75
+2024-05-10 13:50:00,Soho,Cash,9af081a2-d0e2-4053-b81e-52e393253c42,Mocha,3.75
+2024-05-10 16:14:00,Soho,Card,dde48ca3-be9f-4471-bc4e-710bfd8a44dd,Cappuccino,3.0
+2024-05-10 13:28:00,Soho,Card,79d63444-d37a-44fe-a666-2b9018def9ff,Macchiato,3.1
+2024-05-10 13:28:00,Soho,Card,79d63444-d37a-44fe-a666-2b9018def9ff,Flat White,2.75
+2024-05-10 11:12:00,Soho,Cash,1d20cf2f-d796-4d6d-b9e4-6450988edf1c,Latte,2.5
+2024-05-10 11:12:00,Soho,Cash,1d20cf2f-d796-4d6d-b9e4-6450988edf1c,Cappuccino,3.0
+2024-05-10 11:12:00,Soho,Cash,1d20cf2f-d796-4d6d-b9e4-6450988edf1c,Cappuccino,3.0
+2024-05-10 20:24:00,Soho,Cash,670e6ab9-98b8-4e25-a9f3-7104e210c132,Cappuccino,3.0
+2024-05-10 10:00:00,Soho,Card,75346a47-2cd2-4c0e-873d-345fd9c1c888,Espresso,2.0
+2024-05-10 10:00:00,Soho,Card,75346a47-2cd2-4c0e-873d-345fd9c1c888,Espresso,2.0
+2024-05-10 15:20:00,Soho,Card,5d7c1693-2ae4-4e8c-ac85-78c1e970f1c4,Mocha,3.75
+2024-05-10 18:18:00,Soho,Card,98a353e7-516b-4b12-a0e0-5f3b2fcfbbbc,Mocha,3.75
+2024-05-10 18:18:00,Soho,Card,98a353e7-516b-4b12-a0e0-5f3b2fcfbbbc,Cappuccino,3.0
+2024-05-10 18:18:00,Soho,Card,98a353e7-516b-4b12-a0e0-5f3b2fcfbbbc,Flat White,2.75
+2024-05-10 12:16:00,Soho,Card,565ac574-e3e1-4434-8774-51637bcf1b58,Americano,2.2
+2024-05-10 18:38:00,Soho,Cash,ac1d2e52-c312-476b-a75a-e1563950df33,Espresso,2.0
+2024-05-10 18:38:00,Soho,Cash,ac1d2e52-c312-476b-a75a-e1563950df33,Americano,2.2
+2024-05-10 00:00:00,Soho,Card,b8a8f8b1-057b-48e8-bad3-7aa72e6a410e,Americano,2.2
+2024-05-10 00:00:00,Soho,Card,b8a8f8b1-057b-48e8-bad3-7aa72e6a410e,Cappuccino,3.0
+2024-05-10 20:38:00,Soho,Cash,5cf0281f-4271-46c7-abb2-489d2a488e52,Espresso,2.0
+2024-05-10 20:38:00,Soho,Cash,5cf0281f-4271-46c7-abb2-489d2a488e52,Cappuccino,3.0
+2024-05-10 13:29:00,Soho,Cash,941a8d9d-bc5c-4d7a-a49c-9fdf3d5550e9,Cappuccino,3.0
+2024-05-10 13:29:00,Soho,Cash,941a8d9d-bc5c-4d7a-a49c-9fdf3d5550e9,Cappuccino,3.0
+2024-05-10 00:00:00,Soho,Card,75b682ee-4c7a-4280-a3f6-90728423e6cd,Macchiato,3.1
+2024-05-10 00:00:00,Soho,Card,8cc954be-deab-40f7-b127-d9954c048bdc,Mocha,3.75
+2024-05-10 00:00:00,Soho,Card,8cc954be-deab-40f7-b127-d9954c048bdc,Mocha,3.75
+2024-05-10 00:00:00,Soho,Card,8cc954be-deab-40f7-b127-d9954c048bdc,Cappuccino,3.0
+2024-05-10 00:00:00,Soho,Card,5c12f4fc-bd67-4d23-9887-f6dd508853fa,Cappuccino,3.0
+2024-05-10 00:00:00,Soho,Card,5c12f4fc-bd67-4d23-9887-f6dd508853fa,Espresso,2.0
+2024-05-10 00:00:00,Soho,Card,5c12f4fc-bd67-4d23-9887-f6dd508853fa,Latte,2.5
+2024-05-10 09:22:00,Soho,Card,c4f7c937-54bb-48d4-9669-02950bf71c1f,Macchiato,3.1
+2024-05-10 09:22:00,Soho,Card,c4f7c937-54bb-48d4-9669-02950bf71c1f,Americano,2.2
+2024-05-10 09:22:00,Soho,Card,c4f7c937-54bb-48d4-9669-02950bf71c1f,Macchiato,3.1
+2024-05-10 14:33:00,Soho,Card,eab5995b-b577-4c97-ad3f-cb8d9eaf9874,Flat White,2.75
+2024-05-10 14:33:00,Soho,Card,eab5995b-b577-4c97-ad3f-cb8d9eaf9874,Americano,2.2
+2024-05-10 14:33:00,Soho,Card,eab5995b-b577-4c97-ad3f-cb8d9eaf9874,Espresso,2.0
+2024-05-10 00:00:00,Soho,Cash,8a169ca7-d2f6-4ab5-8f19-08f1964b72af,Latte,2.5
+2024-05-10 00:00:00,Soho,Cash,8a169ca7-d2f6-4ab5-8f19-08f1964b72af,Cappuccino,3.0
+2024-05-10 00:00:00,Soho,Card,a5d53f88-bfc6-4123-bb07-8ef8865fab5f,Flat White,2.75
+2024-05-10 00:00:00,Soho,Card,a5d53f88-bfc6-4123-bb07-8ef8865fab5f,Americano,2.2
+2024-05-10 14:32:00,Soho,Card,fa3231fb-7642-4835-9e07-8b08e3fa9b35,Americano,2.2
+2024-05-10 12:56:00,Soho,Card,38a4a493-a4db-4ffa-b4a2-08d3acb069b4,Americano,2.2
+2024-05-10 12:56:00,Soho,Card,38a4a493-a4db-4ffa-b4a2-08d3acb069b4,Mocha,3.75
+2024-05-10 12:56:00,Soho,Card,38a4a493-a4db-4ffa-b4a2-08d3acb069b4,Americano,2.2
+2024-05-10 15:07:00,Soho,Card,46c7972d-5c55-46b0-b0ce-3e5adafe849c,Espresso,2.0
+2024-05-10 09:50:00,Soho,Cash,c870d699-5141-4d18-abe2-0711e2d7a349,Cappuccino,3.0
+2024-05-10 09:50:00,Soho,Cash,c870d699-5141-4d18-abe2-0711e2d7a349,Americano,2.2
+2024-05-10 12:24:00,Soho,Cash,9c8187e0-979f-44a3-bb57-24f8f9fb4159,Mocha,3.75
+2024-05-10 16:33:00,Soho,Card,85532676-9350-4232-a75e-6c9821aaf9e2,Americano,2.2
+2024-05-10 12:08:00,Soho,Cash,110294ec-ae14-4b7d-aada-cd859f8fefe6,Latte,2.5
+2024-05-10 10:01:00,Soho,Cash,af5cc69c-c6e5-4a99-8640-8a89662fec1a,Mocha,3.75
+2024-05-10 10:01:00,Soho,Cash,af5cc69c-c6e5-4a99-8640-8a89662fec1a,Cappuccino,3.0
+2024-05-10 08:16:00,Soho,Cash,6e045969-a9a1-4e6c-85a2-22186c0a8fff,Macchiato,3.1
+2024-05-10 00:00:00,Soho,Cash,75310f39-bd84-4ac8-b11c-4d616aa1e8b6,Americano,2.2
+2024-05-10 00:00:00,Soho,Card,bd9a5b87-3a46-4ae1-ab41-77147b0270ec,Mocha,3.75
+2024-05-10 00:00:00,Soho,Card,bd9a5b87-3a46-4ae1-ab41-77147b0270ec,Cappuccino,3.0
+2024-05-10 00:00:00,Soho,Card,bd9a5b87-3a46-4ae1-ab41-77147b0270ec,Cappuccino,3.0
+2024-05-10 00:00:00,Soho,Cash,880712a3-1fa1-4093-9b48-662e9132c8c3,Macchiato,3.1
+2024-05-10 16:54:00,Soho,Cash,b4580c9f-1325-4a72-88d4-4fb24bf0214c,Cappuccino,3.0
+2024-05-10 16:54:00,Soho,Cash,b4580c9f-1325-4a72-88d4-4fb24bf0214c,Latte,2.5
+2024-05-10 18:58:00,Soho,Cash,247d2913-84c3-4419-9953-1eeae744218d,Americano,2.2
+2024-05-10 00:00:00,Soho,Cash,06cde623-03d3-4648-b4e3-6bc6c1e14c6a,Flat White,2.75
+2024-05-10 00:00:00,Soho,Cash,06cde623-03d3-4648-b4e3-6bc6c1e14c6a,Espresso,2.0
+2024-05-10 17:30:00,Soho,Cash,acadacf3-c053-4d11-9505-baa0bbddbce4,Espresso,2.0
+2024-05-10 17:30:00,Soho,Cash,acadacf3-c053-4d11-9505-baa0bbddbce4,Flat White,2.75
+2024-05-10 00:00:00,Soho,Card,bebe7528-f584-4921-8d1f-980203473ddb,Americano,2.2
+2024-05-10 00:00:00,Soho,Card,bebe7528-f584-4921-8d1f-980203473ddb,Americano,2.2
+2024-05-10 00:00:00,Soho,Card,2718be1f-cb13-4054-91a7-be4b470dffe6,Americano,2.2
+2024-05-10 00:00:00,Soho,Card,2718be1f-cb13-4054-91a7-be4b470dffe6,Latte,2.5
+2024-05-10 17:29:00,Soho,Card,f372fa5b-e87a-4d74-b224-960b459be953,Macchiato,3.1
+2024-05-10 15:10:00,Soho,Cash,a01bcf8f-0eeb-48d2-8b8a-d8c488eebda8,Cappuccino,3.0
+2024-05-10 15:10:00,Soho,Cash,a01bcf8f-0eeb-48d2-8b8a-d8c488eebda8,Macchiato,3.1
+2024-05-10 22:19:00,Soho,Cash,36dee3d9-70f1-46a0-8e22-f41f0d5742c2,Macchiato,3.1
+2024-05-10 22:19:00,Soho,Cash,36dee3d9-70f1-46a0-8e22-f41f0d5742c2,Macchiato,3.1
+2024-05-10 22:19:00,Soho,Cash,36dee3d9-70f1-46a0-8e22-f41f0d5742c2,Cappuccino,3.0
+2024-05-10 11:46:00,Soho,Cash,4752e8bd-a54b-475e-b4fd-f53176c04339,Americano,2.2
+2024-05-10 16:01:00,Soho,Cash,8a5e87ab-b104-4cb8-9fe6-c5c8432be13d,Flat White,2.75
+2024-05-10 16:01:00,Soho,Cash,8a5e87ab-b104-4cb8-9fe6-c5c8432be13d,Mocha,3.75
+2024-05-10 00:00:00,Soho,Cash,039a4270-c685-488b-8bdc-08bcfd73d580,Espresso,2.0
+2024-05-10 00:00:00,Soho,Cash,039a4270-c685-488b-8bdc-08bcfd73d580,Cappuccino,3.0
+2024-05-10 00:00:00,Soho,Cash,039a4270-c685-488b-8bdc-08bcfd73d580,Espresso,2.0
+2024-05-10 00:00:00,Soho,Card,44346c6d-c24f-4826-916e-59a6ff9cc6be,Cappuccino,3.0
+2024-05-10 00:00:00,Soho,Card,44346c6d-c24f-4826-916e-59a6ff9cc6be,Macchiato,3.1
+2024-05-10 10:40:00,Soho,Card,ad44c2b2-80b9-4c8b-a943-8ae42eaae2ca,Latte,2.5
+2024-05-10 10:40:00,Soho,Card,ad44c2b2-80b9-4c8b-a943-8ae42eaae2ca,Cappuccino,3.0
+2024-05-10 10:40:00,Soho,Card,ad44c2b2-80b9-4c8b-a943-8ae42eaae2ca,Flat White,2.75
+2024-05-10 00:00:00,Soho,Card,3e93c429-5954-4a96-b8e1-741c606b777d,Cappuccino,3.0
+2024-05-10 00:00:00,Soho,Card,3e93c429-5954-4a96-b8e1-741c606b777d,Mocha,3.75
+2024-05-10 17:27:00,Soho,Cash,f44e4cb2-8b0f-4405-8462-df4728bce7e9,Macchiato,3.1
+2024-05-10 17:27:00,Soho,Cash,f44e4cb2-8b0f-4405-8462-df4728bce7e9,Mocha,3.75
+2024-05-10 22:16:00,Soho,Cash,6206a74d-35bf-4589-bc94-747b55132d9c,Flat White,2.75
+2024-05-10 22:16:00,Soho,Cash,6206a74d-35bf-4589-bc94-747b55132d9c,Macchiato,3.1
+2024-05-10 00:00:00,Soho,Card,56781b16-3c91-4fed-a33a-d3392789696f,Americano,2.2
+2024-05-10 00:00:00,Soho,Card,56781b16-3c91-4fed-a33a-d3392789696f,Latte,2.5
+2024-05-10 00:00:00,Soho,Cash,829270ed-b73a-4703-a836-14d3e1eff82e,Espresso,2.0
+2024-05-10 11:46:00,Soho,Cash,bcbbdb5b-97ae-4f77-8136-77b748bf9b36,Mocha,3.75
+2024-05-10 11:46:00,Soho,Cash,bcbbdb5b-97ae-4f77-8136-77b748bf9b36,Espresso,2.0
+2024-05-10 11:46:00,Soho,Cash,bcbbdb5b-97ae-4f77-8136-77b748bf9b36,Macchiato,3.1
+2024-05-10 00:00:00,Soho,Cash,ae81c2fa-61a1-4494-b257-73c6261dbbb9,Americano,2.2
+2024-05-10 00:00:00,Soho,Cash,38691af7-13d5-4498-a19f-1d70f97e9e01,Flat White,2.75
+2024-05-10 00:00:00,Soho,Cash,38691af7-13d5-4498-a19f-1d70f97e9e01,Latte,2.5
+2024-05-10 00:00:00,Soho,Cash,38691af7-13d5-4498-a19f-1d70f97e9e01,Latte,2.5
+2024-05-10 15:15:00,Soho,Card,a6870dd1-be09-4b80-8fe6-d4479fd75c10,Americano,2.2
+2024-05-10 18:30:00,Soho,Card,690caf0c-5804-4ded-80d3-70ca520364bf,Latte,2.5
+2024-05-10 09:32:00,Soho,Cash,1ba77ff1-99d1-4639-849c-da08fcae6685,Cappuccino,3.0
+2024-05-10 09:32:00,Soho,Cash,1ba77ff1-99d1-4639-849c-da08fcae6685,Latte,2.5
+2024-05-10 00:00:00,Soho,Cash,ef944987-74e5-4fc2-80d1-48a912e4ec2d,Latte,2.5
+2024-05-10 18:26:00,Soho,Cash,eaa46650-cb4e-46fd-abb7-96aad069c86c,Macchiato,3.1
+2024-05-10 00:00:00,Soho,Card,44814a11-72fa-4d12-9c0e-816736aa1ce4,Cappuccino,3.0
+2024-05-10 00:00:00,Soho,Card,44814a11-72fa-4d12-9c0e-816736aa1ce4,Flat White,2.75
+2024-05-10 21:33:00,Soho,Cash,98458f7a-b586-4faa-91c2-8bc9d64c1ac4,Latte,2.5
+2024-05-10 21:33:00,Soho,Cash,98458f7a-b586-4faa-91c2-8bc9d64c1ac4,Mocha,3.75
+2024-05-10 00:00:00,Soho,Cash,20fe32f1-9c10-433a-ac64-9d879d85be89,Macchiato,3.1
+2024-05-10 00:00:00,Soho,Cash,20fe32f1-9c10-433a-ac64-9d879d85be89,Espresso,2.0
+2024-05-10 00:00:00,Soho,Cash,20fe32f1-9c10-433a-ac64-9d879d85be89,Latte,2.5
+2024-05-10 12:54:00,Soho,Cash,cd349cfa-76ca-4bea-a1b9-cedf509454db,Mocha,3.75
+2024-05-10 12:54:00,Soho,Cash,cd349cfa-76ca-4bea-a1b9-cedf509454db,Americano,2.2
+2024-05-10 12:54:00,Soho,Cash,cd349cfa-76ca-4bea-a1b9-cedf509454db,Cappuccino,3.0
+2024-05-10 00:00:00,Soho,Card,61570ce4-a046-45f6-b856-62391c3c0bf2,Latte,2.5
+2024-05-10 00:00:00,Soho,Card,61570ce4-a046-45f6-b856-62391c3c0bf2,Cappuccino,3.0
+2024-05-10 11:25:00,Soho,Card,c573e101-e8fb-46cd-bb22-b106d13f850b,Flat White,2.75
+2024-05-10 11:25:00,Soho,Card,c573e101-e8fb-46cd-bb22-b106d13f850b,Macchiato,3.1
+2024-05-10 00:00:00,Soho,Card,473953fd-b9ad-4777-afaf-f6a4c3617f25,Cappuccino,3.0
+2024-05-10 00:00:00,Soho,Card,473953fd-b9ad-4777-afaf-f6a4c3617f25,Espresso,2.0
+2024-05-10 00:00:00,Soho,Card,8cee9c49-80e9-4655-91d6-4706408b192f,Latte,2.5
+2024-05-10 00:00:00,Soho,Card,8cee9c49-80e9-4655-91d6-4706408b192f,Cappuccino,3.0
+2024-05-10 00:00:00,Soho,Card,45fd66f6-69df-48f0-a236-c310829d1907,Cappuccino,3.0
+2024-05-10 00:00:00,Soho,Card,45fd66f6-69df-48f0-a236-c310829d1907,Espresso,2.0
+2024-05-10 00:00:00,Soho,Card,45fd66f6-69df-48f0-a236-c310829d1907,Espresso,2.0
+2024-05-10 00:00:00,Soho,Cash,bff9f91d-cab9-48ce-b7a0-2608633320b8,Americano,2.2
+2024-05-10 11:49:00,Soho,Card,e5e884dd-0734-42bb-99fa-cfad66a1a828,Macchiato,3.1
+2024-05-10 00:00:00,Soho,Card,501a0952-64f7-43f9-bf55-a41a61ff8c89,Americano,2.2
+2024-05-10 00:00:00,Soho,Card,501a0952-64f7-43f9-bf55-a41a61ff8c89,Americano,2.2
+2024-05-10 00:00:00,Soho,Cash,3d55b4b3-a1a6-4527-922f-c54db2a71002,Mocha,3.75
+2024-05-10 00:00:00,Soho,Cash,3d55b4b3-a1a6-4527-922f-c54db2a71002,Espresso,2.0
+2024-05-10 15:56:00,Soho,Cash,27a7cbca-c08a-4e74-855a-986e2b22c5b1,Latte,2.5
+2024-05-10 15:56:00,Soho,Cash,27a7cbca-c08a-4e74-855a-986e2b22c5b1,Mocha,3.75
+2024-05-10 15:56:00,Soho,Cash,27a7cbca-c08a-4e74-855a-986e2b22c5b1,Americano,2.2
+2024-05-10 18:13:00,Soho,Cash,5f66cbd6-8b24-4a45-b99e-d2107af8f00f,Cappuccino,3.0
+2024-05-10 18:13:00,Soho,Cash,5f66cbd6-8b24-4a45-b99e-d2107af8f00f,Macchiato,3.1
+2024-05-10 18:13:00,Soho,Cash,5f66cbd6-8b24-4a45-b99e-d2107af8f00f,Mocha,3.75
+2024-05-10 00:00:00,Soho,Card,274cd803-8a98-41c4-b26c-fbb15219091f,Americano,2.2
+2024-05-10 13:56:00,Soho,Card,b1431b7a-bbdb-43c9-813d-ea77a9645760,Espresso,2.0
+2024-05-10 13:56:00,Soho,Card,b1431b7a-bbdb-43c9-813d-ea77a9645760,Mocha,3.75
+2024-05-10 13:56:00,Soho,Card,b1431b7a-bbdb-43c9-813d-ea77a9645760,Flat White,2.75
+2024-05-10 00:00:00,Soho,Card,686acc1d-1c8d-4b64-a172-ea22303fa63e,Latte,2.5
+2024-05-10 00:00:00,Soho,Card,686acc1d-1c8d-4b64-a172-ea22303fa63e,Cappuccino,3.0
+2024-05-10 00:00:00,Soho,Card,686acc1d-1c8d-4b64-a172-ea22303fa63e,Latte,2.5
+2024-05-10 09:05:00,Soho,Card,dd70dc8e-96b6-48b9-b563-408cfd41ddaf,Flat White,2.75
+2024-05-10 00:00:00,Soho,Cash,46e41d06-c984-4600-9128-4397c0a9c71c,Flat White,2.75
+2024-05-10 10:24:00,Soho,Card,d38203e1-8aba-4632-bdcf-d200c34fc342,Latte,2.5
+2024-05-10 16:28:00,Soho,Card,330daef8-bd74-4568-9f44-8aa7f7e05c68,Latte,2.5
+2024-05-10 16:28:00,Soho,Card,330daef8-bd74-4568-9f44-8aa7f7e05c68,Latte,2.5
+2024-05-10 16:28:00,Soho,Card,330daef8-bd74-4568-9f44-8aa7f7e05c68,Espresso,2.0
+2024-05-10 22:23:00,Soho,Card,71af7dea-d69f-44c8-8e62-71b5acdb03eb,Cappuccino,3.0
+2024-05-10 22:23:00,Soho,Card,71af7dea-d69f-44c8-8e62-71b5acdb03eb,Latte,2.5
+2024-05-10 22:23:00,Soho,Card,71af7dea-d69f-44c8-8e62-71b5acdb03eb,Espresso,2.0
+2024-05-10 22:53:00,Soho,Card,cb33a400-38f3-4a92-9bea-d15e958b548f,Cappuccino,3.0
+2024-05-10 22:53:00,Soho,Card,cb33a400-38f3-4a92-9bea-d15e958b548f,Americano,2.2
+2024-05-10 11:17:00,Soho,Cash,362e554e-ea5a-4c4d-b53b-0f60354d4057,Latte,2.5
+2024-05-10 11:17:00,Soho,Cash,362e554e-ea5a-4c4d-b53b-0f60354d4057,Latte,2.5
+2024-05-10 00:00:00,Soho,Card,1ee7515f-4ceb-4eb1-8af1-6f3b315e4f9d,Mocha,3.75
+2024-05-10 00:00:00,Soho,Card,1ee7515f-4ceb-4eb1-8af1-6f3b315e4f9d,Mocha,3.75
+2024-05-10 16:54:00,Soho,Cash,0536c56d-373c-4eb1-b57b-553ec6978320,Americano,2.2
+2024-05-10 19:19:00,Soho,Cash,d570098c-b7df-4ab3-a144-5f378327c2ba,Macchiato,3.1
+2024-05-10 19:19:00,Soho,Cash,d570098c-b7df-4ab3-a144-5f378327c2ba,Americano,2.2
+2024-05-10 19:19:00,Soho,Cash,d570098c-b7df-4ab3-a144-5f378327c2ba,Cappuccino,3.0
+2024-05-10 00:00:00,Soho,Cash,b3820c23-7857-44ac-9497-37ef348b10f3,Flat White,2.75
+2024-05-10 00:00:00,Soho,Card,cf64fe73-a04f-4b38-b0ea-6ec80b4e869c,Americano,2.2
+2024-05-10 00:00:00,Soho,Cash,26fd69ac-9c7a-46d2-80e4-67871545c9e6,Cappuccino,3.0
+2024-05-10 00:00:00,Soho,Cash,26fd69ac-9c7a-46d2-80e4-67871545c9e6,Cappuccino,3.0
+2024-05-10 12:44:00,Soho,Cash,20e69153-f12d-4056-8546-95d289256a1a,Macchiato,3.1
+2024-05-10 12:44:00,Soho,Cash,20e69153-f12d-4056-8546-95d289256a1a,Americano,2.2
+2024-05-10 12:44:00,Soho,Cash,20e69153-f12d-4056-8546-95d289256a1a,Cappuccino,3.0
+2024-05-10 00:00:00,Soho,Card,7484523d-6c02-48c9-9d47-4bcdcedbdd63,Mocha,3.75
+2024-05-10 17:47:00,Soho,Cash,440eafcb-001b-4fdf-ade9-253472edced8,Mocha,3.75
+2024-05-10 17:47:00,Soho,Cash,440eafcb-001b-4fdf-ade9-253472edced8,Cappuccino,3.0
+2024-05-10 17:47:00,Soho,Cash,440eafcb-001b-4fdf-ade9-253472edced8,Macchiato,3.1
+2024-05-10 00:00:00,Soho,Cash,15706f5a-6300-4c4f-b985-d186c7931043,Latte,2.5
+2024-05-10 00:00:00,Soho,Cash,15706f5a-6300-4c4f-b985-d186c7931043,Mocha,3.75
+2024-05-10 00:00:00,Soho,Cash,15706f5a-6300-4c4f-b985-d186c7931043,Flat White,2.75
+2024-05-10 08:04:00,Soho,Cash,377f8c15-a487-4a5e-bfe0-946f502acb33,Macchiato,3.1
+2024-05-10 08:04:00,Soho,Cash,377f8c15-a487-4a5e-bfe0-946f502acb33,Americano,2.2
+2024-05-10 08:04:00,Soho,Cash,377f8c15-a487-4a5e-bfe0-946f502acb33,Cappuccino,3.0
+2024-05-10 00:00:00,Soho,Cash,fd7c840e-ee50-4052-80cc-e639966ebf34,Espresso,2.0
+2024-05-10 00:00:00,Soho,Cash,fd7c840e-ee50-4052-80cc-e639966ebf34,Mocha,3.75
+2024-05-10 22:02:00,Soho,Card,0f7ccb25-21ad-4da5-8136-d3840e5178aa,Latte,2.5
+2024-05-10 22:02:00,Soho,Card,0f7ccb25-21ad-4da5-8136-d3840e5178aa,Espresso,2.0
+2024-05-10 07:03:00,Soho,Card,7959708e-7b56-4a46-871b-a8c38376435e,Cappuccino,3.0
+2024-05-10 07:03:00,Soho,Card,7959708e-7b56-4a46-871b-a8c38376435e,Macchiato,3.1
+2024-05-10 07:03:00,Soho,Card,7959708e-7b56-4a46-871b-a8c38376435e,Cappuccino,3.0
+2024-05-10 21:44:00,Soho,Cash,76f8d912-9841-4f32-80c2-2e1beffd6083,Cappuccino,3.0
+2024-05-10 21:44:00,Soho,Cash,76f8d912-9841-4f32-80c2-2e1beffd6083,Cappuccino,3.0
+2024-05-10 17:09:00,Soho,Card,b10514df-9835-466e-85b1-c818a8588fcc,Mocha,3.75
+2024-05-10 17:09:00,Soho,Card,b10514df-9835-466e-85b1-c818a8588fcc,Flat White,2.75
+2024-05-10 17:09:00,Soho,Card,b10514df-9835-466e-85b1-c818a8588fcc,Flat White,2.75
+2024-05-10 08:34:00,Soho,Card,a7895942-4d17-458f-9c01-644153563860,Macchiato,3.1
+2024-05-10 08:34:00,Soho,Card,a7895942-4d17-458f-9c01-644153563860,Macchiato,3.1
+2024-05-10 08:34:00,Soho,Card,a7895942-4d17-458f-9c01-644153563860,Americano,2.2
+2024-05-10 14:41:00,Soho,Cash,2a575bbc-fa99-4235-9a93-bf6b27643b7c,Mocha,3.75
+2024-05-10 14:41:00,Soho,Cash,2a575bbc-fa99-4235-9a93-bf6b27643b7c,Cappuccino,3.0
+2024-05-10 14:41:00,Soho,Cash,2a575bbc-fa99-4235-9a93-bf6b27643b7c,Americano,2.2
+2024-05-10 20:45:00,Soho,Card,b420f4d3-684e-4d04-98b0-fe9d818c5480,Americano,2.2
+2024-05-10 20:45:00,Soho,Card,b420f4d3-684e-4d04-98b0-fe9d818c5480,Macchiato,3.1
+2024-05-10 00:00:00,Soho,Card,24bd7eeb-1718-4d87-94c9-c4e2ab85fcf2,Mocha,3.75
+2024-05-10 00:00:00,Soho,Card,24bd7eeb-1718-4d87-94c9-c4e2ab85fcf2,Macchiato,3.1
+2024-05-10 00:00:00,Soho,Card,24bd7eeb-1718-4d87-94c9-c4e2ab85fcf2,Flat White,2.75
+2024-05-10 00:00:00,Soho,Cash,da6ef2e9-435c-4e92-83be-fca211b941f7,Macchiato,3.1
+2024-05-10 00:00:00,Soho,Cash,da6ef2e9-435c-4e92-83be-fca211b941f7,Cappuccino,3.0
+2024-05-10 00:00:00,Soho,Cash,da6ef2e9-435c-4e92-83be-fca211b941f7,Macchiato,3.1
