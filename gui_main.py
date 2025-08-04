@@ -315,3 +315,4 @@ app.mainloop()  # keeps the window running , without app will just flash and exi
 
 # error if folder exists
 # check to see if dates already exist in database, if it does, do not add with load phase 
+# get user to auto connect to docker and different contaienrs or check/remind user automatially

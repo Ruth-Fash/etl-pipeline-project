@@ -27,10 +27,10 @@ def load_to_database(product_df, order_df, order_item_df):
     try:
         # Create SQLAlchemy engine
         engine = create_engine(f"postgresql+psycopg2://{user_name}:{user_password}@{host_name}:{port}/{database_name}")
+    
         existing_product_ids = get_existing_ids(engine, "products", "product_id") # Get the set of existing product IDs already in the database
         product_df["product_id"] = product_df["product_id"].astype(str) # Convert product_id in the DataFrame to string type to match the database
         filtered_product_df = product_df[~product_df["product_id"].isin(existing_product_ids)] # new DataFrame with only the rows whose product_id are not already in the database "~" this negates the isin condition by checking if it does not exist
-
 
         if not filtered_product_df.empty: # if not empty adds the products to the db
             filtered_product_df.to_sql("products", engine, if_exists="append", index=False)  # chnaged if_exist from "replace" to "append"
@@ -38,11 +38,10 @@ def load_to_database(product_df, order_df, order_item_df):
         else:
             print("No new products to upload")
         print("Uploaded products table")
-
+        
         # Upload orders and order items (no filtering, assuming all are new)
         order_df.to_sql("orders", engine, if_exists="append", index=False)
         print("Uploaded orders table")
-
 
         order_item_df.to_sql("order_item", engine, if_exists="append", index=False)
         print("Uploaded order_item table")
