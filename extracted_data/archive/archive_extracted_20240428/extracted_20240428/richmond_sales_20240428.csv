@@ -1,0 +1,103 @@
+Customer Name,Date/Time,Branch,Payment Type,Drinks Ordered,Card Number
+Carlos Reyes,28 Apr 2024 17:40,Richmond,Cash,"Macchiato -  3.1 , Americano - £2.2",
+James Carter,28-04-2024 09:38,Richmond,Card,"Cappuccino - 3.0, Flat White - £2.75",91654824962008925
+Grace Kim,28 Apr 2024 18:42,Richmond,Cash,"Mocha - 3.75, Latte -  2.5 ",
+Oliver Twist,28th April 2024,Richmond,Card,Americano - £2.2,9.456149203941756e+00+16
+Leila Ahmed,28/04/2024,Richmond,Cash,Flat White - 2.75,
+Maria Lopez,2024/04/28 21:11,Richmond,Card,Mocha - £3.75,5.940710695787066e+00+17
+James Carter,28/04/2024,Richmond,Card,"Flat White -  2.75 , Mocha -  3.75 ",82461733241554432
+Fatima Yusuf,28 Apr 2024 22:19,Richmond,Card,"Espresso - £2.0, Flat White - 2.75, Cappuccino - £3.0, Espresso - £2.0",
+Leila Ahmed,28-04-2024 11:52,Richmond,Card,Espresso - £2.0,12342104373594342
+Sophie Dubois,28-04-2024 11:49,Richmond,Cash,"Mocha - £3.75, Latte -  2.5 , Espresso - 2.0",
+Leila Ahmed,28-04-2024 18:09,Richmond,Card,"Americano - £2.2, Mocha -  3.75 , Cappuccino - 3.0, Macchiato - £3.1",77275211448450256
+,28-04-2024 08:05,Richmond,Card,"Flat White - 2.75, Americano -  2.2 , Cappuccino -  3.0 , Cappuccino -  3.0 ",58090268328367492
+Aisha Bello,28 Apr 2024 17:57,Richmond,Cash,"Macchiato - 3.1, Mocha - 3.75, Latte - 2.5, Cappuccino - £3.0",
+Jake Thompson,28 Apr 2024 19:02,Richmond,Card,Latte -  2.5 ,62841461137490135
+Anna Smith,2024/04/28 08:39,Richmond,Cash,Macchiato - 3.1,
+Anna Smith,2024/04/28 22:31,Richmond,Cash,Flat White - £2.75,
+Anna Smith,28/04/2024,Richmond,Cash,Invalid Order String,
+,2024/04/28 08:01,Richmond,Cash,Invalid Order String,
+Chinedu Okafor,2024/04/28 11:45,Richmond,Card,Latte - 2.5,92134422558453131
+Aisha Bello,28 Apr 2024 07:26,Richmond,Cash,"Flat White - £2.75, Espresso - £2.0",
+Nina Patel,2024/04/28 08:41,Richmond,Cash,"Flat White - 2.75, Mocha - 3.75",
+Dave Johnson,28th April 2024,Richmond,Cash,Americano -  2.2 ,
+Jake Thompson,2024/04/28 20:52,Richmond,Cash,"Espresso - 2.0, Espresso - £2.0",
+Dave Johnson,28 Apr 2024 21:53,Richmond,Card,Latte - 2.5,
+Aisha Bello,28th April 2024,Richmond,Cash,"Espresso - £2.0, Latte -  2.5 ",
+Chen Wei,28th April 2024,Richmond,Card,Flat White -  2.75 ,
+Chen Wei,28-04-2024 17:25,Richmond,Cash,"Espresso - 2.0, Macchiato - £3.1, Flat White -  2.75 ",
+Carlos Reyes,2024/04/28 17:16,Richmond,Card,"Espresso - £2.0, Espresso - 2.0, Latte - £2.5",98116141214792287
+Oliver Twist,28th April 2024,Richmond,Card,"Americano - £2.2, Macchiato -  3.1 ",16035706255885480
+Nina Patel,2024/04/28 16:48,Richmond,Cash,"Latte - 2.5, Mocha -  3.75 , Mocha -  3.75 ",
+,2024/04/28 09:08,Richmond,Card,"Mocha -  3.75 , Mocha - £3.75",7.298860523944747e+00+16
+James Carter,2024/04/28 07:04,Richmond,Card,"Flat White - £2.75, Mocha - £3.75",6.418945179220430e+00+15
+Jake Thompson,28th April 2024,Richmond,Card,Americano -  2.2 ,1.393275156537239e+00+17
+Fatima Yusuf,28 Apr 2024 10:09,Richmond,Card,Mocha - £3.75,7.816580747143385e+00+16
+Fatima Yusuf,2024/04/28 16:58,Richmond,Card,"Espresso - 2.0, Espresso - 2.0",23589704852163161
+Jake Thompson,2024/04/28 18:59,Richmond,Cash,"Espresso - £2.0, Flat White - £2.75",
+Jake Thompson,28-04-2024 14:36,Richmond,Card,"Cappuccino - £3.0, Macchiato -  3.1 ",7.291045989721619e+00+15
+Aisha Bello,2024/04/28 14:47,Richmond,Card,"Americano -  2.2 , Flat White - £2.75, Americano - £2.2",93269026967221443
+Fatima Yusuf,28-04-2024 13:00,Richmond,Cash,"Americano - 2.2, Espresso - £2.0, Americano -  2.2 ",
+Chen Wei,28/04/2024,Richmond,Cash,"Cappuccino - 3.0, Espresso - 2.0",
+Oliver Twist,28th April 2024,Richmond,Card,Cappuccino - 3.0,
+Grace Kim,28 Apr 2024 09:25,Richmond,Card,"Macchiato - £3.1, Espresso - 2.0",89671162748879901
+Leila Ahmed,28/04/2024,Richmond,Cash,Espresso - 2.0,
+Leila Ahmed,2024/04/28 13:41,Richmond,Cash,Flat White - 2.75,
+Dave Johnson,28th April 2024,Richmond,Card,Cappuccino - 3.0,72159114605836806
+Sophie Dubois,28th April 2024,Richmond,Cash,"Flat White -  2.75 , Mocha -  3.75 , Cappuccino - 3.0, Americano -  2.2 ",
+,2024/04/28 20:04,Richmond,Card,Macchiato -  3.1 ,4.298825560076023e+00+17
+Fatima Yusuf,2024/04/28 16:07,Richmond,Cash,"Cappuccino - 3.0, Mocha - 3.75",
+Fatima Yusuf,28-04-2024 17:55,Richmond,Cash,"Espresso - £2.0, Latte - £2.5",
+Maria Lopez,2024/04/28 07:03,Richmond,Cash,Flat White - 2.75,
+Chen Wei,28th April 2024,Richmond,Cash,Mocha -  3.75 ,
+Carlos Reyes,28th April 2024,Richmond,Card,Mocha -  3.75 ,50520842589654553
+Grace Kim,28-04-2024 12:01,Richmond,Card,"Flat White -  2.75 , Mocha - 3.75",41610405915839501
+Fatima Yusuf,2024/04/28 22:24,Richmond,Card,"Mocha - 3.75, Macchiato - 3.1",2.412215341207292e+00+16
+Leila Ahmed,2024/04/28 17:56,Richmond,Card,Macchiato - 3.1,3.693482064807242e+00+17
+Fatima Yusuf,2024/04/28 14:22,Richmond,Card,Cappuccino -  3.0 ,4.404516629561082e+00+15
+Sophie Dubois,28-04-2024 10:33,Richmond,Card,Latte -  2.5 ,85699098377840914
+Chen Wei,28-04-2024 10:06,Richmond,Cash,Americano -  2.2 ,
+,28-04-2024 18:56,Richmond,Cash,Mocha -  3.75 ,
+Dave Johnson,28th April 2024,Richmond,Card,Latte -  2.5 ,
+Maria Lopez,2024/04/28 21:47,Richmond,Cash,"Macchiato - 3.1, Cappuccino -  3.0 ",
+Fatima Yusuf,2024/04/28 21:04,Richmond,Card,Macchiato -  3.1 ,59914022592579075
+Anna Smith,28-04-2024 18:26,Richmond,Card,Cappuccino -  3.0 ,
+Grace Kim,2024/04/28 13:54,Richmond,Cash,"Latte -  2.5 , Cappuccino - 3.0",
+Anna Smith,2024/04/28 09:39,Richmond,Cash,Flat White - 2.75,
+Aisha Bello,28th April 2024,Richmond,Cash,Flat White - 2.75,
+James Carter,28-04-2024 18:31,Richmond,Cash,Latte - £2.5,
+Jake Thompson,28-04-2024 15:08,Richmond,Cash,Latte -  2.5 ,
+Oliver Twist,2024/04/28 22:10,Richmond,Cash,Espresso - £2.0,
+Sophie Dubois,2024/04/28 17:58,Richmond,Card,Cappuccino - £3.0,16349529245517964
+Fatima Yusuf,28th April 2024,Richmond,Card,Invalid Order String,65992747976005207
+James Carter,28 Apr 2024 10:10,Richmond,Card,"Mocha -  3.75 , Flat White -  2.75 ",3.195904476206470e+00+16
+Nina Patel,28-04-2024 16:06,Richmond,Card,"Macchiato - £3.1, Cappuccino - 3.0",7.170713848453286e+00+16
+Grace Kim,2024/04/28 15:03,Richmond,Cash,"Latte - 2.5, Macchiato -  3.1 ",
+James Carter,28-04-2024 14:40,Richmond,Card,"Americano - 2.2, Americano - 2.2",61415244742542828
+Sophie Dubois,28th April 2024,Richmond,Cash,"Latte -  2.5 , Latte -  2.5 , Flat White -  2.75 ",
+Aisha Bello,2024/04/28 16:56,Richmond,Cash,"Flat White - 2.75, Cappuccino - 3.0",
+Sophie Dubois,28 Apr 2024 12:55,Richmond,Cash,Cappuccino - £3.0,
+Fatima Yusuf,2024/04/28 09:51,Richmond,Cash,"Macchiato -  3.1 , Flat White - 2.75",
+Oliver Twist,2024/04/28 10:32,Richmond,Cash,Flat White - £2.75,
+Nina Patel,2024/04/28 10:22,Richmond,Card,"Americano - £2.2, Latte - 2.5",14403861141135849
+Grace Kim,2024/04/28 15:23,Richmond,Card,"Cappuccino - 3.0, Flat White -  2.75 ",78181234568157819
+Chen Wei,28-04-2024 13:37,Richmond,Card,"Macchiato - £3.1, Americano - £2.2",17636064037702788
+Sophie Dubois,28/04/2024,Richmond,Card,"Cappuccino -  3.0 , Latte -  2.5 , Mocha - 3.75",35094417136854891
+Nina Patel,28-04-2024 09:36,Richmond,Card,"Americano - 2.2, Americano -  2.2 , Americano -  2.2 , Flat White -  2.75 ",82991274168859780
+Maria Lopez,28th April 2024,Richmond,Card,"Cappuccino - 3.0, Cappuccino -  3.0 , Americano - 2.2",6.480609852308466e+00+17
+Fatima Yusuf,28-04-2024 22:54,Richmond,Card,"Espresso - £2.0, Cappuccino - £3.0",32050301302085909
+Grace Kim,28-04-2024 13:40,Richmond,Card,Espresso - £2.0,
+Aisha Bello,2024/04/28 19:07,Richmond,Cash,Americano - £2.2,
+Aisha Bello,2024/04/28 21:51,Richmond,Cash,"Americano - 2.2, Latte - £2.5",
+Nina Patel,2024/04/28 17:04,Richmond,Cash,"Mocha - 3.75, Cappuccino - 3.0, Latte -  2.5 ",
+Nina Patel,28-04-2024 20:24,Richmond,Cash,Espresso - £2.0,
+Dave Johnson,28-04-2024 12:32,Richmond,Cash,Espresso - 2.0,
+Chen Wei,28th April 2024,Richmond,Cash,"Espresso - £2.0, Flat White -  2.75 , Macchiato - 3.1, Cappuccino -  3.0 ",
+Maria Lopez,28/04/2024,Richmond,,Flat White -  2.75 ,
+Fatima Yusuf,28 Apr 2024 13:13,Richmond,Cash,"Espresso - £2.0, Flat White - £2.75",
+Fatima Yusuf,28/04/2024,Richmond,Card,"Espresso - 2.0, Latte - £2.5",4.664362868649540e+00+17
+Fatima Yusuf,28/04/2024,Richmond,Card,"Espresso - 2.0, Espresso - £2.0",94677402029353747
+Anna Smith,28/04/2024,Richmond,Card,"Americano - £2.2, Macchiato - £3.1",1.785841721176590e+00+17
+Anna Smith,28 Apr 2024 11:11,Richmond,Cash,Flat White - 2.75,
+Leila Ahmed,2024/04/28 15:39,Richmond,Cash,"Mocha - 3.75, Flat White -  2.75 ",
+Sophie Dubois,28th April 2024,Richmond,Card,"Latte - £2.5, Americano -  2.2 ",15922810257170707

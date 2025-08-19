@@ -10,7 +10,6 @@ import traceback
 
 
 
-
 def get_csv_filepaths_from(folder_path): # For each file path in the raw_data_folder (or another folder), if it's a file (not a folder) and has a '.csv' extension, add the Path object to the files list.
     files = [f for f in folder_path.iterdir() if f.is_file() and f.suffix == '.csv']
     return files
@@ -80,7 +79,8 @@ def order_uuid(df):
     # Uses uuid5 with NAMESPACE_DNS to ensure the same product name
     # always gets the same UUID. Assumes product names are already cleaned.
 def product_uuid(df):
-    df['product_id'] = df['product'].apply(lambda name: str(uuid.uuid5(uuid.NAMESPACE_DNS, name)))
+    df['product_id'] = df['product'].apply(lambda name: str(uuid.uuid5(uuid.NAMESPACE_DNS, str(name))) if pd.notnull(name) else None
+)
     return df
 def order_item_uuid(df):
     df['order_item_id'] = [str(uuid.uuid4()) for i in range(len(df))] # create a uuid  for each cell between 0 and the number of rows in the df
@@ -92,23 +92,64 @@ def fix_blanks(df):
     df[cols] = df[cols].replace("", pd.NA)
     return df
 
+def missing_price_product(df):
+    drink_list_df = read_csv_file("valid_drinks_list.csv")
+    missing_price = (df['price'].isna() | (df['price'] == "")) & df['product'].notna() & (df['product'] != "") # a boolean Series that marks which rows in df have missing prices but have a product filled in.
+
+    if not missing_price.any():
+        # No missing prices, so no need to merge or assign
+        print("No missing prices found.")
+        return df
+    
+    # Use .loc to update only 'price' for rows with missing prices, mapping product names to prices;
+    # assigning a filtered Series directly to df would drop other rows and columns.
+    df.loc[missing_price, "price"] = df.loc[missing_price, "product"].map(drink_list_df.set_index("product")["price"]) # selects all rows where missing_price is True, but only the "price" column = picks product name for this missing prices and maps the product name to corresponding price from the drink list - repalcing it
+    
+    remaining_missing = df['price'].isna().sum()
+    if remaining_missing > 0:
+        print(f"Warning: {remaining_missing} prices still missing after fill.")
+
+    # Create a boolean column showing whether the product is valid (exists in drink_list_df)
+    df["valid_product"] = df["product"].isin(drink_list_df["product"])
+    invalid_products= df[~df["valid_product"]] # Filter rows with invalid products (not in drink list)
+    
+    if not invalid_products.empty:
+        invalid_products[["date_time","branch","payment_type","order_id","product","price"]].to_csv("rows_with_missing.csv", header=False, mode='a', index=False)
+        
+        # Replace invalid product names with pdNA string in the original df
+        df.loc[~df["valid_product"], "product"] = pd.NA
+
+    # Drop the helper column before returning
+    df = df.drop(columns=["valid_product"])
+
+    product_price_missing = df[["product", "price"]].isna().all(axis=1)
+
+    if product_price_missing.any():
+        df = df.loc[~product_price_missing].copy()  # keeps only rows where not both missing
+
+    return df # if no missing prices then return orginal df 
+
 def remove_and_save_blank_rows(df):
     try:
-        has_missing_values =  df[["product", "price"]].isna().any(axis=1)# check for actual NaN / pd.NA values in the df
-        rows_with_missing = df[has_missing_values].copy()  # copy rows with blanks in the df
+        has_missing_values =  df[["date_time", "branch","payment_type","product"]].isna().any(axis=1)# check for actual NaN / pd.NA values in the df
+        product_price_missing = df[["product", "price"]].isna().all(axis=1)
+        print(df.index.duplicated().sum())
+        # Combine all rows that meet any missing condition
+        # Combine masks directly, pandas will align indexes automatically
+        mask = has_missing_values | product_price_missing
+        rows_with_missing = df[mask].copy()
     
         if not rows_with_missing.empty:
-            rows_with_missing.to_csv('rows_with_missing.csv', mode='a', header=False, index=False) # save to csv 
-            print("Rows with missing 'Product' or 'Price' have been saved to 'rows_with_missing.csv' and removed from the main dataset.")
+            rows_with_missing.to_csv('rows_with_missing.csv', header=False, mode='a',index=False) # save to csv. 
+            print(rows_with_missing.columns)
+            print("Rows with blank coloumns have been copied to 'rows_with_missing.csv'.")
         
-        return df[~has_missing_values] # return rows without the blanks - Always return cleaned data — even if nothing was removed
-        
-        
+        return df# Return original df unchanged
+    
     except Exception as e:
         print("Error in remove_and_save_blank_rows:")
         traceback.print_exc()
-        return None  # Explicitly return None if something fails
-        
+        return None  # Explicitly return None if something fails     
 
 
 # Take extracted data that is in tranform folder to transform it 
@@ -177,8 +218,11 @@ def transformation_payment_type(df):
         return None
     if "Payment Type" not in df.columns:
         print("Column 'Payment Type' not found in DataFrame.")
-        return None      
+        return None     
     df["Payment Type"] = df["Payment Type"].str.strip().str.capitalize()
+
+    df.loc[~df["Payment Type"].isin(allowed_payment), "Payment Type"] = pd.NA # Set values not in allowed_payment to pd.NA
+
     return df
 
 # Your fuzzy correction function 
@@ -196,17 +240,19 @@ def transformation_product_price(df): #check column exist, and there is a price 
     # £?          -> Optional £ sign (not captured)
     # ([\d\.]+)   -> Capture price (digits and dot)
     # $           -> End of string
-    pattern = r'^(.*?)\s*[-]?\s*£?([\d\.]+)$'
+    pattern = r'^(.*?)\s*[-]?\s*£?([\d\.]*)$'
     # Extract 'Product' and 'Price' into separate columns based on pattern
     df[['Product', 'Price']] = df['Drinks Ordered'].str.extract(pattern)
-    # Convert the 'Price' column to float type (removes any string formatting)
-    df['Price'] = df['Price'].astype(float)
+   # Convert Price to float, invalid/empty becomes NaN
+    df['Price'] = pd.to_numeric(df['Price'], errors='coerce')
     # Drop the original 'Drinks Ordered' column as it's no longer needed
     df = df.drop(columns=['Drinks Ordered'])
 
-    valid_product_list = pd.read_csv("valid_drinks_list.csv")["Product"].dropna().str.strip().tolist() # read the valid list csv
+    valid_product_list = pd.read_csv("valid_drinks_list.csv")["product"].dropna().str.strip().tolist() # read the valid list csv
     df["Product"] =  df["Product"].apply(lambda x: fuzzy_correction(x,valid_product_list)) # Applies the correct_drink_name function to each value (x) in the 'Product' column.
+
     return df
+
 
 """"""""""VALIDATING THE DATA SCHEMA"""""""""
 no_whitespace = pa.Check(lambda s: s == s.str.strip())
@@ -219,7 +265,7 @@ def validate_schema(df,schema):
 product_schema = pa.DataFrameSchema({
                             "product":pa.Column(str, 
                                         checks=[no_whitespace, not_blank]
-                                        ,nullable=False),
+                                        ,nullable=True),
                             "price":pa.Column(float, checks=pa.Check.gt(0), 
                                 nullable=False),
                             "product_id":pa.Column(str, checks=[no_whitespace, not_blank], 
@@ -246,12 +292,14 @@ order_schema = pa.DataFrameSchema({
                                     "order_id":pa.Column(str, 
                                             checks=[no_whitespace, not_blank], 
                                             nullable=False),
-                                    "date_time":pa.Column(DateTime, nullable=False),
-                                    "branch":pa.Column(str, checks=[no_whitespace, not_blank], nullable=False),
+                                    "date_time":pa.Column(DateTime, nullable=True),
+                                    "branch":pa.Column(str, checks=[no_whitespace, not_blank], nullable=True),
                                     "payment_type":pa.Column(str, nullable=True)})
 
 #Transform all on one tabel first
 def transformation(df, folder_name):
+    drinks_df = read_csv_file("valid_drinks_list.csv")
+
     # List of transformation functions to apply, in order
     funcs = [
         order_uuid,
@@ -264,7 +312,8 @@ def transformation(df, folder_name):
         transformation_product_price,
         rename_columns,
         fix_blanks,
-        remove_and_save_blank_rows
+        remove_and_save_blank_rows,
+        #missing_price_product
     ]
     # Loop over each function in the list
     for func in funcs:
@@ -285,6 +334,10 @@ def product_tb(folder_name):
     df = read_csv_file(f"transformed_data/{folder_name}/unnormalised_data.csv")
     product_df = df[["product", "price"]].drop_duplicates().copy()
     product_df = product_uuid(product_df)  # Add UUIDs directly to the product_df
+       # By index label (if your DataFrame index is default 0..n-1)
+    print(df.loc[87, 'price'])  
+    # By positional index (87th row in display order)
+    print(df.iloc[87]['price'])
     try:
         validated_product_df = validate_schema(product_df,product_schema) # check data vlaidation of product table columns
     except pa.errors.SchemaError as e:
@@ -341,16 +394,4 @@ def order_tb(folder_name):
 
 
 
-# check before goign aheadf with tranformation that in contains columns expected
-# need to find a way to chnage the name of the file unique to the file itself. for instance could have 2 files from different dates that neeed etl process but need to move from extract to to tranform , under their same name just added transformed at the end 
-# archive the files once transformation/ load process done 
-# need ot chnage data to be for 1 day only - naming convention with dataa ein front of it and time
-# saves as it's current file name, so for instance file name may be current extracted_2024_07_09_camden.csv, and once the transformation phase is done I want to save the data frame under an altered name like unormalised_2024_07_09_camden.csv
-# for fuzzy check with branches, i need to flag if the branch name exists in the branch list check csv. 
-
-
-
-#  .copy() is used to explicitly create a new, independent copy of a DataFrame (or a slice of one) so that:
-# You're working on the copy, not just a view (or reference) of the original.
-# It avoids confusing side effects or warnings like SettingWithCopyWarning.
-# Your transformations are safe and won't accidentally modify the original data or depend on it.
+# check all columns to see if we can fix blanks or issues, like payment type - if they have card number filled in you can fill in as card.. 
