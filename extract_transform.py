@@ -8,6 +8,9 @@ import pandera as pa
 from pandera.dtypes import DateTime
 import traceback
 
+branch_list = "valid_branch_list.csv"
+drinks_list = "valid_drinks_list.csv"
+
 
 
 def get_csv_filepaths_from(folder_path): # For each file path in the raw_data_folder (or another folder), if it's a file (not a folder) and has a '.csv' extension, add the Path object to the files list.
@@ -92,8 +95,33 @@ def fix_blanks(df):
     df[cols] = df[cols].replace("", pd.NA)
     return df
 
+
+def save_anomalies_to_csv(anomalous_df, file_path="rows_with_missing.csv"):
+    """
+    Appends a DataFrame of anomalous rows to a specified CSV file.
+
+    This function ensures the CSV header is written only once, when the file
+    is first created. It also enforces a consistent column order for the output.
+    It will not create an empty file if the DataFrame is empty.
+    """
+    # If the dataframe is empty, do nothing and exit the function.
+    if anomalous_df.empty:
+        return
+
+    # Define the exact order for the columns to ensure consistency.
+    output_columns = ["date_time", "branch", "payment_type", "order_id", "product", "price"]
+    
+    # Check if the file already exists to decide on writing the header.
+    file_exists = os.path.exists(file_path)
+
+    # Reorder the DataFrame columns to match the desired output order.
+    df_to_save = anomalous_df.reindex(columns=output_columns)
+
+    # Append to the CSV. Write header only if the file doesn't exist yet.
+    df_to_save.to_csv(file_path, mode='a', header=not file_exists, index=False)
+    
 def missing_price_product(df):
-    drink_list_df = read_csv_file("valid_drinks_list.csv")
+    drink_list_df = read_csv_file(drinks_list)
     missing_price = (df['price'].isna() | (df['price'] == "")) & df['product'].notna() & (df['product'] != "") # a boolean Series that marks which rows in df have missing prices but have a product filled in.
 
     if not missing_price.any():
@@ -109,18 +137,16 @@ def missing_price_product(df):
     if remaining_missing > 0:
         print(f"Warning: {remaining_missing} prices still missing after fill.")
 
-    # Create a boolean column showing whether the product is valid (exists in drink_list_df)
-    df["valid_product"] = df["product"].isin(drink_list_df["product"])
-    invalid_products= df[~df["valid_product"]] # Filter rows with invalid products (not in drink list)
+    # Create a boolean column - flags a row ONLY if it's NOT BLANK and NOT in the list
+    invalid_product_mask = df['product'].notna() & ~df['product'].isin(drink_list_df["product"])
+    invalid_products = df[invalid_product_mask] # Filter rows with invalid products (not in drink list)
     
     if not invalid_products.empty:
-        invalid_products[["date_time","branch","payment_type","order_id","product","price"]].to_csv("rows_with_missing.csv", header=False, mode='a', index=False)
+        save_anomalies_to_csv(invalid_products)
+        print(f"{len(invalid_products)} rows with missing price/product have been copied to 'rows_with_missing.csv'.")
         
         # Replace invalid product names with pdNA string in the original df
         df.loc[~df["valid_product"], "product"] = pd.NA
-
-    # Drop the helper column before returning
-    df = df.drop(columns=["valid_product"])
 
     product_price_missing = df[["product", "price"]].isna().all(axis=1)
 
@@ -131,18 +157,16 @@ def missing_price_product(df):
 
 def remove_and_save_blank_rows(df):
     try:
-        has_missing_values =  df[["date_time", "branch","payment_type","product"]].isna().any(axis=1)# check for actual NaN / pd.NA values in the df
+        has_missing_values =  df[["date_time", "branch","payment_type","order_id","product"]].isna().any(axis=1)# check for actual NaN / pd.NA values in the df
         product_price_missing = df[["product", "price"]].isna().all(axis=1)
-        print(df.index.duplicated().sum())
         # Combine all rows that meet any missing condition
         # Combine masks directly, pandas will align indexes automatically
         mask = has_missing_values | product_price_missing
         rows_with_missing = df[mask].copy()
     
         if not rows_with_missing.empty:
-            rows_with_missing.to_csv('rows_with_missing.csv', header=False, mode='a',index=False) # save to csv. 
-            print(rows_with_missing.columns)
-            print("Rows with blank coloumns have been copied to 'rows_with_missing.csv'.")
+            save_anomalies_to_csv(rows_with_missing) # save to csv. 
+            print(f"{len(rows_with_missing)} rows with blank columns have been copied to 'rows_with_missing.csv'.")
         
         return df# Return original df unchanged
     
@@ -206,8 +230,7 @@ def transformation_branch(df): # check if coloumn exists, list of branches again
         return None
     else:
         df["Branch"] = df["Branch"].str.strip().str.capitalize()
-
-        valid_branch_df = read_csv_file("valid_branch_list.csv")["Branch"].dropna().str.strip().tolist() 
+        valid_branch_df = read_csv_file(branch_list)["Branch"].dropna().str.strip().tolist() 
         df["Branch"] =  df["Branch"].apply(lambda x: fuzzy_correction(x,valid_branch_df)) 
         return df  
   
@@ -248,7 +271,7 @@ def transformation_product_price(df): #check column exist, and there is a price 
     # Drop the original 'Drinks Ordered' column as it's no longer needed
     df = df.drop(columns=['Drinks Ordered'])
 
-    valid_product_list = pd.read_csv("valid_drinks_list.csv")["product"].dropna().str.strip().tolist() # read the valid list csv
+    valid_product_list = pd.read_csv(drinks_list)["product"].dropna().str.strip().tolist() # read the valid list csv
     df["Product"] =  df["Product"].apply(lambda x: fuzzy_correction(x,valid_product_list)) # Applies the correct_drink_name function to each value (x) in the 'Product' column.
 
     return df
@@ -298,8 +321,6 @@ order_schema = pa.DataFrameSchema({
 
 #Transform all on one tabel first
 def transformation(df, folder_name):
-    drinks_df = read_csv_file("valid_drinks_list.csv")
-
     # List of transformation functions to apply, in order
     funcs = [
         order_uuid,
@@ -313,7 +334,7 @@ def transformation(df, folder_name):
         rename_columns,
         fix_blanks,
         remove_and_save_blank_rows,
-        #missing_price_product
+        missing_price_product
     ]
     # Loop over each function in the list
     for func in funcs:
@@ -334,10 +355,6 @@ def product_tb(folder_name):
     df = read_csv_file(f"transformed_data/{folder_name}/unnormalised_data.csv")
     product_df = df[["product", "price"]].drop_duplicates().copy()
     product_df = product_uuid(product_df)  # Add UUIDs directly to the product_df
-       # By index label (if your DataFrame index is default 0..n-1)
-    print(df.loc[87, 'price'])  
-    # By positional index (87th row in display order)
-    print(df.iloc[87]['price'])
     try:
         validated_product_df = validate_schema(product_df,product_schema) # check data vlaidation of product table columns
     except pa.errors.SchemaError as e:
